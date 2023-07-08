@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('secondhand-web/Registration/button daftar in register page'))
+
+WebUI.click(findTestObject('secondhand-web/Registration/button daftar in register page'))
 
