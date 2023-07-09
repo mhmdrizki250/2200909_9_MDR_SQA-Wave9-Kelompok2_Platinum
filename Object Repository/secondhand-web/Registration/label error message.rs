@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button daftar in register page</name>
+   <name>label error message</name>
    <tag></tag>
-   <elementGuidId>9eeb6389-d392-4860-93f8-89d4ae745fe3</elementGuidId>
+   <elementGuidId>701e0c6b-f609-47ff-acba-93671cfe0b9d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name=&quot;commit&quot;]</value>
+         <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
