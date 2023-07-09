@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read Error Messages Email Taken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b1905af-1f6b-4a88-bcb0-278785d67a9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dcf84efc-31da-4b03-91b4-6b85aab69ae4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dcf84efc-31da-4b03-91b4-6b85aab69ae4</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

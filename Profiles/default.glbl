@@ -19,4 +19,44 @@
       <initValue>'Kiki141009'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Oktavia DPP_Seller'</initValue>
+      <name>unameOktaSeller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'oktaviadpp_seller@gmail.com'</initValue>
+      <name>emailOktaSeller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>pwdOktaSeller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$oktaviadpp_seller@gmail.com'</initValue>
+      <name>invalidEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123'</initValue>
+      <name>invalidPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invalid email and password'</initValue>
+      <name>errorMessagesNotMatch</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Email has already been taken'</initValue>
+      <name>erroMessageEmailTaken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'oktavia_buyer_w9@gmail.com'</initValue>
+      <name>emailTaken</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

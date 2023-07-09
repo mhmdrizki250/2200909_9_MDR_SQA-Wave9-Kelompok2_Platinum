@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.closeBrowser()
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Registration/input user_email'), 3)
+
+WebUI.setText(findTestObject('secondhand-web/Registration/input user_email'), email)
+
+WebUI.takeScreenshot()
 
