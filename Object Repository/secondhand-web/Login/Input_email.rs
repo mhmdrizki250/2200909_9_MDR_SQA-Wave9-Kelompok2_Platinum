@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input username</name>
+   <name>Input_email</name>
    <tag></tag>
-   <elementGuidId>6ef4a210-0971-4299-9151-cda213858d4b</elementGuidId>
+   <elementGuidId>67030eaf-323e-46ed-8f55-2d95913d4308</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#user-name</value>
+         <value>#user_email</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='user-name']</value>
+         <value>//input[@id='user_email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,110 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7eb2f1a9-3ab1-4b9f-a971-aceaae93dc5b</webElementGuid>
+      <webElementGuid>9e150dcf-2d26-4c30-ad88-74f849f5c91c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>7cfde0ae-9873-4c05-8c69-0b0a0a20edd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autofocus</name>
+      <type>Main</type>
+      <value>autofocus</value>
+      <webElementGuid>e2ea21b9-6bef-492b-be45-95c9e635f1ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>8a391114-14be-4dd2-a2c7-f9918a25a584</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input_error form_input</value>
-      <webElementGuid>b0076162-dd54-42dd-ae5a-a3278abfa177</webElementGuid>
+      <value>form-control rounded-4 p-3</value>
+      <webElementGuid>90fe7d01-35a2-4fd7-8996-1edcad0ef9f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>8f60724f-5ce4-481e-8e9e-3415b7d550c6</webElementGuid>
+      <value>Contoh: johndee@gmail.com</value>
+      <webElementGuid>46be9642-9290-4512-9052-991fd7ebe48b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>63790b5e-80b2-44e2-a93c-47fac67e7af9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-test</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>861284c2-7c6d-41c1-a114-f56814fb0fa1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>user-name</value>
-      <webElementGuid>8ef81d2f-6547-44a7-80ab-3cbad7394445</webElementGuid>
+      <value>email</value>
+      <webElementGuid>f55c0b00-19b2-44e0-a4cd-0ca3fcd9d1ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>user-name</value>
-      <webElementGuid>4d2cc6c4-459c-4d34-9e19-888ef95a0860</webElementGuid>
+      <value>user[email]</value>
+      <webElementGuid>cbdd2ddb-d538-4c1c-8240-55d74f858fdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocorrect</name>
+      <name>id</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>18d0891e-0585-4302-9c2a-0ee782dfc240</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocapitalize</name>
-      <type>Main</type>
-      <value>none</value>
-      <webElementGuid>a32ec50a-f2e6-4106-b782-b45dbee91612</webElementGuid>
+      <value>user_email</value>
+      <webElementGuid>71d0925e-81fa-4bcd-8565-1ec6eab80608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;user-name&quot;)</value>
-      <webElementGuid>18876717-8a5d-4f9d-ad76-48d00df1d5d5</webElementGuid>
+      <value>id(&quot;user_email&quot;)</value>
+      <webElementGuid>c57fb3d0-2b79-4e58-908d-a156bc820f4d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='user-name']</value>
-      <webElementGuid>37d0d403-014c-4664-9485-2a3b0f2fb039</webElementGuid>
+      <value>//input[@id='user_email']</value>
+      <webElementGuid>eb0d90f2-16f3-43e6-93de-ab598d5ce0ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/div/input</value>
-      <webElementGuid>fa3eff29-3bc2-4702-a9aa-4e3076083c0a</webElementGuid>
+      <value>//form[@id='new_user']/div/input</value>
+      <webElementGuid>9dc8ed5f-726b-47d5-b076-9ffb41263b20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>5953bcc0-bce0-489b-a5a8-41d712d2f3d8</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>13a5d964-e712-4a66-90e9-2add259c9b50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Username' and @type = 'text' and @id = 'user-name' and @name = 'user-name']</value>
-      <webElementGuid>79264af2-07c9-423a-8ea6-daf7ea1478a9</webElementGuid>
+      <value>//input[@placeholder = 'Contoh: johndee@gmail.com' and @type = 'email' and @name = 'user[email]' and @id = 'user_email']</value>
+      <webElementGuid>2ac16c2a-3293-4b98-9d2c-7ad3c23ef569</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

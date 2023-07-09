@@ -59,4 +59,14 @@
       <initValue>'oktavia_buyer_w9@gmail.com'</initValue>
       <name>emailTaken</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nurasiyah727@gmail.com'</initValue>
+      <name>EmailAsiyah</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pass.123'</initValue>
+      <name>PasswordAsiyah</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
