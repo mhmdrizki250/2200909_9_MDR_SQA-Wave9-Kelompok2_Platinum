@@ -12,12 +12,12 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'mhmdrizki250@gmail.com'</initValue>
-      <name>email</name>
+      <name>emailRizki</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kiki141009'</initValue>
-      <name>password</name>
+      <initValue>'Kiki123456789'</initValue>
+      <name>passwordRizki</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -58,5 +58,40 @@
       <description></description>
       <initValue>'oktavia_buyer_w9@gmail.com'</initValue>
       <name>emailTaken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nurasiyah727@gmail.com'</initValue>
+      <name>EmailAsiyah</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pass.123'</initValue>
+      <name>PasswordAsiyah</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Baju'</initValue>
+      <name>Search001</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'HP'</initValue>
+      <name>Search002</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mobil'</initValue>
+      <name>Search003</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BlankSearch</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'!@#$%^&amp;*()'</initValue>
+      <name>SpesCarSearch</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
