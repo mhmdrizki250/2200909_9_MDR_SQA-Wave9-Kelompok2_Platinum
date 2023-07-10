@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Searching/input_searching'), 3)
+
+WebUI.clearText(findTestObject('secondhand-web/Searching/input_searching'))
+
+WebUI.setText(findTestObject('secondhand-web/Searching/input_searching'), GlobalVariable.Search001)
+
+WebUI.takeScreenshot()
+
+WebUI.submit(findTestObject('secondhand-web/Searching/input_searching'))
+
+WebUI.scrollToElement(findTestObject('secondhand-web/Searching/Scroll_Down'), 3)
+
