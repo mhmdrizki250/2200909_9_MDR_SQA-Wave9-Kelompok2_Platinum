@@ -21,21 +21,13 @@ WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch App'), [:], Failur
 
 WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To App'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Open Registration Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : GlobalVariable.unameOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.EmailAsiyah], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiTaken], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.PasswordAsiyah], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.pwdOktaSeller], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Click button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Read Error Messages Email Taken'), [('expected') : GlobalVariable.erroMessageEmailTaken], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 

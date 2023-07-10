@@ -17,22 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch App'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('secondhand-web/Login/Label Error Message'), 3)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To App'), [:], FailureHandling.STOP_ON_FAILURE)
+errorText = WebUI.getText(findTestObject('secondhand-web/Login/Label Error Message'))
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Open Registration Page'), [:], FailureHandling.STOP_ON_FAILURE)
+KeywordUtil.logInfo('Error Text : ' + errorText)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : GlobalVariable.unameOktaSeller], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiOktaSeller], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.pwdOktaSeller], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Click button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(errorText, expected, false)
 

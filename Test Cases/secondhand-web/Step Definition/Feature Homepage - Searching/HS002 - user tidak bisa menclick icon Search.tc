@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HS002 - user tidak bisa menclick icon Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2543790-4e7a-4acd-ae15-e6c6839e128b</testCaseGuid>
+</TestCaseEntity>
