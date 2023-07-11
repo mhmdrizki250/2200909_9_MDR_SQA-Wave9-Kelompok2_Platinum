@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Product Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0636053e-c2c0-4d3e-9f95-d84e6b6f787c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28a4030a-80d2-42ae-b2e4-10f224af9219</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Camera Instax Fuji Film'</defaultValue>
+      <description></description>
+      <id>28a4030a-80d2-42ae-b2e4-10f224af9219</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>
