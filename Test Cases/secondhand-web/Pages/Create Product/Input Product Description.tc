@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Product Description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c50cd0c6-98e2-47b0-8d48-6d52505265ea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29e3b3c9-0b62-4a36-a364-af535fee4d61</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ini adalah kamera canggih'</defaultValue>
+      <description></description>
+      <id>29e3b3c9-0b62-4a36-a364-af535fee4d61</id>
+      <masked>false</masked>
+      <name>product_desc</name>
+   </variable>
+</TestCaseEntity>
