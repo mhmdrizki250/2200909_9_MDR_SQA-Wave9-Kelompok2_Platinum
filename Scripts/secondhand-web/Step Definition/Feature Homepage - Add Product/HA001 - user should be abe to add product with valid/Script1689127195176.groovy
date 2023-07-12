@@ -23,34 +23,32 @@ WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To App'), [:], F
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.emailOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.emailRizki], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.pwdOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.passwordRizki], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage/Icon_Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Click button jual'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/My Product/Icon add product'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Input Product Name'), [('product_name') : 'Camera Instax Fuji Film'], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Name'), [('product_name') : 'Baju Eiger MN02'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Input Product Price'), [('product_price') : '12345'], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Price'), [('product_price') : '120.000'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Input Product Category'), [('category_value') : '1'], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Category'), [('category_value') : '3'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Input Product Description'), [('product_desc') : 'ini adalah kamera canggih'], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Description'), [('product_desc') : 'Baju eiger buat para pendaki gunung'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Upload Product Images'), [('product_image') : findTestData(
-            'image').getValue(2, 1)], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Upload Product Images'), [('product_image') : findTestData('image').getValue(2, 1)], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Click button add or terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Click button add or terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Common/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
 

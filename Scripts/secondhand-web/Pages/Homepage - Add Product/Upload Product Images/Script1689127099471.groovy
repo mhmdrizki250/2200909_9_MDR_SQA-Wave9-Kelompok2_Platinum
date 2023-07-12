@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Searching/input_searching'), 3)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Add Product/upload image'), 3)
 
-WebUI.clearText(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
-
-WebUI.setText(findTestObject('secondhand-web/Homepage - Searching/input_searching'), GlobalVariable.Search001)
+WebUI.uploadFile(findTestObject('secondhand-web/Add Product/upload image'), 'C:\\\\Users\\\\mhmdr\\\\Desktop\\\\SQA-Wave9-Kelompok2\\\\Data Files\\\\image\\\\1.jpg')
 
 WebUI.takeScreenshot()
-
-WebUI.submit(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
-
-WebUI.scrollToElement(findTestObject('secondhand-web/Homepage - Searching/Scroll_Down'), 3)
 
