@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch App'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To App'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -45,5 +45,5 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/My Profiles/Input Nomor HP
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/My Profiles/Button Simpan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
