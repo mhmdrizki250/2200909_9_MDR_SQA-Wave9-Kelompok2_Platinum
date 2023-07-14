@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HS002 - user tidak bisa menclick icon Search</name>
+   <name>Category - Kendaraan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f2543790-4e7a-4acd-ae15-e6c6839e128b</testCaseGuid>
+   <testCaseGuid>8208d16d-0ff0-4a46-8c38-752d7a849940</testCaseGuid>
 </TestCaseEntity>
