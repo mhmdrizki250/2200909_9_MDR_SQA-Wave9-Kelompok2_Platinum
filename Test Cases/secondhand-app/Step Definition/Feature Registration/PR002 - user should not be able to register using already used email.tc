@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR002 - user should not be able to register using already used email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddf22667-1074-4016-b8a3-21f4ab8671ad</testCaseGuid>
+</TestCaseEntity>
