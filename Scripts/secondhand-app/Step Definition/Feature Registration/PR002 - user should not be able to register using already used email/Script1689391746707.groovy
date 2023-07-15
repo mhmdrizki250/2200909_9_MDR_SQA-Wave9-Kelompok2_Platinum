@@ -17,25 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch Web'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To Web'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Open Registration Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : GlobalVariable.unameOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nama'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizki], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailTaken], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Password'), [('password') : GlobalVariable.passwordRizki], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.pwdOktaSeller], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nomor HP'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Click button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Kota'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Read Error Messages Email Taken'), [('expected') : GlobalVariable.erroMessageEmailTaken], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Alamat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Tap Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
