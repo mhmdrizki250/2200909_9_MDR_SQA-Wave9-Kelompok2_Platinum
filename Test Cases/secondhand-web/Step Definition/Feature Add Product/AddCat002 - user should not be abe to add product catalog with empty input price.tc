@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddCat002 - user should not be abe to add product catalog with empty input price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc279c28-fb14-4302-9feb-b781cf9d7985</testCaseGuid>
+</TestCaseEntity>
