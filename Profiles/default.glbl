@@ -94,4 +94,19 @@
       <initValue>'!@#$%^&amp;*()'</initValue>
       <name>SpesCarSearch</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'android.widget.TextView - Sudah punya akun'</initValue>
+      <name>errorMessageEmailTakenApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki250@gmail.com'</initValue>
+      <name>emailRizkiApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kiki12345'</initValue>
+      <name>passwordRizkiApp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

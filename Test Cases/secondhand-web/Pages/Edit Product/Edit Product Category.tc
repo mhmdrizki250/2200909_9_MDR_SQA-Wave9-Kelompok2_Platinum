@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Product Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49dc8264-f8b0-42aa-ad14-d31cc9bf08fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7338481b-10ba-48af-bc1a-47f516232cd5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>7338481b-10ba-48af-bc1a-47f516232cd5</id>
+      <masked>false</masked>
+      <name>category_value</name>
+   </variable>
+</TestCaseEntity>

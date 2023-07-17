@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR004 - user should not be able to register using blank email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3af3e57-d882-4c15-8798-b5b3e1ab1d3a</testCaseGuid>
+</TestCaseEntity>

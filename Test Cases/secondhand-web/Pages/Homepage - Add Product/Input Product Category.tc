@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Product Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6034f2ac-9376-44e6-b7a3-22341deefdab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3155f8b3-c197-4311-a26d-5191d3dc343c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3155f8b3-c197-4311-a26d-5191d3dc343c</id>
+      <masked>false</masked>
+      <name>category_value</name>
+   </variable>
+</TestCaseEntity>

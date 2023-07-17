@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('secondhand-web/Searching/icon_searching'), 3)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Searching/icon_searching'), 3)
 
-WebUI.click(findTestObject('secondhand-web/Searching/icon_searching'))
+WebUI.click(findTestObject('secondhand-web/Homepage - Searching/icon_searching'))
 

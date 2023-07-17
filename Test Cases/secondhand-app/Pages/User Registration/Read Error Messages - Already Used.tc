@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read Error Messages - Already Used</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de29adba-5ac6-4c2e-bf63-56d7fbff54e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc816a1b-a927-479e-9b25-d13c20cfaa16</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc816a1b-a927-479e-9b25-d13c20cfaa16</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

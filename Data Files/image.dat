@@ -10,15 +10,16 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>camera D%3A%5C%5CBinar+Academy%5C%5CPlatinum+Challenge%5C%5CSQA-Wave9-Kelompok2%5C%5CData+Files%5C%5CTesting+Files%5C%5Ccamera.png</data>
+   <data>motor D%3A%5C%5CBinar+Academy%5C%5CPlatinum+Challenge%5C%5CSQA-Wave9-Kelompok2%5C%5CData+Files%5C%5CTesting+Files%5C%5Cmotor.jpg</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>name</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>file_path</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
