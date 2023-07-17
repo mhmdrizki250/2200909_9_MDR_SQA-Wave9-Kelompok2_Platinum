@@ -39,7 +39,7 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Inp
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Price'), [('product_price') : '120.000'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Category'), [('category_value') : '3'], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Select Product Category'), [('category_value') : '3'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Description'), [('product_desc') : 'Baju eiger buat para pendaki gunung'], 
