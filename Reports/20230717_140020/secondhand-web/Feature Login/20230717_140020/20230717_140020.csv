@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,Chrome 114.0.0.0,,,2023-07-17 14:00:22,2023-07-17 14:00:33,11.370s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0001 - user should be able to login using valid credential,Chrome 114.0.0.0,,,2023-07-17 14:00:22,2023-07-17 14:00:33,11.167s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-17 14:00:22,2023-07-17 14:00:25,2.663s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-17 14:00:25,2023-07-17 14:00:27,2.106s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-17 14:00:27,2023-07-17 14:00:28,1.016s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":EmailAsiyah], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-17 14:00:28,2023-07-17 14:00:30,2.209s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-17 14:00:30,2023-07-17 14:00:32,2.023s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-17 14:00:32,2023-07-17 14:00:33,0.912s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PAP001 - user should be able to add product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3583034-723a-4e27-a151-217a404b9c06</testCaseGuid>
+</TestCaseEntity>
