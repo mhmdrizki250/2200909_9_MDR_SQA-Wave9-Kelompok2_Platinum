@@ -17,19 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch Web'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Searching/input_searching'), 3)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To Web'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.clearText(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('secondhand-web/Homepage - Searching/input_searching'), GlobalVariable.SearchMukena)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.EmailAsiyah], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot()
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.PasswordAsiyah], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.submit(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('secondhand-web/Homepage - Searching/Scroll_Down'), 3)
 

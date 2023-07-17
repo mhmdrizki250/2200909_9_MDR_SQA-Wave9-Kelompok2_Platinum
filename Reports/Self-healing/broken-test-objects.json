@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/secondhand-web/Homepage - Searching/Scroll_Down",
+      "brokenLocator": "//div[@id\u003d\u0027products\u0027]/div[11]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Jual\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/secondhand-web/Homepage - Searching/Scroll_Down_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/secondhand-web/Product Price Negotiation/Mukena Dewasa Premium",
+      "brokenLocator": "//div[@id\u003d\u0027products\u0027]/div/a/div/div/h5",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Rp 100.000\u0027])[1]/preceding::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/secondhand-web/Product Price Negotiation/Mukena Dewasa Premium_neighbor.png"
+    }
+  ]
 }

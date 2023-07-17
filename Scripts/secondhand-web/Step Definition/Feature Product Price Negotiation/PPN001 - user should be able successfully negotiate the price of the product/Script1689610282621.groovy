@@ -31,5 +31,16 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Input Search - Enter'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Product Mukena Dewasa'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Button Saya Tertarik dan Ingin Nego'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Button Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Success Negotiate Price'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
 

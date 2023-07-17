@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('secondhand-web/Login/Label Error Message'), 3)
+WebUI.verifyElementVisible(findTestObject('secondhand-web/Product Price Negotiation/Mukena Dewasa Premium'), FailureHandling.STOP_ON_FAILURE)
 
-errorText = WebUI.getText(findTestObject('secondhand-web/Login/Label Error Message'))
-
-KeywordUtil.logInfo('Error Text : ' + errorText)
-
-WebUI.verifyMatch(errorText, expected, false)
+WebUI.click(findTestObject('secondhand-web/Product Price Negotiation/Mukena Dewasa Premium'))
 
