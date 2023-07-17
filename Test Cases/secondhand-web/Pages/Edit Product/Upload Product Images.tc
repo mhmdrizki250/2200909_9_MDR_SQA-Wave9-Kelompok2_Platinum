@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload Product Images</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>766db5d8-e5a7-4d2c-b172-12fe82a8c426</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38285174-f8e2-4b93-86e1-c9426d040a01</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('image').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>38285174-f8e2-4b93-86e1-c9426d040a01</id>
+      <masked>false</masked>
+      <name>product_image</name>
+   </variable>
+</TestCaseEntity>
