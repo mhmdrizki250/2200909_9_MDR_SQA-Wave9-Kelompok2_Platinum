@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeleteCat001 - user should be able to delete product and user redirect to list product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1bfad02-91e6-49fb-98ff-330c9427ca97</testCaseGuid>
+</TestCaseEntity>
