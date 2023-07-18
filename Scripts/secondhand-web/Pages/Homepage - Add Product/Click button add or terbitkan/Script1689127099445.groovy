@@ -21,3 +21,5 @@ WebUI.verifyElementVisible(findTestObject('secondhand-web/Add Product/button add
 
 WebUI.click(findTestObject('secondhand-web/Add Product/button add or terbitkan'))
 
+WebUI.takeScreenshot()
+

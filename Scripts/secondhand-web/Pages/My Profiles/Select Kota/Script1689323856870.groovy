@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('secondhand-web/My Profiles/Select Kota'), 
-    2)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/My Profiles/Select Kota'), 2)
 
-WebUI.selectOptionByIndex(findTestObject('secondhand-web/My Profiles/Select Kota'), 
-    2)
+WebUI.selectOptionByIndex(findTestObject('secondhand-web/My Profiles/Select Kota'), 2)
+
+WebUI.takeScreenshot()
 

@@ -31,3 +31,5 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
+
