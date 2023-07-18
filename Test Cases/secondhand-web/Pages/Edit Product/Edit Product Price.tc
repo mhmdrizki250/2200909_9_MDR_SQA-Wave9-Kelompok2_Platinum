@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Product Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fea98885-e8ae-4b62-9906-773504b1b88e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce63580f-b765-4a1e-ace2-326b77220aa7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1234567'</defaultValue>
+      <description></description>
+      <id>ce63580f-b765-4a1e-ace2-326b77220aa7</id>
+      <masked>false</masked>
+      <name>product_price</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditCat001 - user should be able to edit product catalog with valid input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>823318a4-3cb1-4db1-9500-ff25491c72c6</testCaseGuid>
+</TestCaseEntity>

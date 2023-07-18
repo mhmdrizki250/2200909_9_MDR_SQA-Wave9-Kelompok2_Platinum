@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Product Description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a48b2c31-6fa3-47eb-b06e-a2fa06e1b5d3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f703f6ad-072f-4111-925a-de608bc494c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ini adalah motor canggih'</defaultValue>
+      <description></description>
+      <id>f703f6ad-072f-4111-925a-de608bc494c0</id>
+      <masked>false</masked>
+      <name>product_desc</name>
+   </variable>
+</TestCaseEntity>
