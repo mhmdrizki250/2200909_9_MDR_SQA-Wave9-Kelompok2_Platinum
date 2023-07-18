@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG0002 - user should not be able to login using invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d391822-f0d2-4936-8c6c-74f6c5cfcef9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Product Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ab52ecd-29de-4c4c-890f-5000ad71df3e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d3cfbeb-2d73-4a50-9b4e-684708f656c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Norton'</defaultValue>
+      <description></description>
+      <id>9d3cfbeb-2d73-4a50-9b4e-684708f656c5</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+</TestCaseEntity>

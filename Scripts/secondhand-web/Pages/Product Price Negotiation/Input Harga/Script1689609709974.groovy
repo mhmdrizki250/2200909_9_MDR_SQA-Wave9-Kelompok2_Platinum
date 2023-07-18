@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('secondhand-web/Edit Product/error messages name'), 3)
+WebUI.clearText(findTestObject('null'))
+
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Product Price Negotiation/Input Harga'), 3)
+
+WebUI.setText(findTestObject('secondhand-web/Product Price Negotiation/Input Harga'), input harga)
 
 WebUI.takeScreenshot()
 
