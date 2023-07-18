@@ -21,3 +21,5 @@ WebUI.clearText(findTestObject('secondhand-web/My Profiles/Input Alamat'))
 
 WebUI.setText(findTestObject('secondhand-web/My Profiles/Input Alamat'), 'Malinau, Kalimantan Utara')
 
+WebUI.takeScreenshot()
+

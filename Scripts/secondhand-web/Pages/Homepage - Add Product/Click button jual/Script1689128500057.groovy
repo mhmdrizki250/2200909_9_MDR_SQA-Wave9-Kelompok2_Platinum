@@ -21,3 +21,5 @@ WebUI.verifyElementVisible(findTestObject('secondhand-web/Homepage/Button_Jual')
 
 WebUI.click(findTestObject('secondhand-web/Homepage/Button_Jual'))
 
+WebUI.takeScreenshot()
+
