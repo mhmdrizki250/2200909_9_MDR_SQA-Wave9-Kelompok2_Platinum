@@ -21,3 +21,5 @@ WebUI.clearText(findTestObject('secondhand-web/My Profiles/Input Nama'))
 
 WebUI.setText(findTestObject('secondhand-web/My Profiles/Input Nama'), 'Muhammad Rizki')
 
+WebUI.takeScreenshot()
+

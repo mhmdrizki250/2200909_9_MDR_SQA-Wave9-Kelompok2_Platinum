@@ -21,3 +21,5 @@ WebUI.clearText(findTestObject('secondhand-web/My Profiles/Input No Handphone'))
 
 WebUI.setText(findTestObject('secondhand-web/My Profiles/Input No Handphone'), '081211114444')
 
+WebUI.takeScreenshot()
+
