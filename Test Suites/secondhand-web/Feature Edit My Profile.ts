@@ -15,7 +15,7 @@
       <guid>8e319f8b-1b20-4310-b4f7-0ab354d7a97a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Edit Profiles/EP001 - user should be abe to edit profiles</testCaseId>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Edit Profile/EP001 - user should be abe to edit profiles</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
