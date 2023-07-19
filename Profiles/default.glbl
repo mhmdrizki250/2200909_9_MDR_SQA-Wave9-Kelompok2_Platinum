@@ -109,4 +109,29 @@
       <initValue>'Kiki12345'</initValue>
       <name>passwordRizkiApp</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nurasiyah72@gmail.com'</initValue>
+      <name>InvalidEmailAsiyah</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pass.12345'</initValue>
+      <name>InvalidPasswordAsiyah</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mukena Dewasa Premium'</initValue>
+      <name>SearchMukena</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Price can\'t be blank'</initValue>
+      <name>errorMessagePrice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Name can\'t be blank'</initValue>
+      <name>errorMessageName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

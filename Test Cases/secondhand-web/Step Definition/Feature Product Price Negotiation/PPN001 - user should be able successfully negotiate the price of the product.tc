@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PPN001 - user should be able successfully negotiate the price of the product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27617e13-04e3-4226-8130-039a3dff6261</testCaseGuid>
+</TestCaseEntity>

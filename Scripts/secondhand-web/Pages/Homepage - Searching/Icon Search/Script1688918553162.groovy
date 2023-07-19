@@ -21,3 +21,5 @@ WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Searching/
 
 WebUI.click(findTestObject('secondhand-web/Homepage - Searching/icon_searching'))
 
+WebUI.takeScreenshot()
+

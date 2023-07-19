@@ -47,16 +47,16 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Edit Product 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Edit Product Description'), [('product_desc') : 'ini adalah motor canggih'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Click Delete Photo'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Upload Product Images'), [('product_image') : findTestData(
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Upload Product Images'), [('product_image') : findTestData(
             'image').getValue(2, 2)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Click button add or terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Name'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Name'), [('expected') : GlobalVariable.errorMessageName], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Price'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Price'), [('expected') : GlobalVariable.errorMessagePrice], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
 

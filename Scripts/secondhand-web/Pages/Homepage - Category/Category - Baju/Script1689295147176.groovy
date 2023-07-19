@@ -17,7 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('secondhand-web/Homepage - Category/a_Baju'), 1)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Category/a_Baju'), 1)
+
+WebUI.scrollToPosition(555, 555)
 
 WebUI.click(findTestObject('secondhand-web/Homepage - Category/a_Baju'))
+
+WebUI.takeScreenshot()
+
+WebUI.scrollToElement(findTestObject('secondhand-web/Homepage/Prod Col 2'), 3)
+
+WebUI.takeScreenshot()
 

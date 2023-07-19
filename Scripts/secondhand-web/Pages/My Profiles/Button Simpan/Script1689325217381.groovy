@@ -21,3 +21,5 @@ WebUI.waitForElementVisible(findTestObject('secondhand-web/My Profiles/Button Si
 
 WebUI.click(findTestObject('secondhand-web/My Profiles/Button Simpan'))
 
+WebUI.takeScreenshot()
+

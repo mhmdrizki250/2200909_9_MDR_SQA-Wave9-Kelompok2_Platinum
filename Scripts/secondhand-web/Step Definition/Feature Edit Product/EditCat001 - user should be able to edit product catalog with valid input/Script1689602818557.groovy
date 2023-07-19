@@ -48,10 +48,8 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Edit Product 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Edit Product Description'), [('product_desc') : 'ini adalah motor canggih'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Click Delete Photo'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Upload Product Images'), [('product_image') : findTestData('image').getValue(2, 2)], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Upload Product Images'), [('product_image') : findTestData(
+            'image').getValue(2, 2)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Click button add or terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
