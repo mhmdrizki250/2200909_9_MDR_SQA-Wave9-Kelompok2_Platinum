@@ -4,5 +4,18 @@
    <name>Error Messages Price</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c8369103-411a-46ca-b86a-3621c66b94dc</testCaseGuid>
+   <testCaseGuid>f35c4ae1-5a38-4096-a529-4a24029de770</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80d563f5-f758-4035-9132-f11b118bd51f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80d563f5-f758-4035-9132-f11b118bd51f</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
 </TestCaseEntity>

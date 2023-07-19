@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit Product,Chrome 114.0.0.0,,,2023-07-19 11:11:26,2023-07-19 11:12:36,1m - 9.537s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Edit Product/EditCat001 - user should be able to edit product catalog with valid input,Chrome 114.0.0.0,,,2023-07-19 11:11:27,2023-07-19 11:12:04,37.349s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:27,2023-07-19 11:11:31,4.112s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:31,2023-07-19 11:11:33,1.801s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:33,2023-07-19 11:11:34,1.198s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:34,2023-07-19 11:11:37,2.650s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:37,2023-07-19 11:11:39,2.332s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:39,2023-07-19 11:11:40,1.120s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage/Icon_Product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:40,2023-07-19 11:11:42,1.395s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Click Detail Product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:42,2023-07-19 11:11:43,1.055s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Click button edit in detail product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:43,2023-07-19 11:11:44,1.109s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Name""), [""product_name"":""Norton""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:44,2023-07-19 11:11:46,2.212s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Price""), [""product_price"":""1234567""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:46,2023-07-19 11:11:48,2.279s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Category""), [""category_value"":""2""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:48,2023-07-19 11:11:51,2.134s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Description""), [""product_desc"":""ini adalah motor canggih""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:51,2023-07-19 11:11:53,2.073s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Upload Product Images""), [""product_image"":findTestData(""image"").getValue(2, 2)], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:53,2023-07-19 11:11:58,5.174s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Click button add or terbitkan""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:11:58,2023-07-19 11:12:03,4.926s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:03,2023-07-19 11:12:04,1.234s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Edit Product/EditCat002 - user should not be able to edit product catalog with empty input,Chrome 114.0.0.0,,,2023-07-19 11:12:04,2023-07-19 11:12:36,31.809s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:04,2023-07-19 11:12:06,1.741s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:06,2023-07-19 11:12:07,1.036s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:07,2023-07-19 11:12:08,0.974s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:08,2023-07-19 11:12:11,2.880s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:11,2023-07-19 11:12:13,2.107s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:13,2023-07-19 11:12:14,0.838s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage/Icon_Product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:14,2023-07-19 11:12:15,1.331s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Click Detail Product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:15,2023-07-19 11:12:16,0.945s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Click button edit in detail product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:16,2023-07-19 11:12:17,1.055s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Name""), [""product_name"":""""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:17,2023-07-19 11:12:19,1.706s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Price""), [""product_price"":""""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:19,2023-07-19 11:12:21,1.725s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Category""), [""category_value"":""2""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:21,2023-07-19 11:12:22,1.679s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Edit Product Description""), [""product_desc"":""ini adalah motor canggih""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:22,2023-07-19 11:12:24,1.800s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Upload Product Images""), [""product_image"":findTestData(""image"").getValue(2, 2)], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:24,2023-07-19 11:12:29,4.893s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Click button add or terbitkan""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:29,2023-07-19 11:12:33,3.419s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Error Messages Name""), [""expected"":errorMessageName], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:33,2023-07-19 11:12:34,1.202s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Edit Product/Error Messages Price""), [""expected"":errorMessagePrice], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:34,2023-07-19 11:12:35,1.098s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 11:12:35,2023-07-19 11:12:36,0.899s,PASSED
