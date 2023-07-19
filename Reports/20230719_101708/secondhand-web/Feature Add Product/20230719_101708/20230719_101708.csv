@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Product,Chrome 114.0.0.0,,,2023-07-19 10:17:12,2023-07-19 10:18:20,1m - 7.704s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Add Product/AddCat001 - user should be abe to add product catalog with valid input,Chrome 114.0.0.0,,,2023-07-19 10:17:13,2023-07-19 10:17:49,36.445s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:13,2023-07-19 10:17:17,4.056s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:17,2023-07-19 10:17:19,1.753s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:19,2023-07-19 10:17:20,1.169s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:20,2023-07-19 10:17:23,2.663s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:23,2023-07-19 10:17:25,2.304s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:25,2023-07-19 10:17:26,1.098s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage/Icon_Product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:26,2023-07-19 10:17:28,1.418s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Product/Icon add product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:28,2023-07-19 10:17:29,1.044s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Name""), [""product_name"":""Camera Instax Fuji Film""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:29,2023-07-19 10:17:31,2.066s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Price""), [""product_price"":""12345""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:31,2023-07-19 10:17:33,2.169s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Category""), [""category_value"":""1""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:33,2023-07-19 10:17:35,2.261s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Description""), [""product_desc"":""ini adalah kamera canggih""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:35,2023-07-19 10:17:37,2.249s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Upload Product Images""), [""product_image"":findTestData(""image"").getValue(2, 1)], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:37,2023-07-19 10:17:43,5.267s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Click button add or terbitkan""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:43,2023-07-19 10:17:48,5.109s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:48,2023-07-19 10:17:49,1.308s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Add Product/AddCat002 - user should not be abe to add product catalog with empty input price,Chrome 114.0.0.0,,,2023-07-19 10:17:49,2023-07-19 10:18:20,30.851s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:49,2023-07-19 10:17:51,1.753s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:51,2023-07-19 10:17:53,1.913s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:53,2023-07-19 10:17:54,0.934s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:54,2023-07-19 10:17:57,2.878s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:57,2023-07-19 10:17:59,2.125s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:17:59,2023-07-19 10:18:00,0.877s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage/Icon_Product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:00,2023-07-19 10:18:01,1.352s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Product/Icon add product""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:01,2023-07-19 10:18:02,0.951s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Name""), [""product_name"":""Camera Instax Fuji Film""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:02,2023-07-19 10:18:04,1.684s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Price""), [""product_price"":""""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:04,2023-07-19 10:18:06,1.725s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Category""), [""category_value"":""1""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:06,2023-07-19 10:18:08,1.872s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Input Product Description""), [""product_desc"":""ini adalah kamera canggih""], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:08,2023-07-19 10:18:09,1.803s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Upload Product Images""), [""product_image"":findTestData(""image"").getValue(2, 1)], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:09,2023-07-19 10:18:14,4.679s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Click button add or terbitkan""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:14,2023-07-19 10:18:18,3.607s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Create Product/Error Messages Price""), [""expected"":errorMessagePrice], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:18,2023-07-19 10:18:19,1.227s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-19 10:18:19,2023-07-19 10:18:20,1.017s,PASSED

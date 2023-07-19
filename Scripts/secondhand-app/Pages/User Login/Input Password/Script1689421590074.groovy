@@ -19,6 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.clearText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password'), GlobalVariable.passwordRizkiApp, 
-    0)
+Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password'), password, 0)
 
