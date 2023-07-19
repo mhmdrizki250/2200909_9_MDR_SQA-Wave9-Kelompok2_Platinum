@@ -124,4 +124,9 @@
       <initValue>'Mukena Dewasa Premium'</initValue>
       <name>SearchMukena</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'asiyahn752@gmail.com'</initValue>
+      <name>AsiyahEmailSeller</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
