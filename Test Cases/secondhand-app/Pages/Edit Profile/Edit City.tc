@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit City</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9b2ff8a-afda-406e-b5e1-e884ab439a6b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a23c041f-e93a-47b7-b2af-df51c331ccc2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a23c041f-e93a-47b7-b2af-df51c331ccc2</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+</TestCaseEntity>
