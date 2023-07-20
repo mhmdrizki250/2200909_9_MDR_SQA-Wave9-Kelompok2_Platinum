@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Homepage Category,Chrome 114.0.0.0,,,2023-07-18 20:06:13,2023-07-18 20:06:32,18.935s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Homepage - Category/HC001 - user should be able to search category product,Chrome 114.0.0.0,,,2023-07-18 20:06:13,2023-07-18 20:06:32,18.661s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:14,2023-07-18 20:06:17,3.555s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:17,2023-07-18 20:06:20,2.467s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:20,2023-07-18 20:06:21,1.489s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:21,2023-07-18 20:06:24,2.722s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:24,2023-07-18 20:06:26,2.451s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:26,2023-07-18 20:06:27,1.181s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Category/Category - Baju""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:27,2023-07-18 20:06:31,3.416s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-18 20:06:31,2023-07-18 20:06:32,0.997s,PASSED

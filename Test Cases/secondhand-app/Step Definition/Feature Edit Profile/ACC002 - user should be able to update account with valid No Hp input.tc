@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACC002 - user should be able to update account with valid No Hp input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9df62769-ba78-40d7-a2d1-b83d0573e04b</testCaseGuid>
+</TestCaseEntity>

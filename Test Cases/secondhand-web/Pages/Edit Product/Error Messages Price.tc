@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Error Messages Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f35c4ae1-5a38-4096-a529-4a24029de770</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80d563f5-f758-4035-9132-f11b118bd51f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80d563f5-f758-4035-9132-f11b118bd51f</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>
