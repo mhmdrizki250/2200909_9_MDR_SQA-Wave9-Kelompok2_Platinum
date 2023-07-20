@@ -173,4 +173,9 @@
 
 >>>>>>> 30944bd76912f0f28f2cc903c57ba41eba225b5f
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Wajib diisi.'</initValue>
+      <name>errorMessagesAppProfile</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
