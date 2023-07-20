@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dad4f56-8bec-4789-bb75-dea191f8c2d4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bfc6e06-66d0-4af8-afe0-0a1989681812</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9bfc6e06-66d0-4af8-afe0-0a1989681812</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+</TestCaseEntity>
