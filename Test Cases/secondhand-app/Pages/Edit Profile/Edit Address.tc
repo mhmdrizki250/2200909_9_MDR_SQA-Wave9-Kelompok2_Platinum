@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75f31b25-5459-4621-b081-62a35b66dda3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8bc09c7-e460-4c61-801f-820d4f2a90e4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8bc09c7-e460-4c61-801f-820d4f2a90e4</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>
