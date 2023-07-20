@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Input Alamat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Email" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Email - already used" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Email - blank" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Email - invalid" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Kota" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Nama" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Nomor HP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Input Password" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Read Error Messages - Already Used" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tap Daftar" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

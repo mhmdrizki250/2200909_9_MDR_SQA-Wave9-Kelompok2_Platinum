@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Notification,Chrome 115.0.0.0,,,2023-07-20 20:02:51,2023-07-20 20:03:51,1m - 0.032s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message,Chrome 115.0.0.0,,,2023-07-20 20:02:51,2023-07-20 20:03:29,37.759s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:02:52,2023-07-20 20:02:58,5.669s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:02:58,2023-07-20 20:03:03,5.409s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:03,2023-07-20 20:03:10,6.694s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":EmailAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:10,2023-07-20 20:03:15,5.051s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:15,2023-07-20 20:03:18,3.800s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:18,2023-07-20 20:03:21,2.352s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Notification Icon""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:21,2023-07-20 20:03:23,2.605s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Notification Message""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:23,2023-07-20 20:03:25,2.051s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Detail Notification""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:25,2023-07-20 20:03:27,1.809s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:27,2023-07-20 20:03:29,1.611s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation,Chrome 115.0.0.0,,,2023-07-20 20:03:29,2023-07-20 20:03:51,21.713s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:29,2023-07-20 20:03:32,2.281s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:32,2023-07-20 20:03:34,1.947s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:34,2023-07-20 20:03:35,1.215s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":AsiyahEmailSeller], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:35,2023-07-20 20:03:38,3.384s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:38,2023-07-20 20:03:42,4.023s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:42,2023-07-20 20:03:44,1.298s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Notification Icon""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:44,2023-07-20 20:03:46,2.144s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Seller - Message Notification""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:46,2023-07-20 20:03:48,1.928s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Seller - Detail Message""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:48,2023-07-20 20:03:49,1.735s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-20 20:03:49,2023-07-20 20:03:51,1.188s,PASSED

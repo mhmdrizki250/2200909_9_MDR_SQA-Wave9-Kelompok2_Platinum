@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N002 - seller will receive a notification when there is a product price negotiation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ae95d3a-7475-4297-8103-6206e70e199f</testCaseGuid>
+</TestCaseEntity>

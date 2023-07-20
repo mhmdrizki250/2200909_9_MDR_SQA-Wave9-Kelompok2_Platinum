@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Pages/Add Product/Add Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Pages/Add Product/Add Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Common/Common.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Create Product/Create Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Create Product/Create Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Edit Product/Edit Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Edit Product/Edit Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Add Product/Feature Add Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Add Product/Feature Add Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Step Definition/Feature Add Product/Feature Add Product1.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Step Definition/Feature Add Product/Feature Add Product1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Edit Product/Feature Edit Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Edit Product/Feature Edit Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Edit Profiles/Feature Edit Profiles.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Edit Profiles/Feature Edit Profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Homepage - Add Product/Feature Homepage - Add Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Homepage - Add Product/Feature Homepage - Add Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Homepage - Category/Feature Homepage - Category.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Homepage - Category/Feature Homepage - Category.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Homepage - Searching/Feature Homepage - Searching.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Homepage - Searching/Feature Homepage - Searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Login/Feature Login.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Login/Feature Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Step Definition/Feature Login/Feature Login1.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Step Definition/Feature Login/Feature Login1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Notification/Feature Notification.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Notification/Feature Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Product Price Negotiation/Feature Product Price Negotiation.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Product Price Negotiation/Feature Product Price Negotiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Registration/Feature Registration.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Step Definition/Feature Registration/Feature Registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Step Definition/Feature Registration/Feature Registration1.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Step Definition/Feature Registration/Feature Registration1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage/Homepage.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage/Homepage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage - Add Product/Homepage - Add Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage - Add Product/Homepage - Add Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage - Category/Homepage - Category.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage - Category/Homepage - Category.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage - Searching/Homepage - Searching.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Homepage - Searching/Homepage - Searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Pages/MenuBar App/MenuBar App.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Pages/MenuBar App/MenuBar App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Pages/My Account/My Account.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Pages/My Account/My Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/My Product/My Product.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/My Product/My Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/My Profiles/My Profiles.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/My Profiles/My Profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Notification/Notification.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Notification/Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/Product Price Negotiation/Product Price Negotiation.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/Product Price Negotiation/Product Price Negotiation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQA-Wave9-Kelompok2.iml" filepath="$PROJECT_DIR$/SQA-Wave9-Kelompok2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test Suites/Test Suites.iml" filepath="$PROJECT_DIR$/Test Suites/Test Suites.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Pages/User Login/User Login.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Pages/User Login/User Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/User Login/User Login1.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/User Login/User Login1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/Pages/User Registration/User Registration.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/Pages/User Registration/User Registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-web/Pages/User Registration/User Registration1.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-web/Pages/User Registration/User Registration1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scripts/secondhand-app/common/common.iml" filepath="$PROJECT_DIR$/Scripts/secondhand-app/common/common.iml" />
+    </modules>
+  </component>
+</project>
