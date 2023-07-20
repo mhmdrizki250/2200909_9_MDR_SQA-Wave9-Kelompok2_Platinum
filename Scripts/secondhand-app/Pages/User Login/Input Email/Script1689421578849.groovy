@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.clearText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan email'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan email'), GlobalVariable.emailRizkiApp, 
-    0)
+Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan email'), email, 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACC005 - user should be able to update account with valid Email input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0b82cdb-6bdd-4949-9c11-2006290979c1</testCaseGuid>
+</TestCaseEntity>
