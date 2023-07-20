@@ -159,4 +159,9 @@
       <initValue>'password'</initValue>
       <name>passwordEditOkta</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Wajib diisi.'</initValue>
+      <name>errorMessagesAppProfile</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

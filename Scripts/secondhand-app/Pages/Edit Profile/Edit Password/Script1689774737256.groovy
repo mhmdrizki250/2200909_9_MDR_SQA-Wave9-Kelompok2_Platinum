@@ -19,17 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/text password'), 2)
 
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Edit Profile/input old password'), 2)
+
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/input old password'), 2)
 
 Mobile.setText(findTestObject('secondhand-app/Page Edit Profile/set text old password'), old_password, 0)
 
 Mobile.pressBack()
 
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Edit Profile/input new password'), 2)
+
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/input new password'), 2)
 
 Mobile.setText(findTestObject('secondhand-app/Page Edit Profile/set text new password'), new_password, 0)
 
 Mobile.pressBack()
+
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Edit Profile/input confirmation password'), 2)
 
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/input confirmation password'), 2)
 
@@ -38,4 +44,6 @@ Mobile.setText(findTestObject('secondhand-app/Page Edit Profile/set text confirm
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/button simpan password'), 2)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

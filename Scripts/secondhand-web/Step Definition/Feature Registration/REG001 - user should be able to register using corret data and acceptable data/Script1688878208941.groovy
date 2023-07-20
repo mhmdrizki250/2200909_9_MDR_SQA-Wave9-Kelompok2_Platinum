@@ -26,7 +26,7 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Open Reg
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : GlobalVariable.unameOktaSeller], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailOktaSeller], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.pwdOktaSeller], 
