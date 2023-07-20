@@ -127,6 +127,7 @@
    <GlobalVariableEntity>
       <description></description>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <initValue>'asiyahn752@gmail.com'</initValue>
       <name>AsiyahEmailSeller</name>
    </GlobalVariableEntity>
@@ -168,5 +169,8 @@
       <initValue>'password'</initValue>
       <name>passwordEditOkta</name>
 >>>>>>> c91789f0e7c8e779e1101ead7859e4022b4b650f
+=======
+
+>>>>>>> 30944bd76912f0f28f2cc903c57ba41eba225b5f
    </GlobalVariableEntity>
 </GlobalVariableEntities>
