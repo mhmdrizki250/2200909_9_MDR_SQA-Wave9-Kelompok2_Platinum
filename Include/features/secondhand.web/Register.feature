@@ -41,4 +41,6 @@ Feature: Register
   
   Examples: 
   	| name 								| email 												| password 	|
+  	| Oktavia Dwi Putri P | %oktaviadpp_seller@gmail.com 	| 123456 		|
+  	| Oktavia Dwi Putri P | oktaviadpp_seller@gmail.com 	| 123 			|
   	| Oktavia Dwi Putri P | oktavia_buyer_w9@gmail.com 		| 123456 		|
