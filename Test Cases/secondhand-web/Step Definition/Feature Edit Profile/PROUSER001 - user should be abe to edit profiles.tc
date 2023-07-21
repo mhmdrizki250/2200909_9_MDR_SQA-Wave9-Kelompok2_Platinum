@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROUSER001 - user should be abe to edit profiles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbfc6746-e4d6-4e9f-85cc-c895ba5d83cc</testCaseGuid>
+</TestCaseEntity>

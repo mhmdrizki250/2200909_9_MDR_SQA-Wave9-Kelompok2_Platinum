@@ -21,3 +21,5 @@ Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.Edi
 
 Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Masukkan password'), password, 0)
 
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+

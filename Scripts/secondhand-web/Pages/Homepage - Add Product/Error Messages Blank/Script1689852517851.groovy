@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Contoh 08123456789'), 1)
+WebUI.verifyElementPresent(findTestObject('secondhand-web/Add Product/error message price'), 3)
 
-Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Contoh 08123456789'), '081233334444', 
-    0)
+errorText = WebUI.getText(findTestObject('secondhand-web/Add Product/error message price'))
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+com.kms.katalon.core.util.KeywordUtil.logInfo()
+
+WebUI.verifyMatch(errorText, expected, false)
 

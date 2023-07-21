@@ -12,17 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>64c47796-2bde-4d97-9115-b7ef1cfe1e79</testSuiteGuid>
    <testCaseLink>
-      <guid>9ba1b6f4-cbe1-4bde-bdbd-46a0050ad055</guid>
+      <guid>508f8e1f-f0f9-4a53-a627-a9de6841984d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/HS001 - user should be able to search product</testCaseId>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA001 - user should be able to search product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb5075cf-05a5-4ee7-b4ed-a8f5636a635f</guid>
+      <guid>e080b6d9-c507-42ce-8820-cbab9fd6b7c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/HS002 - user can not click the Search icon</testCaseId>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.selectListItemByIndex(findTestObject('secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'), 
-    aksesoris, 0)
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'), 
+    aksesoris, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'), 0)
+
+Mobile.getElementLeftPosition(findTestObject('secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'), 
+    0)
+
+Mobile.getElementTopPosition(findTestObject('secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'), 
+    0)
+
+Mobile.tapAtPosition(0, 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

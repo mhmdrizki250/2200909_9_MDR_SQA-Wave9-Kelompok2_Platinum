@@ -12,10 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1693ee5e-e841-428f-9b17-917fd9e77048</testSuiteGuid>
    <testCaseLink>
-      <guid>8e319f8b-1b20-4310-b4f7-0ab354d7a97a</guid>
+      <guid>e5ad2a1c-d10b-4dd3-82f4-9d38c835de98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Edit Profile/EP001 - user should be abe to edit profiles</testCaseId>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Edit Profile/PROUSER001 - user should be abe to edit profiles</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f50702d1-3f5b-4714-ac25-5ff0c8c0130d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Edit Profile/PROUSER002 - user should not be able to edit profile using blank input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

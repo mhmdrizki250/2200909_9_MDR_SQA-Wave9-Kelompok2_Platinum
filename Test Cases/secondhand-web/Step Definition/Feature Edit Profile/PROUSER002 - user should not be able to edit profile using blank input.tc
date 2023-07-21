@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROUSER002 - user should not be able to edit profile using blank input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1928b4b-fec0-421d-9aee-95c5a5bbfdce</testCaseGuid>
+</TestCaseEntity>

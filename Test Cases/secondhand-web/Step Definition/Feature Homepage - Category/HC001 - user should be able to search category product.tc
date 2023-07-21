@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>HC001 - user should be able to search category product</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>562c11f0-b31f-4ee8-af6d-23ab89fbb97c</testCaseGuid>
-</TestCaseEntity>
