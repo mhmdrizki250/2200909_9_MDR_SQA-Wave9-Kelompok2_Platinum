@@ -21,5 +21,5 @@ Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.Edi
 
 Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Masukkan email'), email, 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot(GlobalVariable.emailRizkiApp, FailureHandling.STOP_ON_FAILURE)
 

@@ -101,16 +101,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mhmdrizki002@gmail.com'</initValue>
-      <name>emailRizkiAppRandom</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Kiki12345'</initValue>
-      <name>passwordRizkiApp</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'nurasiyah72@gmail.com'</initValue>
       <name>InvalidEmailAsiyah</name>
    </GlobalVariableEntity>
@@ -163,5 +153,30 @@
       <description></description>
       <initValue>'Wajib diisi.'</initValue>
       <name>errorMessagesAppProfile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki250@gmail.com'</initValue>
+      <name>emailRizkiApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kiki12345'</initValue>
+      <name>passwordRizkiApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki250gmailcom'</initValue>
+      <name>emailRizkiAppInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>emailRizkiAppBlank</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki020@gmail.com'</initValue>
+      <name>emailRizkiAppRandom</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
