@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/text address'), 2)
 
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Edit Profile/input address'), 2)
+
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/input address'), 2)
 
 Mobile.clearText(findTestObject('secondhand-app/Page Edit Profile/input address'), 2)
@@ -28,4 +30,6 @@ Mobile.setText(findTestObject('secondhand-app/Page Edit Profile/set address'), a
 Mobile.pressBack()
 
 Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/button simpan'), 2)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

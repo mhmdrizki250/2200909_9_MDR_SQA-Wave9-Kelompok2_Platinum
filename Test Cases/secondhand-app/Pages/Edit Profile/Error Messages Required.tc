@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Error Messages Required</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79649d0e-6907-4c00-bae3-59111e61da94</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5014f3fd-8c8d-459a-8f2c-b7461f1ae1b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5014f3fd-8c8d-459a-8f2c-b7461f1ae1b9</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

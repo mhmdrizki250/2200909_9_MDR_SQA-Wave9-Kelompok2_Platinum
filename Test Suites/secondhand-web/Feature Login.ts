@@ -18,4 +18,18 @@
       <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Login/LG0001 - user should be able to login using valid credential</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>2442ae06-0e10-474b-8e5b-1f3e75df33c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Login/LG0002 - user should not be able to login using invalid email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01430404-73c5-420f-9876-b35d890a2ca1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Login/LG0003 - user should not be able to login using invalid password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

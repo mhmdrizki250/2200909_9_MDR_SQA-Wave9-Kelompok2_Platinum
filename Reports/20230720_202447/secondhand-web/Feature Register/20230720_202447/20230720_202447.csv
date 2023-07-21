@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Register,Chrome 114.0.0.0,,,2023-07-20 20:24:49,2023-07-20 20:28:11,3m - 21.109s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Registration/REG001 - user should be able to register using corret data and acceptable data,Chrome 114.0.0.0,,,2023-07-20 20:24:50,2023-07-20 20:25:13,23.110s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:24:50,2023-07-20 20:24:54,4.019s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:24:54,2023-07-20 20:24:59,4.768s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Open Registration Page""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:24:59,2023-07-20 20:25:01,2.188s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Username""), [""username"":unameOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:25:01,2023-07-20 20:25:04,3.023s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Email""), [""email"":emailOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:25:04,2023-07-20 20:25:07,2.919s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:25:07,2023-07-20 20:25:10,2.743s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Click button Daftar""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:25:10,2023-07-20 20:25:11,1.432s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:25:11,2023-07-20 20:25:13,1.534s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Registration/REG002 - user should not be able to register using invalid email or special character,Chrome 114.0.0.0,,,2023-07-20 20:26:15,2023-07-20 20:26:36,20.639s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:15,2023-07-20 20:26:18,2.942s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:18,2023-07-20 20:26:21,2.893s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Open Registration Page""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:21,2023-07-20 20:26:23,1.622s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Username""), [""username"":unameOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:23,2023-07-20 20:26:25,2.375s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Email""), [""email"":invalidEmail], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:25,2023-07-20 20:26:27,2.229s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:27,2023-07-20 20:26:29,2.197s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Click button Daftar""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:29,2023-07-20 20:26:30,0.848s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Read Error Messages""), [""expected"":errorMessagesNotMatch], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:26:30,2023-07-20 20:26:36,5.519s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Registration/REG003 - user should not be able to register using password lenght under 6 characters,Chrome 114.0.0.0,,,2023-07-20 20:27:34,2023-07-20 20:27:54,19.395s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:34,2023-07-20 20:27:37,2.285s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:37,2023-07-20 20:27:38,1.614s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Open Registration Page""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:38,2023-07-20 20:27:40,1.619s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Username""), [""username"":unameOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:40,2023-07-20 20:27:43,2.859s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Email""), [""email"":invalidEmail], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:43,2023-07-20 20:27:45,2.242s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Password""), [""password"":invalidPassword], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:45,2023-07-20 20:27:47,2.112s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Click button Daftar""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:47,2023-07-20 20:27:48,0.838s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Read Error Messages""), [""expected"":errorMessagesNotMatch], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:48,2023-07-20 20:27:54,5.819s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Registration/REG004 - user should not be able to register using already used email,Chrome 114.0.0.0,,,2023-07-20 20:27:54,2023-07-20 20:28:11,16.855s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:54,2023-07-20 20:27:57,3.175s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:57,2023-07-20 20:27:59,1.570s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Open Registration Page""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:27:59,2023-07-20 20:28:00,1.535s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Username""), [""username"":unameOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:28:00,2023-07-20 20:28:03,2.686s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Email""), [""email"":emailTaken], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:28:03,2023-07-20 20:28:05,2.231s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Input Password""), [""password"":pwdOktaSeller], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:28:05,2023-07-20 20:28:07,2.132s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Click button Daftar""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:28:07,2023-07-20 20:28:08,0.882s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Registration/Read Error Messages Email Taken""), [""expected"":erroMessageEmailTaken], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:28:08,2023-07-20 20:28:09,0.948s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-20 20:28:09,2023-07-20 20:28:11,1.260s,PASSED

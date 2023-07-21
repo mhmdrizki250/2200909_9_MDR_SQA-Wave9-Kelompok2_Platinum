@@ -126,6 +126,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <initValue>'asiyahn752@gmail.com'</initValue>
+      <name>AsiyahEmailSeller</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Atasan Wanita'</initValue>
+      <name>Keyword</name>
+=======
       <initValue>'Price can\'t be blank'</initValue>
       <name>errorMessagePrice</name>
    </GlobalVariableEntity>
@@ -158,6 +168,15 @@
       <description></description>
       <initValue>'password'</initValue>
       <name>passwordEditOkta</name>
+>>>>>>> c91789f0e7c8e779e1101ead7859e4022b4b650f
+=======
+
+>>>>>>> 30944bd76912f0f28f2cc903c57ba41eba225b5f
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Wajib diisi.'</initValue>
+      <name>errorMessagesAppProfile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

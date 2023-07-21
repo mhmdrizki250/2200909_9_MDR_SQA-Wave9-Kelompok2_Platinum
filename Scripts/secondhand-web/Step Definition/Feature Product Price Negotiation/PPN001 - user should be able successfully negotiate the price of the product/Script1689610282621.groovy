@@ -38,6 +38,9 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Button Saya Tertarik dan Ingin Nego'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Input Harga'), [('input harga') : '50000'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Button Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Product Price Negotiation/Success Negotiate Price'), [:], FailureHandling.STOP_ON_FAILURE)
