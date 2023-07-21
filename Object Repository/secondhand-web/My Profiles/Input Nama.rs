@@ -6,31 +6,35 @@
    <elementGuidId>b7ac278b-e302-49b7-8a23-b5d8e86b34f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='user_name']</value>
+         <key>BASIC</key>
+         <value>id(&quot;user_name&quot;)[count(. | //input[@class = 'form-control rounded-4 p-3' and @placeholder = 'Nama' and @required = 'required' and @type = 'text' and @value = 'Muhammad Rizki' and @name = 'user[name]' and @id = 'user_name']) = count(//input[@class = 'form-control rounded-4 p-3' and @placeholder = 'Nama' and @required = 'required' and @type = 'text' and @value = 'Muhammad Rizki' and @name = 'user[name]' and @id = 'user_name'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#user_name</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='user_name']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>dbbf538a-071e-4e27-9fa0-2d3946fb8ade</webElementGuid>
+      <webElementGuid>f022656f-ce48-43f3-9c08-c38e0eb0edd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control rounded-4 p-3</value>
-      <webElementGuid>7098dc0a-1b26-4e43-bccc-2231646e6340</webElementGuid>
+      <webElementGuid>f010cdea-9253-4684-94dd-0a6ff154c72d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +42,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Nama</value>
-      <webElementGuid>aaa660e7-ff47-4ff5-ad86-3401f87a4d5a</webElementGuid>
+      <webElementGuid>c4be1c4a-e2e7-4a14-beea-c1124363622a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>required</name>
       <type>Main</type>
       <value>required</value>
-      <webElementGuid>f50d20a5-ec43-48ed-9ec1-ef0ba501f931</webElementGuid>
+      <webElementGuid>35002294-5bbd-4dc7-8ba1-bcb75fd89d86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +58,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>55f4ef25-6e70-423c-b648-516ce77539cf</webElementGuid>
+      <webElementGuid>6055f23e-69c7-4409-af24-9e9d38fb1cdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Muhammad Rizki</value>
-      <webElementGuid>1dcc1c73-9854-4947-b106-aef2beb0e347</webElementGuid>
+      <webElementGuid>6cafbb7f-f8b4-4560-bb66-64e72ffd7a62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>name</name>
       <type>Main</type>
       <value>user[name]</value>
-      <webElementGuid>a8d5d65e-7148-4ab6-bb93-664900eb82dc</webElementGuid>
+      <webElementGuid>6b4f0524-688a-4e4b-afd2-8bc7bb61bfed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,15 +82,15 @@
       <name>id</name>
       <type>Main</type>
       <value>user_name</value>
-      <webElementGuid>0160e1f2-209f-4195-adf6-253dc3228b27</webElementGuid>
+      <webElementGuid>b0a1a00f-d4b2-469c-8b2d-0bc1f3babac9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;user_name&quot;)</value>
-      <webElementGuid>40935fde-3bf3-4191-9e68-6423c0d5d01d</webElementGuid>
+      <webElementGuid>48058191-c464-4afd-8568-130cb0ba1b83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='user_name']</value>
-      <webElementGuid>b2a202c9-214d-4aaa-aeaf-8ac1a0e0c15d</webElementGuid>
+      <webElementGuid>a9992d46-4b78-463e-9859-9e5cc8b64a4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>2611482e-c777-4c80-86a0-10f6696273ee</webElementGuid>
+      <webElementGuid>42f56bb3-ae42-46fb-aa4a-8a90a2560090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Nama' and @type = 'text' and @name = 'user[name]' and @id = 'user_name']</value>
-      <webElementGuid>203753a9-0e5a-4313-b646-172b74786586</webElementGuid>
+      <webElementGuid>597f7a30-1619-4ce4-b52f-20f689e49967</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

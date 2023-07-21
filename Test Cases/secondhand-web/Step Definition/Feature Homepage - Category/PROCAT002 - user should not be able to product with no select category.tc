@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PROCAT002 - user should not be able to product with no select category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec0540cb-d9ec-45dd-a70f-b58794d5223d</testCaseGuid>
+</TestCaseEntity>

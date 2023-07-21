@@ -27,9 +27,11 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Daftar'), [
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nama'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email - invalid'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiAppInvalid], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Password'), [('password') : GlobalVariable.passwordRizkiApp], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nomor HP'), [:], FailureHandling.STOP_ON_FAILURE)
 
