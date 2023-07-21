@@ -17,19 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/text phone'), 5)
+Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
 
-Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Edit Profile/input phone'), 5)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/input phone'), 5)
-
-Mobile.clearText(findTestObject('secondhand-app/Page Edit Profile/input phone'), 5)
-
-Mobile.setText(findTestObject('secondhand-app/Page Edit Profile/set phone'), phone, 0)
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('secondhand-app/Page Edit Profile/button simpan'), 2)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('secondhand-app/Page Logout/button logout'), 2)
 
