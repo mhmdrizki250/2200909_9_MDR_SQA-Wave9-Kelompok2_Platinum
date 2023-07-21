@@ -41,3 +41,6 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Al
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Tap Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Read Error Messages - Invalid Email'), [('expected') : 'Email tidak valid'], 
+    FailureHandling.STOP_ON_FAILURE)
+
