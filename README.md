@@ -17,3 +17,14 @@ Platinum Challenge Binar Academy
    	- Login
 	- Notification
 	- Negotiation Product Price
+
+=== APP ===
+1. Oktavia Dwi Putri Permatasari 
+	- 
+	
+2. Muhammad Rizki
+	- Register
+	- CRUD product
+	
+3. Nur Asiyah
+   	- 

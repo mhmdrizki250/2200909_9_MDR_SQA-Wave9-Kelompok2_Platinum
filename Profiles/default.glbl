@@ -178,4 +178,14 @@
       <initValue>'Wajib diisi.'</initValue>
       <name>errorMessagesAppProfile</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki250gmailcom'</initValue>
+      <name>emailRizkiAppInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>emailRizkiAppBlank</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -12,10 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>880c3f2d-147f-48d6-ac54-fca6941a7fe3</testSuiteGuid>
    <testCaseLink>
-      <guid>28530305-9241-476e-9f9e-1676841ffedd</guid>
+      <guid>1763d2df-4761-4fa8-b8a9-a5fac76589c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Category/HC001 - user should be able to search category product</testCaseId>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Category/PROCAT001 - user should be able to search category product</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5e7ebff4-1e5c-4653-8276-caa47754ab8d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/secondhand-web/Step Definition/Feature Homepage - Category/PROCAT002 - user should not be able to product with no select category</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

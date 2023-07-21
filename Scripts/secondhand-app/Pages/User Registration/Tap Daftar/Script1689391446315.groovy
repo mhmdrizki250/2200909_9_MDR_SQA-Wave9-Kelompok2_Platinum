@@ -21,3 +21,5 @@ Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Register/androi
 
 Mobile.tap(findTestObject('secondhand-app/Page Register/android.widget.Button - Daftar'), 2)
 
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+

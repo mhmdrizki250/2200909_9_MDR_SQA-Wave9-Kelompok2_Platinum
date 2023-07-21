@@ -29,3 +29,5 @@ WebUI.submit(findTestObject('secondhand-web/Homepage - Searching/input_searching
 
 WebUI.scrollToElement(findTestObject('secondhand-web/Homepage - Searching/Scroll_Down'), 3)
 
+WebUI.takeScreenshot()
+

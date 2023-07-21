@@ -17,10 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Contoh 08123456789'), 1)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/My Profiles/Select Kota'), 2)
 
-Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Contoh 08123456789'), '081233334444', 
-    0)
+WebUI.selectOptionByIndex(findTestObject('secondhand-web/My Profiles/Select Kota'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot()
 

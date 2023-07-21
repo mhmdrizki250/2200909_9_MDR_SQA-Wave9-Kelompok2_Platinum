@@ -17,10 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Contoh 08123456789'), 1)
+WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Searching/input_searching'), 3)
 
-Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Contoh 08123456789'), '081233334444', 
-    0)
+WebUI.clearText(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('secondhand-web/Homepage - Searching/input_searching'), '')
+
+WebUI.takeScreenshot()
+
+WebUI.submit(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
+
+WebUI.scrollToElement(findTestObject('secondhand-web/Homepage - Searching/Scroll_Down'), 3)
+
+WebUI.takeScreenshot()
 
