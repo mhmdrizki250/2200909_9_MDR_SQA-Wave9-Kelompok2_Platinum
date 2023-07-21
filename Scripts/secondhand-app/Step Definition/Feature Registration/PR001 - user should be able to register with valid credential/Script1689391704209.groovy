@@ -41,3 +41,5 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Al
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Tap Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Logout/Button Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+

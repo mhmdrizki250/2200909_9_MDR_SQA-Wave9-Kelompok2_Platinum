@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Logout/button logout'), 2)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Email'), [('email') : GlobalVariable.emailRizkiApp], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Password'), [('password') : GlobalVariable.passwordRizkiApp], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('secondhand-app/Page Logout/button logout'), 0)
 

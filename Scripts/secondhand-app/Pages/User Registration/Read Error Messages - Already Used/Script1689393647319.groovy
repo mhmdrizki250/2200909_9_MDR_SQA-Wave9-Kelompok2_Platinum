@@ -23,3 +23,5 @@ KeywordUtil.logInfo('Error Text : ' + errorText)
 
 WebUI.verifyMatch(errorText, expected, false)
 
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
