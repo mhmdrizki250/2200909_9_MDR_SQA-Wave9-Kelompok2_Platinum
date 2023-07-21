@@ -31,3 +31,7 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/Add Product/Input Lokasi')
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Add Product/Input Deskripsi'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Add Product/Tap Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Add Product/Tap Button Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+

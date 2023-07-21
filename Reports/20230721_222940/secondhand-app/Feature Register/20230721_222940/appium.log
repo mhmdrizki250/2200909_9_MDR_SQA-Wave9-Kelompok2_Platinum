@@ -4829,3 +4829,27 @@
 [debug] [35m[Instrumentation][39m 
 [debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[Instrumentation][39m The process has exited with code 0
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session '99edb688-b6ac-4f14-8b4d-ae945cd47725' from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell am force-stop id.binar.fp.secondhand'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 52918 
+[debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E forward --remove tcp:52918'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'db10667e-8d9c-48ef-a942-74056787fc87' from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell am force-stop id.binar.fp.secondhand'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 53138 
+[debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E forward --remove tcp:53138'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
