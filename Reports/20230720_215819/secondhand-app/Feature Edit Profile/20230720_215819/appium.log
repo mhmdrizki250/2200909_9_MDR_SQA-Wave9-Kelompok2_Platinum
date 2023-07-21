@@ -9835,3 +9835,4 @@
 [35m[HTTP][39m [90m[39m
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"dfd79c18-c9f0-46cd-9862-fb37f66b3d93","value":null}
 [debug] [35m[W3C (74859190)][39m Responding to client with driver.click() result: null
+[debug] [35m[Instrumentation][39m The process has exited with code 0
