@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "986382A1628290C2C16ABBADEFAF18E3",
+  "keywordFileContentHash": "985ADF99AFC3B3DCFAA154473B58C848",
   "keywordClasses": [
     {
       "name": "stepDefinition_web.Register",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
