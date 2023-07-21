@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.clearText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'), 'Rp. 80.000', 0)
+Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'), '400000', 0)
+
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 

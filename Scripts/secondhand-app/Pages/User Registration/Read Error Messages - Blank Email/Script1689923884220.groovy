@@ -29,5 +29,5 @@ KeywordUtil.logInfo('')
 
 Mobile.verifyMatch(errorText, expected, false)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 
