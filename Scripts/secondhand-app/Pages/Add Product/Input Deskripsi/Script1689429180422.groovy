@@ -23,3 +23,5 @@ Mobile.clearText(findTestObject('secondhand-app/Page Add Product/android.widget.
 Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap'), 'Barang ini baru, bisa bikin ganteng 99%', 
     0)
 
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
+

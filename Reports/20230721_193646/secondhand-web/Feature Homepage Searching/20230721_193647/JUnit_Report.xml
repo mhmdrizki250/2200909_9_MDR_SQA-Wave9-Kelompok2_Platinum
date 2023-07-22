@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Homepage Searching" time="31.025" tests="2" failures="0" errors="0">
+   <testsuite name="Feature Homepage Searching" tests="2" failures="0" errors="0" time="31.025" skipped="0" timestamp="2023-07-21 19:36:50" hostname="mhmdr - LAPTOP-A3L3V09Q" id="Test Suites/secondhand-web/Feature Homepage Searching">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647"/>
+         <property name="logFiles" value="C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943019473.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943021605.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943025416.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943026729.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943032258.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943034228.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943037701.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943039018.png, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943040324.png"/>
+         <property name="hostName" value="mhmdr - LAPTOP-A3L3V09Q"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="f22b36576d5d28015c6da5ffdb4dcbff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA001 - user should be able to search product" time="17.489" classname="Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA001 - user should be able to search product" status="PASSED">
+         <system-out><![CDATA[2023-07-21 19:36:50 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA001 - user should be able to search product: Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA001 - user should be able to search product
+
+2023-07-21 19:36:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Launch Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-21 19:36:50 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:36:50 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Launch Web'
+
+2023-07-21 19:36:50 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Launch Web: Test Cases/secondhand-web/Common/Launch Web
+
+2023-07-21 19:36:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-21 19:36:51 - [MESSAGE][INFO] - Opening browser
+
+2023-07-21 19:36:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-21 19:36:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-21 19:36:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-21 19:36:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-21 19:36:53 - [MESSAGE][INFO] - Maximizing current window
+
+2023-07-21 19:36:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-21 19:36:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-21 19:36:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Navigate To Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-21 19:36:53 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:36:53 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web'
+
+2023-07-21 19:36:53 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Navigate To Web: Test Cases/secondhand-web/Common/Navigate To Web
+
+2023-07-21 19:36:53 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-21 19:36:54 - [MESSAGE][INFO] - Checking url
+
+2023-07-21 19:36:54 - [MESSAGE][INFO] - Navigating to 'https://secondhand.binaracademy.org/'
+
+2023-07-21 19:36:56 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-21 19:36:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-21 19:36:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-21 19:36:56 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:36:56 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk'
+
+2023-07-21 19:36:56 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Click Button Masuk: Test Cases/secondhand-web/Pages/User Login/Click Button Masuk
+
+2023-07-21 19:36:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Click Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:36:57 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-21 19:36:57 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Click Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-21 19:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-21 19:36:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-21 19:36:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Email"), ["email":emailRizki], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email' successfully
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:36:57 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email'
+
+2023-07-21 19:36:57 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Input Email: Test Cases/secondhand-web/Pages/User Login/Input Email
+
+2023-07-21 19:36:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Login/Input_email"), 3): Object 'Object Repository/secondhand-web/Login/Input_email' is visible
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '3' second(s)
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '3' second(s)
+
+2023-07-21 19:36:58 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Input_email' is visible
+
+2023-07-21 19:36:58 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Login/Input_email"), email): Text 'mhmdrizki250@gmail.com' is set on object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking text
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:36:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:36:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:36:59 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Login/Input_email' to value 'mhmdrizki250@gmail.com'
+
+2023-07-21 19:36:59 - [MESSAGE][PASSED] - Text 'mhmdrizki250@gmail.com' is set on object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:36:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:36:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943019473.png]]
+
+2023-07-21 19:37:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email' successfully
+
+2023-07-21 19:37:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Password"), ["password":passwordRizki], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password' successfully
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password'
+
+2023-07-21 19:37:00 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Input Password: Test Cases/secondhand-web/Pages/User Login/Input Password
+
+2023-07-21 19:37:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Login/Input_password"), 3): Object 'Object Repository/secondhand-web/Login/Input_password' is visible
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '3' second(s)
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '3' second(s)
+
+2023-07-21 19:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Input_password' is visible
+
+2023-07-21 19:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Login/Input_password"), password): Text 'Kiki123456789' is set on object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking text
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Login/Input_password' to value 'Kiki123456789'
+
+2023-07-21 19:37:01 - [MESSAGE][PASSED] - Text 'Kiki123456789' is set on object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943021605.png]]
+
+2023-07-21 19:37:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password' successfully
+
+2023-07-21 19:37:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk' successfully
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk'
+
+2023-07-21 19:37:02 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Button Masuk: Test Cases/secondhand-web/Pages/User Login/Button Masuk
+
+2023-07-21 19:37:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Button Masuk' is visible
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Button Masuk' is visible
+
+2023-07-21 19:37:02 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Button Masuk' is clicked on
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-21 19:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Button Masuk' is clicked on
+
+2023-07-21 19:37:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk' successfully
+
+2023-07-21 19:37:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/Homepage - Searching/Input Search - Enter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter' successfully
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter'
+
+2023-07-21 19:37:03 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter: Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter
+
+2023-07-21 19:37:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Homepage - Searching/input_searching"), 3): Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is visible
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '3' second(s)
+
+2023-07-21 19:37:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '3' second(s)
+
+2023-07-21 19:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is visible
+
+2023-07-21 19:37:04 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-web/Homepage - Searching/input_searching")): Text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is cleared
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is cleared
+
+2023-07-21 19:37:04 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Homepage - Searching/input_searching"), Search001): Text 'Baju' is set on object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Checking text
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' to value 'Baju'
+
+2023-07-21 19:37:05 - [MESSAGE][PASSED] - Text 'Baju' is set on object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943025416.png]]
+
+2023-07-21 19:37:05 - [TEST_STEP][PASSED] - submit(findTestObject("secondhand-web/Homepage - Searching/input_searching")): The form containing object: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is submitted
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Submitting on the form containing object: 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:05 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is submitted
+
+2023-07-21 19:37:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("secondhand-web/Homepage - Searching/Scroll_Down"), 3): Scroll to object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' successfully
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down'
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' located by 'By.xpath: //div[@id='products']/div[11]/a' in '30' second(s)
+
+2023-07-21 19:37:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' located by 'By.xpath: //div[@id='products']/div[11]/a' in '30' second(s)
+
+2023-07-21 19:37:06 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down'
+
+2023-07-21 19:37:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' successfully
+
+2023-07-21 19:37:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943026729.png]]
+
+2023-07-21 19:37:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter' successfully
+
+2023-07-21 19:37:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Close Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Close Web' successfully
+
+2023-07-21 19:37:06 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:06 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Close Web'
+
+2023-07-21 19:37:06 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Close Web: Test Cases/secondhand-web/Common/Close Web
+
+2023-07-21 19:37:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-21 19:37:07 - [MESSAGE][INFO] - Closing browser
+
+2023-07-21 19:37:07 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-21 19:37:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Close Web' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input" time="13.338" classname="Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input" status="PASSED">
+         <system-out><![CDATA[2023-07-21 19:37:07 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input: Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input
+
+2023-07-21 19:37:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Launch Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-21 19:37:07 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:07 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Launch Web'
+
+2023-07-21 19:37:08 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Launch Web: Test Cases/secondhand-web/Common/Launch Web
+
+2023-07-21 19:37:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-21 19:37:08 - [MESSAGE][INFO] - Opening browser
+
+2023-07-21 19:37:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-21 19:37:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-21 19:37:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-21 19:37:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-21 19:37:09 - [MESSAGE][INFO] - Maximizing current window
+
+2023-07-21 19:37:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-21 19:37:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-21 19:37:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Navigate To Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-21 19:37:09 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:09 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web'
+
+2023-07-21 19:37:09 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Navigate To Web: Test Cases/secondhand-web/Common/Navigate To Web
+
+2023-07-21 19:37:09 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-21 19:37:09 - [MESSAGE][INFO] - Checking url
+
+2023-07-21 19:37:09 - [MESSAGE][INFO] - Navigating to 'https://secondhand.binaracademy.org/'
+
+2023-07-21 19:37:10 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-21 19:37:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-21 19:37:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk'
+
+2023-07-21 19:37:10 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Click Button Masuk: Test Cases/secondhand-web/Pages/User Login/Click Button Masuk
+
+2023-07-21 19:37:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Click Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:37:10 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-21 19:37:10 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Click Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-21 19:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-21 19:37:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-21 19:37:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Email"), ["email":emailRizki], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email' successfully
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email'
+
+2023-07-21 19:37:10 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Input Email: Test Cases/secondhand-web/Pages/User Login/Input Email
+
+2023-07-21 19:37:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Login/Input_email"), 3): Object 'Object Repository/secondhand-web/Login/Input_email' is visible
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '3' second(s)
+
+2023-07-21 19:37:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '3' second(s)
+
+2023-07-21 19:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Input_email' is visible
+
+2023-07-21 19:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Login/Input_email"), email): Text 'mhmdrizki250@gmail.com' is set on object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Checking text
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-21 19:37:11 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Login/Input_email' to value 'mhmdrizki250@gmail.com'
+
+2023-07-21 19:37:12 - [MESSAGE][PASSED] - Text 'mhmdrizki250@gmail.com' is set on object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-21 19:37:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:12 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943032258.png]]
+
+2023-07-21 19:37:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email' successfully
+
+2023-07-21 19:37:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Password"), ["password":passwordRizki], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password' successfully
+
+2023-07-21 19:37:12 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:12 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password'
+
+2023-07-21 19:37:12 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Input Password: Test Cases/secondhand-web/Pages/User Login/Input Password
+
+2023-07-21 19:37:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Login/Input_password"), 3): Object 'Object Repository/secondhand-web/Login/Input_password' is visible
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '3' second(s)
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '3' second(s)
+
+2023-07-21 19:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Input_password' is visible
+
+2023-07-21 19:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Login/Input_password"), password): Text 'Kiki123456789' is set on object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking text
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Login/Input_password' to value 'Kiki123456789'
+
+2023-07-21 19:37:13 - [MESSAGE][PASSED] - Text 'Kiki123456789' is set on object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-21 19:37:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:13 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943034228.png]]
+
+2023-07-21 19:37:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password' successfully
+
+2023-07-21 19:37:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk' successfully
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk'
+
+2023-07-21 19:37:14 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Button Masuk: Test Cases/secondhand-web/Pages/User Login/Button Masuk
+
+2023-07-21 19:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Button Masuk' is visible
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:14 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Button Masuk' is visible
+
+2023-07-21 19:37:15 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Button Masuk' is clicked on
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-21 19:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Button Masuk' is clicked on
+
+2023-07-21 19:37:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk' successfully
+
+2023-07-21 19:37:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank' successfully
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank'
+
+2023-07-21 19:37:15 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank: Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank
+
+2023-07-21 19:37:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Homepage - Searching/input_searching"), 3): Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is visible
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '3' second(s)
+
+2023-07-21 19:37:15 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '3' second(s)
+
+2023-07-21 19:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is visible
+
+2023-07-21 19:37:16 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-web/Homepage - Searching/input_searching")): Text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is cleared
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is cleared
+
+2023-07-21 19:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Homepage - Searching/input_searching"), ""): Text '' is set on object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Checking text
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:16 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Homepage - Searching/input_searching' to value ''
+
+2023-07-21 19:37:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943037701.png]]
+
+2023-07-21 19:37:17 - [TEST_STEP][PASSED] - submit(findTestObject("secondhand-web/Homepage - Searching/input_searching")): The form containing object: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is submitted
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:17 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' located by 'By.xpath: //input[@name='q']' in '30' second(s)
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Submitting on the form containing object: 'Object Repository/secondhand-web/Homepage - Searching/input_searching'
+
+2023-07-21 19:37:18 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/secondhand-web/Homepage - Searching/input_searching' is submitted
+
+2023-07-21 19:37:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("secondhand-web/Homepage - Searching/Scroll_Down"), 3): Scroll to object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' successfully
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down'
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' located by 'By.xpath: //div[@id='products']/div[11]/a' in '30' second(s)
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' located by 'By.xpath: //div[@id='products']/div[11]/a' in '30' second(s)
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down'
+
+2023-07-21 19:37:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/secondhand-web/Homepage - Searching/Scroll_Down' successfully
+
+2023-07-21 19:37:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943039018.png]]
+
+2023-07-21 19:37:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank' successfully
+
+2023-07-21 19:37:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/Homepage - Searching/Icon Search"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Icon Search' successfully
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Icon Search'
+
+2023-07-21 19:37:19 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/Homepage - Searching/Icon Search: Test Cases/secondhand-web/Pages/Homepage - Searching/Icon Search
+
+2023-07-21 19:37:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Homepage - Searching/icon_searching"), 3): Object 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' is visible
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/icon_searching'
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' located by 'By.xpath: //div[@id='navbarSupportedContent']/form/div/i' in '3' second(s)
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' located by 'By.xpath: //div[@id='navbarSupportedContent']/form/div/i' in '3' second(s)
+
+2023-07-21 19:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' is visible
+
+2023-07-21 19:37:19 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Homepage - Searching/icon_searching")): Object: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' is clicked on
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Homepage - Searching/icon_searching'
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking object
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' located by 'By.xpath: //div[@id='navbarSupportedContent']/form/div/i' in '30' second(s)
+
+2023-07-21 19:37:19 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:20 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' located by 'By.xpath: //div[@id='navbarSupportedContent']/form/div/i' in '30' second(s)
+
+2023-07-21 19:37:20 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching'
+
+2023-07-21 19:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Homepage - Searching/icon_searching' is clicked on
+
+2023-07-21 19:37:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-21 19:37:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-21 19:37:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230721_193646\\secondhand-web\\Feature Homepage Searching\\20230721_193647\\1689943040324.png]]
+
+2023-07-21 19:37:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/Homepage - Searching/Icon Search' successfully
+
+2023-07-21 19:37:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Close Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Close Web' successfully
+
+2023-07-21 19:37:20 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-21 19:37:20 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Close Web'
+
+2023-07-21 19:37:20 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Close Web: Test Cases/secondhand-web/Common/Close Web
+
+2023-07-21 19:37:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-21 19:37:20 - [MESSAGE][INFO] - Closing browser
+
+2023-07-21 19:37:21 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-21 19:37:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Close Web' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-21 19:36:50 - [TEST_SUITE][PASSED] - Feature Homepage Searching: Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

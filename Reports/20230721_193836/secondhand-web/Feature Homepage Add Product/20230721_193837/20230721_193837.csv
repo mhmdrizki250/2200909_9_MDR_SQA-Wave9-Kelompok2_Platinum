@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Homepage Add Product,Chrome 115.0.0.0,,,2023-07-21 19:38:39,2023-07-21 19:39:36,56.448s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Homepage - Add Product/PRODADD001 - user should be abe to add product with valid,Chrome 115.0.0.0,,,2023-07-21 19:38:39,2023-07-21 19:39:10,30.399s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:40,2023-07-21 19:38:43,2.919s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:43,2023-07-21 19:38:44,1.636s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:44,2023-07-21 19:38:45,1.026s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:45,2023-07-21 19:38:48,2.349s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:48,2023-07-21 19:38:50,2.192s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:50,2023-07-21 19:38:51,0.978s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Click button jual""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:51,2023-07-21 19:38:53,1.915s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Input Product Name""), [""product_name"":""Baju Eiger MN02""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:53,2023-07-21 19:38:54,1.588s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Input Product Price""), [""product_price"":""120.000""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:54,2023-07-21 19:38:56,1.591s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Select Product Category""), [""category_value"":""3""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:56,2023-07-21 19:38:57,1.590s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Input Product Description""), [""product_desc"":""Baju eiger buat para pendaki gunung""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:57,2023-07-21 19:38:59,1.643s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Upload Product Images""), [""product_image"":findTestData(""image"").getValue(2, 1)], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:38:59,2023-07-21 19:39:04,4.531s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Click button add or terbitkan""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:04,2023-07-21 19:39:09,5.191s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:09,2023-07-21 19:39:10,0.909s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Homepage - Add Product/PRODADD002 - user should be abe to add product with blank,Chrome 115.0.0.0,,,2023-07-21 19:39:10,2023-07-21 19:39:36,25.828s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:10,2023-07-21 19:39:12,1.756s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:12,2023-07-21 19:39:13,1.147s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:13,2023-07-21 19:39:14,0.736s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:14,2023-07-21 19:39:16,2.042s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:16,2023-07-21 19:39:18,1.911s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:18,2023-07-21 19:39:18,0.714s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Click button jual""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:18,2023-07-21 19:39:20,1.816s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Input Product Name""), [""product_name"":""""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:20,2023-07-21 19:39:22,1.389s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Input Product Price""), [""product_price"":""""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:22,2023-07-21 19:39:23,1.363s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Select Product Category""), [""category_value"":""""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:23,2023-07-21 19:39:24,1.325s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Input Product Description""), [""product_desc"":""""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:24,2023-07-21 19:39:26,1.362s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Upload Product Images""), [""product_image"":""""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:26,2023-07-21 19:39:30,4.210s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Click button add or terbitkan""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:30,2023-07-21 19:39:34,4.199s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Add Product/Error Messages Blank""), [""expected"":errorMessagePrice], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:34,2023-07-21 19:39:35,0.937s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:39:35,2023-07-21 19:39:36,0.676s,PASSED

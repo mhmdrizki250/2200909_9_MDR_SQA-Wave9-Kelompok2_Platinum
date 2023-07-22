@@ -22,5 +22,5 @@ Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.Edi
 Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Masukkan kota'), 'Tarakan, KalTara', 
     0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 

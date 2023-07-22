@@ -28,4 +28,3 @@ Platinum Challenge Binar Academy
 	
 3. Nur Asiyah
    	- Login
-   	- Negotiation Product Price
