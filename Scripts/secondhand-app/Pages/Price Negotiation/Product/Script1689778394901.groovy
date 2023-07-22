@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.waitForElementPresent(findTestObject('secondhand-app/Price Negotiation/android.view.ViewGroup - Product'), 2)
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Price Negotiation/android.widget.TextView - Atasan Wanita'), 
+    2)
 
-Mobile.tap(findTestObject('secondhand-app/Price Negotiation/android.view.ViewGroup - Product'), 2)
+Mobile.tap(findTestObject('secondhand-app/Price Negotiation/android.widget.TextView - Atasan Wanita'), 2)
 

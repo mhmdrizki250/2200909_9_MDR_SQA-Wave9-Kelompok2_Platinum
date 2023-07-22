@@ -16,16 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.lang.String as String
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
+WebUI.verifyElementPresent(findTestObject('secondhand-web/Login/Failed Login'), 3)
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+errorText = WebUI.getText(findTestObject('secondhand-web/Login/Failed Login'))
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Product'), [:], FailureHandling.STOP_ON_FAILURE)
+com.kms.katalon.core.util.KeywordUtil.logInfo()
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Button Saya Tertarik dan Ingin Nego'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Input harga'), [('input') : '20000'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Button Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyMatch(errorText, expected, false)
 
