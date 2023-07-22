@@ -29,29 +29,27 @@ public class Register {
 	public void user_in_registration_page() {
 		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Open Registration Page'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input name with {string}")
 	public void user_input_name_with(String name) {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : name], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : name],
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input email with {string}")
 	public void user_input_email_with(String email) {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : email], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : email],
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input password with {string}")
 	public void user_input_password_with(String password) {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : password], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : password],
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("user click button daftar")
 	public void user_click_button_daftar() {
 		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Click button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
-
 	}
-	
 }

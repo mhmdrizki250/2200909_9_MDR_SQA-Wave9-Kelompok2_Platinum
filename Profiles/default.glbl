@@ -126,16 +126,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <initValue>'asiyahn752@gmail.com'</initValue>
-      <name>AsiyahEmailSeller</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Atasan Wanita'</initValue>
-      <name>Keyword</name>
-=======
       <initValue>'Price can\'t be blank'</initValue>
       <name>errorMessagePrice</name>
    </GlobalVariableEntity>
@@ -168,10 +158,6 @@
       <description></description>
       <initValue>'password'</initValue>
       <name>passwordEditOkta</name>
->>>>>>> c91789f0e7c8e779e1101ead7859e4022b4b650f
-=======
-
->>>>>>> 30944bd76912f0f28f2cc903c57ba41eba225b5f
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -180,12 +166,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mhmdrizki250gmailcom'</initValue>
-      <name>emailRizkiAppInvalid</name>
+      <initValue>'Please fill out this field.'</initValue>
+      <name>ErrorFailedLogin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>emailRizkiAppBlank</name>
+      <initValue>'asiyah77@gmail.com'</initValue>
+      <name>InvalidEmailAsiyahApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Emal atau kata sandi salah'</initValue>
+      <name>ErrorMessageLoginApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Email tidak boleh kosong'</initValue>
+      <name>ErrorMessageEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Atasan Wanita'</initValue>
+      <name>Keyword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Baju'</initValue>
+      <name>Search</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
