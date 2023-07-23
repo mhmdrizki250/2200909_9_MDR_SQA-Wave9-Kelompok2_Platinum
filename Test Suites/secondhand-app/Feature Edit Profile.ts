@@ -12,52 +12,52 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ebd5f7f6-30c1-43e8-b4b4-108506caaca3</testSuiteGuid>
    <testCaseLink>
-      <guid>23515180-7cc3-48f6-b8e4-b2436a8f5986</guid>
+      <guid>99997262-825b-4153-8c43-03467ee3487d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC001 - user should be able to update account with valid Name input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>681b3e63-7340-4964-8c30-7fb1a1287560</guid>
+      <guid>a7dbba16-785e-4279-8ebd-675074e05caa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC002 - user should be able to update account with valid No Hp input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0c1a471-c812-41ea-b52f-4946aa7b68a5</guid>
+      <guid>f991b932-822a-4df6-baa9-224897b5a7fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC003 - user should be able to update account with valid Kota input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>45ef7138-5884-47ee-964b-8a33c1ccdb4e</guid>
+      <guid>115047f1-0296-4e57-9de5-d979d88dc396</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC004 - user should be able to update account with valid Alamat input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e979e83d-02e9-465c-aca7-419d394948cf</guid>
+      <guid>e2d6617a-ea4f-42d6-8f57-b7f1cfb842e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC005 - user should be able to update account with valid Email input</testCaseId>
+      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC007 - user should not be able to edit profile with empty input name</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>52937a98-be58-41ae-9ef7-148533c1b0eb</guid>
+      <guid>faa14beb-f7c8-4275-8618-7b837fd54e55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC006 - user should be able to update account with valid Password input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0a45f900-302b-40e6-bcac-e9c6bffddd7b</guid>
+      <guid>9dd814c2-154c-4bdd-a187-1b0a528bb2b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC007 - user should not be able to edit profile with empty input name</testCaseId>
+      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Edit Profile/ACC005 - user should be able to update account with valid Email input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
