@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>PL002 - user should not be able to login using invalid email - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>227bb565-c3b7-463a-9f78-239dbe2a6031</testCaseGuid>
-</TestCaseEntity>
