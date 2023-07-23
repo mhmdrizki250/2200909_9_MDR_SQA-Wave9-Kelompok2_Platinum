@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PDP002 - user should not be able to see detail with not tap Daftar Jual Saya</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcef00f7-43da-490c-bfdb-111f9aced89e</testCaseGuid>
+</TestCaseEntity>

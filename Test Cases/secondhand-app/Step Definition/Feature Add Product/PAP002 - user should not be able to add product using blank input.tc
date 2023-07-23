@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PAP002 - user should not be able to add product using blank input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09a275b4-c5ac-4c96-a358-b7fa6833e623</testCaseGuid>
+</TestCaseEntity>
