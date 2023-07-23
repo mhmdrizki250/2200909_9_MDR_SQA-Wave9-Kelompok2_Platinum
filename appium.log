@@ -102,10 +102,14 @@
 [debug] [35m[ADB][39m Checking app cert for C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
 [35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\user\AppData\Local\Android\Sdk\build-tools\30.0.3\lib\apksigner.jar'
 [debug] [35m[ADB][39m Starting apksigner: 'D:\\Kuliah\\File Aplikasi\\Katalon\\Katalon_Studio_Windows_64-8.6.5\\jre\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
-[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+
 [debug] [35m[ADB][39m 
 [debug] [35m[ADB][39m sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
 [35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
@@ -114,10 +118,14 @@
 [debug] [35m[ADB][39m 'io.appium.uiautomator2.server.test' is installed
 [debug] [35m[ADB][39m Checking app cert for C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
 [debug] [35m[ADB][39m Starting apksigner: 'D:\\Kuliah\\File Aplikasi\\Katalon\\Katalon_Studio_Windows_64-8.6.5\\jre\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
-[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+
 [debug] [35m[ADB][39m 
 [debug] [35m[ADB][39m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
 [35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
@@ -252,12 +260,18 @@
 [debug] [35m[W3C (682caa81)][39m Calling AppiumDriver.activateApp() with args: ["id.binar.fp.secondhand",null,null,null,"682caa81-67e0-4d39-abb9-887910434bb6"]
 [debug] [35m[AndroidDriver][39m Activating 'id.binar.fp.secondhand' with 'adb shell monkey -p id.binar.fp.secondhand -c android.intent.category.LAUNCHER 1' command
 [debug] [35m[ADB][39m Running 'C:\Users\user\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RRCT702B4BM shell monkey -p id.binar.fp.secondhand -c android.intent.category.LAUNCHER 1'
-[debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
-[debug] [35m[AndroidDriver][39m   bash arg: id.binar.fp.secondhand
-[debug] [35m[AndroidDriver][39m   bash arg: -c
-[debug] [35m[AndroidDriver][39m   bash arg: android.intent.category.LAUNCHER
-[debug] [35m[AndroidDriver][39m   bash arg: 1
-[debug] [35m[AndroidDriver][39m Events injected: 1
+[debug] [35m[AndroidDriver][39m Command stdout: bash arg: -p
+
+[debug] [35m[AndroidDriver][39m   bash arg: id.binar.fp.secondhand
+
+[debug] [35m[AndroidDriver][39m   bash arg: -c
+
+[debug] [35m[AndroidDriver][39m   bash arg: android.intent.category.LAUNCHER
+
+[debug] [35m[AndroidDriver][39m   bash arg: 1
+
+[debug] [35m[AndroidDriver][39m Events injected: 1
+
 [debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=68ms (0ms mobile, 0ms wifi, 68ms not connected)
 [debug] [35m[W3C (682caa81)][39m Responding to client with driver.activateApp() result: null
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/682caa81-67e0-4d39-abb9-887910434bb6/appium/device/activate_app [39m[32m200[39m [90m1250 ms - 14[39m
@@ -332,7 +346,10 @@
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/682caa81-67e0-4d39-abb9-887910434bb6/elements [39m[32m200[39m [90m155 ms - 267[39m
 [35m[HTTP][39m [90m[39m
 [debug] [35m[Instrumentation][39m .
-[debug] [35m[Instrumentation][39m Time: 535.371
-[debug] [35m[Instrumentation][39m 
+[debug] [35m[Instrumentation][39m Time: 535.371
+
+[debug] [35m[Instrumentation][39m 
+
 [debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[Instrumentation][39m The process has exited with code 0
+

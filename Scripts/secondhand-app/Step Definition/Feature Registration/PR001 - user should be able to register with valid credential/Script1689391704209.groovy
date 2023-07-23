@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Daftar'), [
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nama'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiApp], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiAppRandom], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Password'), [('password') : GlobalVariable.passwordRizkiApp], 
@@ -40,4 +40,6 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Ko
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Alamat'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Tap Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Logout/Button Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

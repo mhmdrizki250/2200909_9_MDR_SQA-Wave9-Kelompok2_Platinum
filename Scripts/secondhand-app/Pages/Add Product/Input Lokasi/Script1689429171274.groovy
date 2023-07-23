@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.clearText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'), 'Malinau, KalTara', 
+Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'), 'Tanjung Selor, KalTara', 
     0)
+
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 

@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.clearText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'), 'Baju Eiger', 0)
+Mobile.setText(findTestObject('secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'), 'Batagor', 0)
+
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 

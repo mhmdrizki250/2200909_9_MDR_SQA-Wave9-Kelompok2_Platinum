@@ -52,7 +52,6 @@ public class Register {
 	public void user_click_button_daftar() {
 		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Click button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
 	//negative case
 	@When("user input name with Oktavia Dwi Putri P")
 	public void user_input_name_with_Oktavia_Dwi_Putri_P() {

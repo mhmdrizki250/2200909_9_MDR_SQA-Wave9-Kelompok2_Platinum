@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.waitForElementPresent(findTestObject('secondhand-web/Add Product/upload image'), 0)
+
+Mobile.tapAndHoldAtPosition(181, 2005, 3)
+
+Mobile.tapAndHoldAtPosition(159, 2053, 3)
+
+Mobile.tapAndHoldAtPosition(540, 2027, 3)
+
+Mobile.tapAndHoldAtPosition(773, 2175, 3)
+
+Mobile.tapAndHoldAtPosition(773, 2175, 3)
+
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Page Add Product/android.widget.Button - Terbitkan'), 5)
+

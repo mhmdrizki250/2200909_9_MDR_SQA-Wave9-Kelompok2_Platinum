@@ -22,5 +22,5 @@ Mobile.clearText(findTestObject('secondhand-app/Page Register/android.widget.Edi
 Mobile.setText(findTestObject('secondhand-app/Page Register/android.widget.EditText - Masukkan alamat'), 'Jl. Kenangan Masa Lalu No.404', 
     0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 
