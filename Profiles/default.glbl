@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'$oktaviadpp_seller@gmail.com'</initValue>
+      <initValue>'%oktaviadpp_seller@gmail.com'</initValue>
       <name>invalidEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -156,18 +156,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mhmdrizki250@gmail.com'</initValue>
-      <name>emailRizkiApp</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Kiki12345'</initValue>
-      <name>passwordRizkiApp</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'Please fill out this field.'</initValue>
-      <name>ErrorFailedLogin</name>
+
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

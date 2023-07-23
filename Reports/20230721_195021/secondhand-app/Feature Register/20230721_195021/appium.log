@@ -101,10 +101,10 @@
 [debug] [35m[ADB][39m Checking app cert for C:\Users\mhmdr\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
 [35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\mhmdr\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
 [debug] [35m[ADB][39m Starting apksigner: C:\\Users\\mhmdr\\Downloads\\Katalon_Studio_Windows_64-8.6.5\\Katalon_Studio_Windows_64-8.6.5\\Katalon_Studio_Windows_64-8.6.5\\jre\\bin\\java.exe -Xmx1024M -Xss1m -jar C:\\Users\\mhmdr\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\mhmdr\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
-[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
 [debug] [35m[ADB][39m 
 [debug] [35m[ADB][39m sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
 [35m[ADB][39m 'C:\Users\mhmdr\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
@@ -113,10 +113,10 @@
 [debug] [35m[ADB][39m 'io.appium.uiautomator2.server.test' is installed
 [debug] [35m[ADB][39m Checking app cert for C:\Users\mhmdr\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
 [debug] [35m[ADB][39m Starting apksigner: C:\\Users\\mhmdr\\Downloads\\Katalon_Studio_Windows_64-8.6.5\\Katalon_Studio_Windows_64-8.6.5\\Katalon_Studio_Windows_64-8.6.5\\jre\\bin\\java.exe -Xmx1024M -Xss1m -jar C:\\Users\\mhmdr\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\mhmdr\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
-[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
 [debug] [35m[ADB][39m 
 [debug] [35m[ADB][39m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
 [35m[ADB][39m 'C:\Users\mhmdr\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
@@ -129,10 +129,10 @@
 [debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
 [debug] [35m[ADB][39m Checking app cert for C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk
 [debug] [35m[ADB][39m Starting apksigner: C:\\Users\\mhmdr\\Downloads\\Katalon_Studio_Windows_64-8.6.5\\Katalon_Studio_Windows_64-8.6.5\\Katalon_Studio_Windows_64-8.6.5\\jre\\bin\\java.exe -Xmx1024M -Xss1m -jar C:\\Users\\mhmdr\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\androidapp\\app-release-second-hand-gcp.apk
-[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: CN=Second Hand
-[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: b9cc92a7001c0ce707c454ce9495bca5e7a9b8487210e0933e55b9dfddd987ec
-[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 3a18164efeae3482d6feef870a296f485ccb10fa
-[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: 71dbf66805cfe52628f8ed80f1d2c3cb
+[debug] [35m[ADB][39m apksigner stdout: Signer #1 certificate DN: CN=Second Hand
+[debug] [35m[ADB][39m Signer #1 certificate SHA-256 digest: b9cc92a7001c0ce707c454ce9495bca5e7a9b8487210e0933e55b9dfddd987ec
+[debug] [35m[ADB][39m Signer #1 certificate SHA-1 digest: 3a18164efeae3482d6feef870a296f485ccb10fa
+[debug] [35m[ADB][39m Signer #1 certificate MD5 digest: 71dbf66805cfe52628f8ed80f1d2c3cb
 [debug] [35m[ADB][39m 
 [35m[ADB][39m 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk' is signed with a non-default certificate
 [debug] [35m[ADB][39m Getting install status for id.binar.fp.secondhand
@@ -2312,8 +2312,8 @@
 [debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["0886c3c8-e5dd-4722-9f0e-c3e611b90f9f"]
 [debug] [35m[UiAutomator2][39m Cleaning up 1 obsolete session
 [debug] [35m[Instrumentation][39m .
-[debug] [35m[Instrumentation][39m Time: 45.128
-[debug] [35m[Instrumentation][39m 
+[debug] [35m[Instrumentation][39m Time: 45.128
+[debug] [35m[Instrumentation][39m 
 [debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell am force-stop io.appium.uiautomator2.server.test'
 [debug] [35m[Instrumentation][39m The process has exited with code 0
@@ -3086,8 +3086,8 @@
 [debug] [35m[UiAutomator2][39m The following obsolete sessions are still running: ["d8950100-10dc-4faa-be6a-378dbdee5c60"]
 [debug] [35m[UiAutomator2][39m Cleaning up 1 obsolete session
 [debug] [35m[Instrumentation][39m .
-[debug] [35m[Instrumentation][39m Time: 18.121
-[debug] [35m[Instrumentation][39m 
+[debug] [35m[Instrumentation][39m Time: 18.121
+[debug] [35m[Instrumentation][39m 
 [debug] [35m[Instrumentation][39m OK (1 test)
 [debug] [35m[Instrumentation][39m The process has exited with code 0
 [debug] [35m[ADB][39m Running 'C:\Users\mhmdr\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RR8R30DEY9E shell am force-stop io.appium.uiautomator2.server.test'

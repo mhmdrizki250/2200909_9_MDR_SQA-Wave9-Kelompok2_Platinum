@@ -1,8 +1,9 @@
 # SQA-Wave9-Kelompok2
 Platinum Challenge Binar Academy
 
-**JOB DESCRIPTION** 
-=== WEB ===
+**JOB DESCRIPTION**
+
+**WEB**
 1. Oktavia Dwi Putri Permatasari 
 	- Register
 	- CRUD product
@@ -18,9 +19,10 @@ Platinum Challenge Binar Academy
 	- Notification
 	- Negotiation Product Price
 
-=== APP ===
+**APP**
 1. Oktavia Dwi Putri Permatasari 
-	- 
+	- Edit Profile
+	- Logout
 	
 2. Muhammad Rizki
 	- Register
@@ -28,8 +30,14 @@ Platinum Challenge Binar Academy
 	
 3. Nur Asiyah
    	- Login
+<<<<<<< HEAD
    	- Negotiation Product Price
    	- Transaction
    	- My Sell List
    	- My Order
+>>>>>>> branch 'master' of https://github.com/mhmdrizki250/SQA-Wave9-Kelompok2.git
+=======
+   	- Feature My Order
+	- Feature My Sell List
+	- Feature Transaction
 >>>>>>> branch 'master' of https://github.com/mhmdrizki250/SQA-Wave9-Kelompok2.git
