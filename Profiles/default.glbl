@@ -156,13 +156,38 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mhmdrizki250@gmail.com'</initValue>
-      <name>emailRizkiApp</name>
+      <initValue>''</initValue>
+      <name></name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Kiki12345'</initValue>
-      <name>passwordRizkiApp</name>
+      <initValue>'asiyah77@gmail.com'</initValue>
+      <name>InvalidEmailAsiyahApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Emal atau kata sandi salah'</initValue>
+      <name>ErrorMessageLoginApp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Email tidak boleh kosong'</initValue>
+      <name>ErrorMessageEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Atasan Wanita'</initValue>
+      <name>Keyword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Baju'</initValue>
+      <name>Search</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki020@gmail.com'</initValue>
+      <name>emailRizkiAppRandom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -176,7 +201,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mhmdrizki020@gmail.com'</initValue>
-      <name>emailRizkiAppRandom</name>
+      <initValue>'Kiki12345'</initValue>
+      <name>passwordRizkiApp</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

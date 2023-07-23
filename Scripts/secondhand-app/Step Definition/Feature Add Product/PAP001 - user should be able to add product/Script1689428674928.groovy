@@ -19,6 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Email - Rizki Valid'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Password - Rizki Valid'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Add Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Add Product/Input Nama Produk'), [:], FailureHandling.STOP_ON_FAILURE)

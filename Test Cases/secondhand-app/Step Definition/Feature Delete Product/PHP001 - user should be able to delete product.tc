@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PHP001 - user should be able to delete product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0cdda6e-47a1-4a5f-a932-f25e90791ba6</testCaseGuid>
+</TestCaseEntity>
