@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature My Sell List,,,,2023-07-23 10:42:40,2023-07-23 10:42:42,2.418s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL001 - user be able to successfully open to my sell list page,,,,2023-07-23 10:42:40,2023-07-23 10:42:41,0.960s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-23 10:42:40,2023-07-23 10:42:41,0.410s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL002 - user be able to successfully open to interested page,,,,2023-07-23 10:42:41,2023-07-23 10:42:42,0.618s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-23 10:42:41,2023-07-23 10:42:41,0.043s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to interested page,,,,2023-07-23 10:42:42,2023-07-23 10:42:42,0.378s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-23 10:42:42,2023-07-23 10:42:42,0.013s,FAILED

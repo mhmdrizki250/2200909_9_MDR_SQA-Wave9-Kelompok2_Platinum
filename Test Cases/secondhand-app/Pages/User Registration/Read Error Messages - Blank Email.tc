@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Read Error Messages - Blank Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7055d184-781e-4a91-a67e-eb3ba0304b57</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c768f83-347a-4368-8e8e-3fd872f13679</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c768f83-347a-4368-8e8e-3fd872f13679</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

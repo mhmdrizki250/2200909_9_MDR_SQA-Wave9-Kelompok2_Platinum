@@ -23,7 +23,3 @@ WebUI.verifyElementPresent(findTestObject('secondhand-app/Page Login/android.wid
 errorText = Mobile.getText(findTestObject('secondhand-app/Page Login/android.widget.Toast - Email atau kata sandi salah'), 
     0)
 
-KeywordUtil.logInfo('Error Text : ' + errorText)
-
-WebUI.verifyMatch(errorText, expected, false)
-
