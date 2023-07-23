@@ -156,7 +156,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-
+      <initValue>''</initValue>
+      <name></name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

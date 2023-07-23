@@ -29,7 +29,7 @@
       <guid>9ed594b0-0861-4838-9dd1-3e3a9ace88cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to interested page</testCaseId>
+      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.waitForElementPresent(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 2)
 
+Mobile.tap(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 0)
+
 Mobile.clearText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 1)
 
-WebUI.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), GlobalVariable.Search)
+WebUI.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), GlobalVariable.Keyword)
 
-Mobile.waitForElementPresent(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 20)
+Mobile.waitForElementPresent(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 10)
 
 WebUI.takeScreenshot()
 

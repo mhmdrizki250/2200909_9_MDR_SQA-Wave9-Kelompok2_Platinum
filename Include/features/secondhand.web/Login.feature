@@ -23,10 +23,14 @@ Feature: Login
   Scenario: LG0001 - user should be able to login with using valid credential
 	Given user launch browser and navigate to url "https://secondhand.binaracademy.org/"
 	When click masuk
-	When input email with "nurasiyah727@gmail.com"
+	And input email with "nurasiyah727@gmail.com"
 	And input password with "pass.123"
 	Then click button masuk2
 	And close web 
+	
+
+	
+  	 
 	
 	
 	

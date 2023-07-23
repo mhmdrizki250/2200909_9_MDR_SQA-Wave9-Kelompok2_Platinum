@@ -30,14 +30,8 @@ Platinum Challenge Binar Academy
 	
 3. Nur Asiyah
    	- Login
-<<<<<<< HEAD
    	- Negotiation Product Price
    	- Transaction
    	- My Sell List
    	- My Order
->>>>>>> branch 'master' of https://github.com/mhmdrizki250/SQA-Wave9-Kelompok2.git
-=======
-   	- Feature My Order
-	- Feature My Sell List
-	- Feature Transaction
->>>>>>> branch 'master' of https://github.com/mhmdrizki250/SQA-Wave9-Kelompok2.git
+
