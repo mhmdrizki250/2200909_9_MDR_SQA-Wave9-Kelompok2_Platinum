@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit My Profile,Chrome 115.0.0.0,,,2023-07-21 19:40:20,2023-07-21 19:41:05,44.573s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Edit Profile/PROUSER001 - user should be abe to edit profiles,Chrome 115.0.0.0,,,2023-07-21 19:40:20,2023-07-21 19:40:46,25.949s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:21,2023-07-21 19:40:24,2.899s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:24,2023-07-21 19:40:25,1.870s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:25,2023-07-21 19:40:26,0.978s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:26,2023-07-21 19:40:29,2.301s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:29,2023-07-21 19:40:31,2.134s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:31,2023-07-21 19:40:32,0.971s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage/Icon_User""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:32,2023-07-21 19:40:34,2.013s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Click Account""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:34,2023-07-21 19:40:35,0.916s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Input Nama""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:35,2023-07-21 19:40:37,1.848s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Select Kota""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:37,2023-07-21 19:40:38,1.826s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Input Alamat""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:38,2023-07-21 19:40:40,1.590s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Input Nomor HP""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:40,2023-07-21 19:40:42,1.662s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Button Simpan""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:42,2023-07-21 19:40:45,3.715s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:45,2023-07-21 19:40:46,0.894s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Edit Profile/PROUSER002 - user should not be able to edit profile using blank input,Chrome 115.0.0.0,,,2023-07-21 19:40:46,2023-07-21 19:41:05,18.415s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:47,2023-07-21 19:40:48,1.721s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:48,2023-07-21 19:40:49,0.537s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:49,2023-07-21 19:40:50,0.753s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:50,2023-07-21 19:40:52,2.051s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:52,2023-07-21 19:40:54,1.917s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:54,2023-07-21 19:40:54,0.734s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage/Icon_User""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:54,2023-07-21 19:40:56,1.282s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Click Account""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:56,2023-07-21 19:40:56,0.823s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Input Nama - Blank""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:56,2023-07-21 19:40:58,1.558s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Select Kota - Blank""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:40:58,2023-07-21 19:41:00,1.815s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Input Alamat - Blank""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:41:00,2023-07-21 19:41:01,1.556s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Input Nomor HP - Blank""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:41:01,2023-07-21 19:41:03,1.582s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/My Profiles/Button Simpan""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:41:03,2023-07-21 19:41:04,1.151s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-21 19:41:04,2023-07-21 19:41:05,0.700s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MO001 - user be able to successfully open to My Order page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8db6ed25-16b3-4b41-b35d-60b31f39564f</testCaseGuid>
+</TestCaseEntity>
