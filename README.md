@@ -30,3 +30,6 @@ Platinum Challenge Binar Academy
 	
 3. Nur Asiyah
    	- Login
+   	- Feature My Order
+	- Feature My Sell List
+	- Feature Transaction
