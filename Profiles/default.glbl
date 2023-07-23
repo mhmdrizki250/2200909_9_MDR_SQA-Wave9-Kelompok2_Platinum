@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'$oktaviadpp_seller@gmail.com'</initValue>
+      <initValue>'%oktaviadpp_seller@gmail.com'</initValue>
       <name>invalidEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

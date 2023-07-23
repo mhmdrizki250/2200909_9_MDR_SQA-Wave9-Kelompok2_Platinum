@@ -45,22 +45,39 @@ import cucumber.api.java.en.When
 
 
 class Login {
-	@Given("user in login page")
-	public void user_login_page() {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User login/Open login Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.openBrowser('')
+	@Given("launch browser")
+	public void launch_browser() {
+		WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch Web'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	@When("navigate to web")
+	public void navigate_to_web() {
+		WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To Web'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	@Then("click masuk")
+	public void click_masuk() {
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-		WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
+	@And("input email with {string}")
+	public void input_email_with(String email) {
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.EmailAsiyah],
+		FailureHandling.STOP_ON_FAILURE)
+	}
 
-		WebUI.click(findTestObject('Page_Secondhand/button_Masuk'))
+	@And("input password with {string}")
+	public void input_password_with(String password) {
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.PasswordAsiyah],
+		FailureHandling.STOP_ON_FAILURE)
+	}
 
-		WebUI.setText(findTestObject('Page_Secondhand/input_Email'), 'nurasiyah727@gmail.com')
+	@Then("click button masuk2")
+	public void click_button_masuk2() {
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-		WebUI.setText(findTestObject('Page_Secondhand/input_Password'), 'pass.123')
-
-		WebUI.click(findTestObject('Page_Secondhand/button_Masuk2'))
-
-		WebUI.waitForElementVisible(findTestObject('Page_Secondhand/span_SuccessMessage'), 30)
+	@And("close web")
+	public void close_web() {
+		WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
