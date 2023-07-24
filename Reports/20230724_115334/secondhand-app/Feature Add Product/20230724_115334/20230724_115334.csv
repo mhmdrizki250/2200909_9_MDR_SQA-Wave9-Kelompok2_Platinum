@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Product,,,,2023-07-24 11:53:36,2023-07-24 11:55:53,2m - 17.345s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP001 - user should be able to add product,,,,2023-07-24 11:53:36,2023-07-24 11:55:06,1m - 30.019s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:53:36,2023-07-24 11:53:49,12.820s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:53:49,2023-07-24 11:53:56,7.184s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:53:56,2023-07-24 11:53:58,1.286s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:53:58,2023-07-24 11:54:03,5.305s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:03,2023-07-24 11:54:06,3.060s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:06,2023-07-24 11:54:07,1.250s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Add Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:07,2023-07-24 11:54:11,3.949s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Nama Produk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:11,2023-07-24 11:54:15,3.733s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Harga Produk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:15,2023-07-24 11:54:18,3.013s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Select Kategori""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:18,2023-07-24 11:54:20,2.420s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Lokasi""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:20,2023-07-24 11:54:25,4.564s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Deskripsi""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:25,2023-07-24 11:54:28,3.106s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Tap Foto Produk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:28,2023-07-24 11:54:58,30.212s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Tap Button Terbitkan""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:54:58,2023-07-24 11:55:01,2.381s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Button Back""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:01,2023-07-24 11:55:03,2.664s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Logout/Button Logout""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:03,2023-07-24 11:55:05,2.005s,PASSED
+closeApplication(),,,,2023-07-24 11:55:05,2023-07-24 11:55:06,0.810s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input,,,,2023-07-24 11:55:06,2023-07-24 11:55:53,47.144s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:55:06,2023-07-24 11:55:18,11.747s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:18,2023-07-24 11:55:26,8.169s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:26,2023-07-24 11:55:27,1.100s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:27,2023-07-24 11:55:32,4.667s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:32,2023-07-24 11:55:36,3.977s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:36,2023-07-24 11:55:38,2.251s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Add Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:38,2023-07-24 11:55:40,1.996s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Nama Produk - Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:40,2023-07-24 11:55:42,1.702s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Harga Produk - Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:42,2023-07-24 11:55:43,1.291s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Select Kategori - Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:43,2023-07-24 11:55:44,0.914s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Lokasi - Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:44,2023-07-24 11:55:45,1.255s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Input Deskripsi - Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:45,2023-07-24 11:55:47,1.565s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Tap Foto Produk - Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:47,2023-07-24 11:55:47,0.220s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Add Product/Tap Button Terbitkan""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:47,2023-07-24 11:55:48,1.117s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:55:48,2023-07-24 11:55:53,4.989s,FAILED

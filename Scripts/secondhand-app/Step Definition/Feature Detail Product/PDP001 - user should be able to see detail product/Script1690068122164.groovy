@@ -33,3 +33,9 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account - Login/Tap Daf
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Detail Product/Tap Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Detail Product/Tap Button Back'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Logout/Button Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+

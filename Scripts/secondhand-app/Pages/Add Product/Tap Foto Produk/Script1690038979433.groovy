@@ -25,6 +25,8 @@ Mobile.tapAndHoldAtPosition(159, 2053, 3)
 
 Mobile.tapAndHoldAtPosition(540, 2027, 3)
 
+Mobile.tapAndHoldAtPosition(540, 2027, 3)
+
 Mobile.tapAndHoldAtPosition(773, 2175, 3)
 
 Mobile.tapAndHoldAtPosition(773, 2175, 3)
