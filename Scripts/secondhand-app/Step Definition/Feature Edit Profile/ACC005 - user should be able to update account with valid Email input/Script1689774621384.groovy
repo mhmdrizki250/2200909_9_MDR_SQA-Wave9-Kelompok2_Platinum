@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Tap button edit in account page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Edit Email'), [('email') : GlobalVariable.emailEditOkta], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Edit Email'), [('email') : GlobalVariable.AsiyahEmailSelleremailEditOkta], 
     FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()

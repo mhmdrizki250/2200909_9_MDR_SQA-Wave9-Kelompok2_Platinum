@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Tap button ed
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Edit Empty Name'), [('name') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Error Messages Required'), [('expected') : GlobalVariable.errorMessagesAppProfile], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Error Messages Required'), [('expected') : GlobalVariable.AsiyahEmailSellererrorMessagesAppProfile], 
     FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Transaction,,,,2023-07-24 20:27:49,2023-07-24 20:28:26,37.053s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Transaction/TRX001 - user should be able successfully open transaction page,,,,2023-07-24 20:27:49,2023-07-24 20:28:26,36.613s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:27:50,2023-07-24 20:28:20,29.943s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Page Transaction/Open Page""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:28:20,2023-07-24 20:28:26,6.144s,PASSED

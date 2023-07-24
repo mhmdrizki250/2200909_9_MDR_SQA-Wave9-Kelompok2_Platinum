@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,,,,2023-07-24 20:39:53,2023-07-24 20:40:55,1m - 2.144s,ERROR
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential,,,,2023-07-24 20:39:54,2023-07-24 20:40:20,26.771s,ERROR
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:39:54,2023-07-24 20:40:13,18.870s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:40:13,2023-07-24 20:40:19,5.850s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:40:19,2023-07-24 20:40:20,1.396s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email""), [""email"":AsiyahEmailSellerEmailAsiyah], STOP_ON_FAILURE)",,,,2023-07-24 20:40:20,2023-07-24 20:40:20,0.054s,ERROR
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email,,,,2023-07-24 20:40:20,2023-07-24 20:40:38,17.463s,ERROR
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:40:21,2023-07-24 20:40:31,9.570s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:40:31,2023-07-24 20:40:36,5.861s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:40:36,2023-07-24 20:40:38,1.325s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Email""), [""email"":AsiyahEmailSellerInvalidEmailAsiyahApp], STOP_ON_FAILURE)",,,,2023-07-24 20:40:38,2023-07-24 20:40:38,0.009s,ERROR
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password,,,,2023-07-24 20:40:38,2023-07-24 20:40:55,17.436s,ERROR
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:40:38,2023-07-24 20:40:48,9.431s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:40:48,2023-07-24 20:40:54,6.079s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:40:54,2023-07-24 20:40:55,1.311s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Email""), [""email"":AsiyahEmailSellerEmailAsiyah], STOP_ON_FAILURE)",,,,2023-07-24 20:40:55,2023-07-24 20:40:55,0.014s,ERROR

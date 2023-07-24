@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Notification" time="52.829" tests="2" failures="0" errors="1">
+   <testsuite name="Feature Notification" tests="2" failures="0" errors="1" time="52.829" skipped="0" timestamp="2023-07-24 20:04:38" hostname="User - WINDOWS-5V2O60F" id="Test Suites/secondhand-web/Feature Notification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_200433\\secondhand-web\\Feature Notification\\20230724_200434"/>
+         <property name="logFiles" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_200433\\secondhand-web\\Feature Notification\\20230724_200434\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_200433\\secondhand-web\\Feature Notification\\20230724_200434\\1690203894556.png, C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_200433\\secondhand-web\\Feature Notification\\20230724_200434\\1690203897964.png"/>
+         <property name="hostName" value="User - WINDOWS-5V2O60F"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.93"/>
+         <property name="sessionId" value="1390db52b9b2827cb0d34c9c23e03227"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message" time="32.761" classname="Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message" status="PASSED">
+         <system-out><![CDATA[2023-07-24 20:04:39 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message: Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message
+
+2023-07-24 20:04:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Launch Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-24 20:04:40 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:04:40 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Launch Web'
+
+2023-07-24 20:04:40 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Launch Web: Test Cases/secondhand-web/Common/Launch Web
+
+2023-07-24 20:04:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-24 20:04:41 - [MESSAGE][INFO] - Opening browser
+
+2023-07-24 20:04:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-24 20:04:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-24 20:04:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-24 20:04:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-24 20:04:44 - [MESSAGE][INFO] - Maximizing current window
+
+2023-07-24 20:04:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-24 20:04:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-24 20:04:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Navigate To Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-24 20:04:44 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:04:44 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web'
+
+2023-07-24 20:04:44 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Navigate To Web: Test Cases/secondhand-web/Common/Navigate To Web
+
+2023-07-24 20:04:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-24 20:04:48 - [MESSAGE][INFO] - Checking url
+
+2023-07-24 20:04:48 - [MESSAGE][INFO] - Navigating to 'https://secondhand.binaracademy.org/'
+
+2023-07-24 20:04:49 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-24 20:04:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-24 20:04:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-24 20:04:49 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:04:49 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk'
+
+2023-07-24 20:04:49 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Click Button Masuk: Test Cases/secondhand-web/Pages/User Login/Click Button Masuk
+
+2023-07-24 20:04:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Click Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-24 20:04:50 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Click Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:04:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:51 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:04:51 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-24 20:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-24 20:04:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-24 20:04:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Email"), ["email":EmailAsiyah], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email' successfully
+
+2023-07-24 20:04:51 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:04:51 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email'
+
+2023-07-24 20:04:51 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Input Email: Test Cases/secondhand-web/Pages/User Login/Input Email
+
+2023-07-24 20:04:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Login/Input_email"), 3): Object 'Object Repository/secondhand-web/Login/Input_email' is visible
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '3' second(s)
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '3' second(s)
+
+2023-07-24 20:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Input_email' is visible
+
+2023-07-24 20:04:52 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Login/Input_email"), email): Text 'nurasiyah727@gmail.com' is set on object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-24 20:04:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Checking text
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-24 20:04:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_email' located by 'By.xpath: //input[@id='user_email']' in '30' second(s)
+
+2023-07-24 20:04:54 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Login/Input_email' to value 'nurasiyah727@gmail.com'
+
+2023-07-24 20:04:54 - [MESSAGE][PASSED] - Text 'nurasiyah727@gmail.com' is set on object 'Object Repository/secondhand-web/Login/Input_email'
+
+2023-07-24 20:04:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-24 20:04:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_200433\\secondhand-web\\Feature Notification\\20230724_200434\\1690203894556.png]]
+
+2023-07-24 20:04:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Email' successfully
+
+2023-07-24 20:04:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Password"), ["password":PasswordAsiyah], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password' successfully
+
+2023-07-24 20:04:55 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:04:55 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password'
+
+2023-07-24 20:04:55 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Input Password: Test Cases/secondhand-web/Pages/User Login/Input Password
+
+2023-07-24 20:04:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("secondhand-web/Login/Input_password"), 3): Object 'Object Repository/secondhand-web/Login/Input_password' is visible
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '3' second(s)
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '3' second(s)
+
+2023-07-24 20:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Input_password' is visible
+
+2023-07-24 20:04:56 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-web/Login/Input_password"), password): Text 'pass.123' is set on object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Checking text
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-24 20:04:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Input_password' located by 'By.xpath: //input[@id='user_password']' in '30' second(s)
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Setting text of object 'Object Repository/secondhand-web/Login/Input_password' to value 'pass.123'
+
+2023-07-24 20:04:57 - [MESSAGE][PASSED] - Text 'pass.123' is set on object 'Object Repository/secondhand-web/Login/Input_password'
+
+2023-07-24 20:04:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-07-24 20:04:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_200433\\secondhand-web\\Feature Notification\\20230724_200434\\1690203897964.png]]
+
+2023-07-24 20:04:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Input Password' successfully
+
+2023-07-24 20:04:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk' successfully
+
+2023-07-24 20:04:58 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:04:58 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk'
+
+2023-07-24 20:04:58 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Button Masuk: Test Cases/secondhand-web/Pages/User Login/Button Masuk
+
+2023-07-24 20:04:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Button Masuk' is visible
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-24 20:04:59 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Button Masuk' is visible
+
+2023-07-24 20:04:59 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Button Masuk' is clicked on
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-24 20:04:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Button Masuk' located by 'By.xpath: //input[@name='commit']' in '30' second(s)
+
+2023-07-24 20:05:00 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Button Masuk'
+
+2023-07-24 20:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Button Masuk' is clicked on
+
+2023-07-24 20:05:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Button Masuk' successfully
+
+2023-07-24 20:05:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/Notification/Notification Icon"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/Notification/Notification Icon' successfully
+
+2023-07-24 20:05:00 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:00 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/Notification/Notification Icon'
+
+2023-07-24 20:05:00 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/Notification/Notification Icon: Test Cases/secondhand-web/Pages/Notification/Notification Icon
+
+2023-07-24 20:05:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Notification/Notification Icon"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Notification/Notification Icon' is visible
+
+2023-07-24 20:05:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Notification/Notification Icon'
+
+2023-07-24 20:05:03 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:03 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Notification/Notification Icon' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/a/i' in '30' second(s)
+
+2023-07-24 20:05:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Notification/Notification Icon' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/a/i' in '30' second(s)
+
+2023-07-24 20:05:05 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Notification/Notification Icon' is visible
+
+2023-07-24 20:05:05 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Notification/Notification Icon")): Object: 'Object Repository/secondhand-web/Notification/Notification Icon' is clicked on
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Notification/Notification Icon'
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Notification/Notification Icon' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/a/i' in '30' second(s)
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Notification/Notification Icon' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/a/i' in '30' second(s)
+
+2023-07-24 20:05:05 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Notification/Notification Icon'
+
+2023-07-24 20:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Notification/Notification Icon' is clicked on
+
+2023-07-24 20:05:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/Notification/Notification Icon' successfully
+
+2023-07-24 20:05:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/Notification/Notification Message"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/Notification/Notification Message' successfully
+
+2023-07-24 20:05:06 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:06 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/Notification/Notification Message'
+
+2023-07-24 20:05:06 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/Notification/Notification Message: Test Cases/secondhand-web/Pages/Notification/Notification Message
+
+2023-07-24 20:05:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Notification/Notification Message"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Notification/Notification Message' is visible
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Notification/Notification Message'
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Notification/Notification Message' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]' in '30' second(s)
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Found 9 web elements with id: 'Object Repository/secondhand-web/Notification/Notification Message' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]' in '30' second(s)
+
+2023-07-24 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Notification/Notification Message' is visible
+
+2023-07-24 20:05:07 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Notification/Notification Message")): Object: 'Object Repository/secondhand-web/Notification/Notification Message' is clicked on
+
+2023-07-24 20:05:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Notification/Notification Message'
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Notification/Notification Message' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]' in '30' second(s)
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Found 9 web elements with id: 'Object Repository/secondhand-web/Notification/Notification Message' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/ul/li[3]/ul/li/a/div/div[2]' in '30' second(s)
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Notification/Notification Message'
+
+2023-07-24 20:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Notification/Notification Message' is clicked on
+
+2023-07-24 20:05:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/Notification/Notification Message' successfully
+
+2023-07-24 20:05:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/Notification/Detail Notification"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/Notification/Detail Notification' successfully
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:08 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/Notification/Detail Notification'
+
+2023-07-24 20:05:08 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/Notification/Detail Notification: Test Cases/secondhand-web/Pages/Notification/Detail Notification
+
+2023-07-24 20:05:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Notification/Detail Notification"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Notification/Detail Notification' is visible
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Notification/Detail Notification'
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Notification/Detail Notification' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Info Penawar'])[1]/following::section[2]' in '30' second(s)
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Notification/Detail Notification' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Info Penawar'])[1]/following::section[2]' in '30' second(s)
+
+2023-07-24 20:05:09 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Notification/Detail Notification' is visible
+
+2023-07-24 20:05:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/Notification/Detail Notification' successfully
+
+2023-07-24 20:05:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Close Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Close Web' successfully
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:09 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Close Web'
+
+2023-07-24 20:05:09 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Close Web: Test Cases/secondhand-web/Common/Close Web
+
+2023-07-24 20:05:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-24 20:05:10 - [MESSAGE][INFO] - Closing browser
+
+2023-07-24 20:05:11 - [MESSAGE][PASSED] - Browser is closed
+
+2023-07-24 20:05:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Close Web' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation" time="5.151" classname="Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation" status="ERROR">
+         <error type="ERROR" message="Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)
+"/>
+         <system-out><![CDATA[2023-07-24 20:05:26 - [TEST_CASE][ERROR] - Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation: Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)
+
+
+2023-07-24 20:05:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Launch Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-24 20:05:26 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:26 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Launch Web'
+
+2023-07-24 20:05:26 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Launch Web: Test Cases/secondhand-web/Common/Launch Web
+
+2023-07-24 20:05:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-24 20:05:26 - [MESSAGE][INFO] - Opening browser
+
+2023-07-24 20:05:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-24 20:05:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-24 20:05:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-24 20:05:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-24 20:05:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-24 20:05:29 - [MESSAGE][INFO] - Maximizing current window
+
+2023-07-24 20:05:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-24 20:05:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Launch Web' successfully
+
+2023-07-24 20:05:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Common/Navigate To Web"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-24 20:05:29 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:29 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web'
+
+2023-07-24 20:05:29 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Common/Navigate To Web: Test Cases/secondhand-web/Common/Navigate To Web
+
+2023-07-24 20:05:29 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-24 20:05:29 - [MESSAGE][INFO] - Checking url
+
+2023-07-24 20:05:29 - [MESSAGE][INFO] - Navigating to 'https://secondhand.binaracademy.org/'
+
+2023-07-24 20:05:30 - [MESSAGE][PASSED] - Navigate to 'https://secondhand.binaracademy.org/' successfully
+
+2023-07-24 20:05:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Common/Navigate To Web' successfully
+
+2023-07-24 20:05:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk'
+
+2023-07-24 20:05:30 - [TEST_CASE][PASSED] - Test Cases/secondhand-web/Pages/User Login/Click Button Masuk: Test Cases/secondhand-web/Pages/User Login/Click Button Masuk
+
+2023-07-24 20:05:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("secondhand-web/Login/Click Button Masuk"), STOP_ON_FAILURE): Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:30 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/secondhand-web/Login/Click Button Masuk' is visible
+
+2023-07-24 20:05:31 - [TEST_STEP][PASSED] - click(findTestObject("secondhand-web/Login/Click Button Masuk")): Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/secondhand-web/Login/Click Button Masuk' located by 'By.xpath: //div[@id='navbarSupportedContent']/div/a' in '30' second(s)
+
+2023-07-24 20:05:31 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/secondhand-web/Login/Click Button Masuk'
+
+2023-07-24 20:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/secondhand-web/Login/Click Button Masuk' is clicked on
+
+2023-07-24 20:05:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-web/Pages/User Login/Click Button Masuk' successfully
+
+2023-07-24 20:05:31 - [TEST_STEP][ERROR] - callTestCase(findTestCase("secondhand-web/Pages/User Login/Input Email"), ["email":AsiyahEmailSeller], STOP_ON_FAILURE): Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)
+
+
+2023-07-24 20:05:31 - [MESSAGE][ERROR] - Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-07-24 20:05:26 - [TEST_CASE][ERROR] - Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation: Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-24 20:04:38 - [TEST_SUITE][ERROR] - Feature Notification: Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-07-24 20:04:38 - [TEST_SUITE][ERROR] - Feature Notification: Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AsiyahEmailSeller for class: internal.GlobalVariable
+	at N002 - seller will receive a notification when there is a product price negotiation.run(N002 - seller will receive a notification when there is a product price negotiation:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690203874913.run(TempTestSuite1690203874913.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1405,10 +1405,7 @@ Caused by: java.lang.IllegalArgumentException: The mobile device is missing. Ple
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2023-07-23T22:44:07</date>
   <millis>1690127047325</millis>

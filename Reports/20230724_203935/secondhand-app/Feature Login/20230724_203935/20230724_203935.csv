@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,,,,2023-07-24 20:39:38,2023-07-24 20:39:41,2.888s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential,,,,2023-07-24 20:39:39,2023-07-24 20:39:40,0.974s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:39:39,2023-07-24 20:39:40,0.424s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email,,,,2023-07-24 20:39:40,2023-07-24 20:39:41,0.920s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:39:40,2023-07-24 20:39:41,0.041s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password,,,,2023-07-24 20:39:41,2023-07-24 20:39:41,0.495s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:39:41,2023-07-24 20:39:41,0.017s,FAILED

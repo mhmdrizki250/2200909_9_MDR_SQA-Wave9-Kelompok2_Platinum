@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,,,,2023-07-24 19:52:57,2023-07-24 19:53:15,17.536s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0001 - user should be able to login using valid credential,,,,2023-07-24 19:52:58,2023-07-24 19:53:08,10.989s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",,,,2023-07-24 19:52:58,2023-07-24 19:53:08,10.400s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0002 - user should not be able to login using invalid email,,,,2023-07-24 19:53:09,2023-07-24 19:53:12,3.289s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",,,,2023-07-24 19:53:10,2023-07-24 19:53:12,2.289s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0003 - user should not be able to login using invalid password,,,,2023-07-24 19:53:12,2023-07-24 19:53:15,2.717s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",,,,2023-07-24 19:53:13,2023-07-24 19:53:15,1.968s,FAILED
