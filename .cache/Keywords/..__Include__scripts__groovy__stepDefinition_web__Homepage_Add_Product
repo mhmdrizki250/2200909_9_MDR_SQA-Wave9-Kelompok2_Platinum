@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C24E614107C4CCC1DC57DD777AA39DFB",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition_web.Homepage_Add_Product",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
