@@ -23,14 +23,14 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Email'), [('email') : GlobalVariable.InvalidEmailAsiyahApp], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Email'), [('email') : GlobalVariable.AsiyahEmailSellerInvalidEmailAsiyahApp], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Password'), [('password') : GlobalVariable.PasswordAsiyah], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Password'), [('password') : GlobalVariable.AsiyahEmailSellerPasswordAsiyah], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Invalid Credential'), [('expected') : GlobalVariable.ErrorMessageLoginApp], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Invalid Credential'), [('expected') : GlobalVariable.AsiyahEmailSellerErrorMessageLoginApp], 
     FailureHandling.STOP_ON_FAILURE)
 

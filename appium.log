@@ -1200,4 +1200,12 @@
 [debug] [35m[W3C (c14520e3)][39m Responding to client with driver.deleteSession() result: null
 [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/c14520e3-d296-41e5-96ee-5fae0a1575f8 [39m[32m200[39m [90m597 ms - 14[39m
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a298951e275f379845fd1eb7bc0a9d6d34eaa1ce
+=======
+>>>>>>> a298951e275f379845fd1eb7bc0a9d6d34eaa1ce
+>>>>>>> f781f7f113487d91d12200548940ca4865ef9c0c
+=======
 
+>>>>>>> 3681e7c01adfb465972a3d87bc10d910ffa32c00

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature My Sell List" time="74.066" tests="3" failures="0" errors="0">
+   <testsuite name="Feature My Sell List" tests="3" failures="0" errors="0" time="74.066" skipped="0" timestamp="2023-07-24 20:28:54" hostname="User - WINDOWS-5V2O60F" id="Test Suites/secondhand-app/Feature My Sell List">
+      <properties>
+         <property name="deviceName" value="samsung SM-M315F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_202850\\secondhand-app\\Feature My Sell List\\20230724_202850"/>
+         <property name="logFiles" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_202850\\secondhand-app\\Feature My Sell List\\20230724_202850\\appium.log, C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_202850\\secondhand-app\\Feature My Sell List\\20230724_202850\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - WINDOWS-5V2O60F"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-M315F"/>
+         <property name="hostAddress" value="192.168.50.93"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N3082NVW"/>
+         <property name="deviceName" value="samsung SM-M315F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL001 - user be able to successfully open to my sell list page" time="27.037" classname="Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL001 - user be able to successfully open to my sell list page" status="PASSED">
+         <system-out><![CDATA[2023-07-24 20:28:55 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL001 - user be able to successfully open to my sell list page: Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL001 - user be able to successfully open to my sell list page
+
+2023-07-24 20:28:55 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:28:56 - [MESSAGE][INFO] - Starting app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:28:56 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-24 20:28:58 - [MESSAGE][INFO] - Appium server started on port 50,844
+
+2023-07-24 20:29:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Button Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun' successfully
+
+2023-07-24 20:29:14 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:29:14 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun'
+
+2023-07-24 20:29:14 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Button Akun: Test Cases/secondhand-app/Pages/My Sell List/Button Akun
+
+2023-07-24 20:29:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun' is present
+
+2023-07-24 20:29:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:15 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:15 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:18 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun' is present
+
+2023-07-24 20:29:18 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Akun"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:18 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:18 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun' successfully
+
+2023-07-24 20:29:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya' successfully
+
+2023-07-24 20:29:20 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:29:20 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya'
+
+2023-07-24 20:29:20 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya: Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya
+
+2023-07-24 20:29:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya' is present
+
+2023-07-24 20:29:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:21 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:21 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:21 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya' is present
+
+2023-07-24 20:29:21 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:21 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:21 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL002 - user be able to successfully open to interested page" time="22.942" classname="Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL002 - user be able to successfully open to interested page" status="PASSED">
+         <system-out><![CDATA[2023-07-24 20:29:22 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL002 - user be able to successfully open to interested page: Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL002 - user be able to successfully open to interested page
+
+2023-07-24 20:29:22 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:22 - [MESSAGE][INFO] - Starting app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:34 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Button Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun' successfully
+
+2023-07-24 20:29:34 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:29:34 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun'
+
+2023-07-24 20:29:34 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Button Akun: Test Cases/secondhand-app/Pages/My Sell List/Button Akun
+
+2023-07-24 20:29:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun' is present
+
+2023-07-24 20:29:34 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:34 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:34 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:37 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun' is present
+
+2023-07-24 20:29:37 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Akun"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:37 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:37 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun' successfully
+
+2023-07-24 20:29:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya' successfully
+
+2023-07-24 20:29:41 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:29:41 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya'
+
+2023-07-24 20:29:41 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya: Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya
+
+2023-07-24 20:29:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya' is present
+
+2023-07-24 20:29:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:41 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:41 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:42 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya' is present
+
+2023-07-24 20:29:42 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:42 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:42 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:29:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya' successfully
+
+2023-07-24 20:29:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Diminati' successfully
+
+2023-07-24 20:29:42 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:29:42 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Diminati'
+
+2023-07-24 20:29:42 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Diminati: Test Cases/secondhand-app/Pages/My Sell List/Diminati
+
+2023-07-24 20:29:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Diminati"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Diminati' is present
+
+2023-07-24 20:29:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Diminati'
+
+2023-07-24 20:29:43 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:43 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:44 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Diminati' is present
+
+2023-07-24 20:29:44 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Diminati"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Diminati'
+
+2023-07-24 20:29:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Diminati'
+
+2023-07-24 20:29:44 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:44 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Diminati'
+
+2023-07-24 20:29:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Diminati' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page" time="23.62" classname="Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page" status="PASSED">
+         <system-out><![CDATA[2023-07-24 20:29:45 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page: Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page
+
+2023-07-24 20:29:45 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:45 - [MESSAGE][INFO] - Starting app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:29:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Button Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun' successfully
+
+2023-07-24 20:29:56 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:29:56 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun'
+
+2023-07-24 20:29:56 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Button Akun: Test Cases/secondhand-app/Pages/My Sell List/Button Akun
+
+2023-07-24 20:29:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun' is present
+
+2023-07-24 20:29:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:56 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:56 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:29:59 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun' is present
+
+2023-07-24 20:29:59 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Akun"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:29:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:29:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:30:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Akun'
+
+2023-07-24 20:30:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Button Akun' successfully
+
+2023-07-24 20:30:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya' successfully
+
+2023-07-24 20:30:02 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:30:02 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya'
+
+2023-07-24 20:30:02 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya: Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya
+
+2023-07-24 20:30:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya' is present
+
+2023-07-24 20:30:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:30:02 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:30:02 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:30:03 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya' is present
+
+2023-07-24 20:30:03 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:30:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:30:03 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:30:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:30:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Daftar Jual Saya'
+
+2023-07-24 20:30:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya' successfully
+
+2023-07-24 20:30:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Sell List/Terjual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Terjual' successfully
+
+2023-07-24 20:30:04 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:30:04 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Terjual'
+
+2023-07-24 20:30:04 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Sell List/Terjual: Test Cases/secondhand-app/Pages/My Sell List/Terjual
+
+2023-07-24 20:30:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Terjual"), 2): Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Terjual' is present
+
+2023-07-24 20:30:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Terjual'
+
+2023-07-24 20:30:06 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:30:06 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:30:06 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Terjual' is present
+
+2023-07-24 20:30:06 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page My Sell List/android.widget.TextView - Terjual"), 2, STOP_ON_FAILURE): Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Terjual'
+
+2023-07-24 20:30:06 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Terjual'
+
+2023-07-24 20:30:06 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:30:06 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:30:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page My Sell List/android.widget.TextView - Terjual'
+
+2023-07-24 20:30:08 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-24 20:30:08 - [MESSAGE][PASSED] - Close app successfully
+
+2023-07-24 20:30:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Sell List/Terjual' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-24 20:28:54 - [TEST_SUITE][PASSED] - Feature My Sell List: Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

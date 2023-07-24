@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature My Sell List,,,,2023-07-24 20:28:54,2023-07-24 20:30:08,1m - 14.066s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL001 - user be able to successfully open to my sell list page,,,,2023-07-24 20:28:55,2023-07-24 20:29:22,27.037s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:28:55,2023-07-24 20:29:14,18.826s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Button Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:29:14,2023-07-24 20:29:20,5.989s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:29:20,2023-07-24 20:29:22,1.657s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL002 - user be able to successfully open to interested page,,,,2023-07-24 20:29:22,2023-07-24 20:29:45,22.942s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:29:22,2023-07-24 20:29:34,11.204s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Button Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:29:34,2023-07-24 20:29:41,7.003s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:29:41,2023-07-24 20:29:42,1.547s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Diminati""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:29:42,2023-07-24 20:29:45,2.625s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Sell List/MSL003 - user be able to successfully open to Sold page,,,,2023-07-24 20:29:45,2023-07-24 20:30:08,23.620s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:29:45,2023-07-24 20:29:56,10.707s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Button Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:29:56,2023-07-24 20:30:02,5.990s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Menu Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:30:02,2023-07-24 20:30:04,1.962s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Terjual""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:30:04,2023-07-24 20:30:08,4.406s,PASSED

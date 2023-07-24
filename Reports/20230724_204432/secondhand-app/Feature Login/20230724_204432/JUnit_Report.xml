@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Login" time="84.4" tests="3" failures="2" errors="0">
+   <testsuite name="Feature Login" tests="3" failures="2" errors="0" time="84.4" skipped="0" timestamp="2023-07-24 20:44:36" hostname="User - WINDOWS-5V2O60F" id="Test Suites/secondhand-app/Feature Login">
+      <properties>
+         <property name="deviceName" value="samsung SM-M315F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432"/>
+         <property name="logFiles" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432\\appium.log, C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432\\1690206336357.png, C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432\\1690206359065.png"/>
+         <property name="hostName" value="User - WINDOWS-5V2O60F"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-M315F"/>
+         <property name="hostAddress" value="192.168.50.93"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N3082NVW"/>
+         <property name="deviceName" value="samsung SM-M315F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential" time="38.614" classname="Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential" status="PASSED">
+         <system-out><![CDATA[2023-07-24 20:44:36 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential: Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential
+
+2023-07-24 20:44:37 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:44:37 - [MESSAGE][INFO] - Starting app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:44:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-24 20:44:39 - [MESSAGE][INFO] - Appium server started on port 52,179
+
+2023-07-24 20:44:55 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:44:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 20:44:55 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:44:55 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun'
+
+2023-07-24 20:44:55 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun: Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun
+
+2023-07-24 20:44:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 20:44:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:44:56 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:44:56 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:44:59 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 20:44:59 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:44:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:44:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:44:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 20:45:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Account/Tap Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' successfully
+
+2023-07-24 20:45:02 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:02 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk'
+
+2023-07-24 20:45:02 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Account/Tap Masuk: Test Cases/secondhand-app/Pages/My Account/Tap Masuk
+
+2023-07-24 20:45:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' is present
+
+2023-07-24 20:45:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:04 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:04 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:04 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' is present
+
+2023-07-24 20:45:04 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Tapped on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:04 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:04 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' successfully
+
+2023-07-24 20:45:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Input Email"), ["email":EmailAsiyah], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email' successfully
+
+2023-07-24 20:45:07 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:07 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email'
+
+2023-07-24 20:45:07 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Input Email: Test Cases/secondhand-app/Pages/User Login/Input Email
+
+2023-07-24 20:45:07 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan email"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email' text is cleared
+
+2023-07-24 20:45:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 20:45:07 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:07 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:08 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email' text is cleared
+
+2023-07-24 20:45:08 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan email"), email, 0): Text 'nurasiyah727@gmail.com' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 20:45:08 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 20:45:08 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:08 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 20:45:09 - [MESSAGE][PASSED] - Text 'nurasiyah727@gmail.com' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 20:45:09 - [TEST_STEP][PASSED] - takeScreenshot("", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 20:45:11 - [MESSAGE][WARNING] - 
+
+2023-07-24 20:45:11 - [MESSAGE][PASSED] - Screenshot is taken
+
+2023-07-24 20:45:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email' successfully
+
+2023-07-24 20:45:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Input Password"), ["password":PasswordAsiyah], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password' successfully
+
+2023-07-24 20:45:11 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:11 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password'
+
+2023-07-24 20:45:11 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Input Password: Test Cases/secondhand-app/Pages/User Login/Input Password
+
+2023-07-24 20:45:11 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan password"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password' text is cleared
+
+2023-07-24 20:45:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 20:45:11 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:11 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:12 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password' text is cleared
+
+2023-07-24 20:45:12 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan password"), password, 0): Text 'pass.123' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 20:45:12 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 20:45:12 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:12 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 20:45:13 - [MESSAGE][PASSED] - Text 'pass.123' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 20:45:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password' successfully
+
+2023-07-24 20:45:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Tap Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk' successfully
+
+2023-07-24 20:45:13 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:13 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk'
+
+2023-07-24 20:45:13 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Tap Masuk: Test Cases/secondhand-app/Pages/User Login/Tap Masuk
+
+2023-07-24 20:45:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Login/android.widget.Button - Masuk"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk' is present
+
+2023-07-24 20:45:14 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 20:45:14 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:14 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:14 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk' is present
+
+2023-07-24 20:45:14 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Login/android.widget.Button - Masuk"), 1): Tapped on element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 20:45:14 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 20:45:14 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:14 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 20:45:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email" time="22.637" classname="Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email" status="FAILED">
+         <failure type="FAILED" message="Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2023-07-24 20:45:15 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email: Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2023-07-24 20:45:16 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:45:16 - [MESSAGE][INFO] - Starting app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:45:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:45:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 20:45:25 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:25 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun'
+
+2023-07-24 20:45:26 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun: Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun
+
+2023-07-24 20:45:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 20:45:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:26 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:26 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:28 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 20:45:28 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:28 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:28 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 20:45:31 - [TEST_STEP][FAILED] - callTestCase(findTestCase("secondhand-app/Pages/My Account/Tap Masuk"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2023-07-24 20:45:31 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:31 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk'
+
+2023-07-24 20:45:31 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Pages/My Account/Tap Masuk: Test Cases/secondhand-app/Pages/My Account/Tap Masuk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+
+
+2023-07-24 20:45:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+
+2023-07-24 20:45:31 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:32 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:32 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:34 - [MESSAGE][WARNING] - Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+
+2023-07-24 20:45:34 - [TEST_STEP][FAILED] - tap(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Failed to tap on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+)
+
+2023-07-24 20:45:34 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:34 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:34 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:36 - [MESSAGE][FAILED] - Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+
+2023-07-24 20:45:37 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432\\1690206336357.png]]
+
+2023-07-24 20:45:37 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)]]></system-out>
+         <system-err><![CDATA[2023-07-24 20:45:15 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email: Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password" time="22.745" classname="Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2023-07-24 20:45:37 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password: Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2023-07-24 20:45:38 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:45:38 - [MESSAGE][INFO] - Starting app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:45:48 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 20:45:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 20:45:48 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:48 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun'
+
+2023-07-24 20:45:48 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun: Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun
+
+2023-07-24 20:45:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 20:45:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:48 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:48 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:51 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 20:45:51 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:51 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:51 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 20:45:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 20:45:54 - [TEST_STEP][FAILED] - callTestCase(findTestCase("secondhand-app/Pages/My Account/Tap Masuk"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2023-07-24 20:45:54 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 20:45:54 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk'
+
+2023-07-24 20:45:54 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Pages/My Account/Tap Masuk: Test Cases/secondhand-app/Pages/My Account/Tap Masuk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+
+
+2023-07-24 20:45:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+
+2023-07-24 20:45:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:54 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:54 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:56 - [MESSAGE][WARNING] - Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+
+2023-07-24 20:45:56 - [TEST_STEP][FAILED] - tap(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Failed to tap on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+)
+
+2023-07-24 20:45:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 20:45:56 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 20:45:56 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 20:45:59 - [MESSAGE][FAILED] - Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+
+2023-07-24 20:46:00 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\User\\SQA-Wave9-Kelompok2\\Reports\\20230724_204432\\secondhand-app\\Feature Login\\20230724_204432\\1690206359065.png]]
+
+2023-07-24 20:46:00 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)]]></system-out>
+         <system-err><![CDATA[2023-07-24 20:45:37 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password: Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL003 - user should be able to login with invalid password.run(PL003 - user should be able to login with invalid password:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-24 20:44:36 - [TEST_SUITE][FAILED] - Feature Login: Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-07-24 20:44:36 - [TEST_SUITE][FAILED] - Feature Login: Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PL002 - user should not be able to login using invalid email.run(PL002 - user should not be able to login using invalid email:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690206272551.run(TempTestSuite1690206272551.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Masuk.run(Tap Masuk:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Price Negotiation,Chrome 115.0.0.0,,,2023-07-24 21:11:49,2023-07-24 21:12:20,30.679s,ERROR
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Product Price Negotiation/PPN001 - user should be able successfully negotiate the price of the product,Chrome 115.0.0.0,,,2023-07-24 21:12:15,2023-07-24 21:12:20,4.843s,ERROR
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 21:12:15,2023-07-24 21:12:18,2.683s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 21:12:18,2023-07-24 21:12:18,0.922s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 21:12:18,2023-07-24 21:12:20,1.207s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":AsiyahEmailSellerEmailAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 21:12:20,2023-07-24 21:12:20,0.008s,ERROR

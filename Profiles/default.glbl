@@ -156,11 +156,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name></name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'asiyah77@gmail.com'</initValue>
       <name>InvalidEmailAsiyahApp</name>
    </GlobalVariableEntity>

@@ -21,7 +21,7 @@ WebUI.waitForElementVisible(findTestObject('secondhand-web/Homepage - Searching/
 
 WebUI.clearText(findTestObject('secondhand-web/Homepage - Searching/input_searching'))
 
-WebUI.setText(findTestObject('secondhand-web/Homepage - Searching/input_searching'), GlobalVariable.SearchMukena)
+WebUI.setText(findTestObject('secondhand-web/Homepage - Searching/input_searching'), GlobalVariable.AsiyahEmailSellerSearchMukena)
 
 WebUI.takeScreenshot()
 

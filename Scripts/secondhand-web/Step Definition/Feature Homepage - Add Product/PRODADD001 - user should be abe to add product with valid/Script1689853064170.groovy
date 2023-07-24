@@ -45,8 +45,8 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Sel
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Input Product Description'), [('product_desc') : 'Baju eiger buat para pendaki gunung'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Upload Product Images'), [('product_image') : findTestData('image').getValue(2, 1)], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Upload Product Images'), [('product_image') : findTestData(
+            'image').getValue(2, 1)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Homepage - Add Product/Click button add or terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 

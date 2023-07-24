@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature My Order,,,,2023-07-24 20:30:34,2023-07-24 20:31:00,25.810s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature My Order/MO001 - user be able to successfully open to My Order page,,,,2023-07-24 20:30:35,2023-07-24 20:31:00,25.417s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:30:35,2023-07-24 20:30:52,16.916s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Sell List/Button Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:30:52,2023-07-24 20:30:58,5.857s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Order/Pesanan Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:30:58,2023-07-24 20:31:00,2.110s,PASSED

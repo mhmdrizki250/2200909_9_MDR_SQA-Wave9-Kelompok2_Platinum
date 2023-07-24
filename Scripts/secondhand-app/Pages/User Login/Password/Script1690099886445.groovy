@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.clearText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password1'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password1'), GlobalVariable.PasswordAsiyah, 
+Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password1'), GlobalVariable.AsiyahEmailSellerPasswordAsiyah, 
     0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)

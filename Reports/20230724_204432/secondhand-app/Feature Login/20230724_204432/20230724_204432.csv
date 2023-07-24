@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,,,,2023-07-24 20:44:36,2023-07-24 20:46:00,1m - 24.400s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential,,,,2023-07-24 20:44:36,2023-07-24 20:45:15,38.614s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:44:37,2023-07-24 20:44:55,18.200s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:44:55,2023-07-24 20:45:02,7.015s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:45:02,2023-07-24 20:45:04,2.492s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email""), [""email"":EmailAsiyah], STOP_ON_FAILURE)",,,,2023-07-24 20:45:04,2023-07-24 20:45:11,6.419s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",,,,2023-07-24 20:45:11,2023-07-24 20:45:13,2.503s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:45:13,2023-07-24 20:45:15,1.414s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email,,,,2023-07-24 20:45:15,2023-07-24 20:45:37,22.637s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:45:16,2023-07-24 20:45:25,9.922s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:45:25,2023-07-24 20:45:31,5.827s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:45:31,2023-07-24 20:45:37,6.075s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password,,,,2023-07-24 20:45:37,2023-07-24 20:46:00,22.745s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 20:45:38,2023-07-24 20:45:48,9.751s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:45:48,2023-07-24 20:45:54,6.266s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 20:45:54,2023-07-24 20:46:00,6.222s,FAILED

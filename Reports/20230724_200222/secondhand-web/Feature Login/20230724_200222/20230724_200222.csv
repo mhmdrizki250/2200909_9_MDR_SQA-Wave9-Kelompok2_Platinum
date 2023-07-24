@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,Chrome 115.0.0.0,,,2023-07-24 20:02:26,2023-07-24 20:03:18,51.796s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0001 - user should be able to login using valid credential,Chrome 115.0.0.0,,,2023-07-24 20:02:26,2023-07-24 20:02:47,20.934s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:27,2023-07-24 20:02:32,4.676s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:32,2023-07-24 20:02:34,2.581s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:34,2023-07-24 20:02:36,1.864s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":EmailAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:36,2023-07-24 20:02:40,3.711s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:40,2023-07-24 20:02:43,3.104s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:43,2023-07-24 20:02:45,1.822s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:45,2023-07-24 20:02:47,2.602s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0002 - user should not be able to login using invalid email,Chrome 115.0.0.0,,,2023-07-24 20:02:47,2023-07-24 20:03:02,14.614s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:48,2023-07-24 20:02:50,1.805s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:50,2023-07-24 20:02:51,0.900s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:51,2023-07-24 20:02:52,1.015s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":InvalidEmailAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:52,2023-07-24 20:02:55,2.767s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:55,2023-07-24 20:02:57,2.738s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:57,2023-07-24 20:02:58,1.038s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Error Message""), [""expected"":""Invalid Email or password.""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:02:58,2023-07-24 20:03:01,2.194s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:01,2023-07-24 20:03:02,1.471s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Login/LG0003 - user should not be able to login using invalid password,Chrome 115.0.0.0,,,2023-07-24 20:03:02,2023-07-24 20:03:18,15.692s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:03,2023-07-24 20:03:07,3.173s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:07,2023-07-24 20:03:08,1.002s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:08,2023-07-24 20:03:09,0.993s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":EmailAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:09,2023-07-24 20:03:12,2.932s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":InvalidPasswordAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:12,2023-07-24 20:03:14,2.504s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:14,2023-07-24 20:03:15,1.072s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Error Message""), [""expected"":""Invalid Email or password.""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:15,2023-07-24 20:03:16,1.344s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:03:16,2023-07-24 20:03:18,1.293s,PASSED

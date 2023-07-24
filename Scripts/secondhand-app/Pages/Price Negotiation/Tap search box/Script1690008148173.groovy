@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('secondhand-app/Price Negotiation/android.widget.EditT
 
 Mobile.clearText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 1)
 
-WebUI.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), GlobalVariable.Keyword)
+WebUI.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), GlobalVariable.AsiyahEmailSellerKeyword)
 
 Mobile.waitForElementPresent(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Search box'), 10)
 

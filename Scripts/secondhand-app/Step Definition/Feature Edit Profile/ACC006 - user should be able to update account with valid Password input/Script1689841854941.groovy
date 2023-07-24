@@ -23,8 +23,8 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Tap button edit in account page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Edit Password'), [('new_password') : GlobalVariable.pwdOktaSeller
-        , ('old_password') : GlobalVariable.passwordEditOkta], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Profile/Edit Password'), [('new_password') : GlobalVariable.AsiyahEmailSellerpwdOktaSeller
+        , ('old_password') : GlobalVariable.AsiyahEmailSellerpasswordEditOkta], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

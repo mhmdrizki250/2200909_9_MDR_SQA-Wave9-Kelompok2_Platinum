@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - input keyword'), GlobalVariable.Keyword, 
+Mobile.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - input keyword'), GlobalVariable.AsiyahEmailSellerKeyword, 
     0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)

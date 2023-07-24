@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Notification,Chrome 115.0.0.0,,,2023-07-24 20:04:38,2023-07-24 20:05:31,52.829s,ERROR
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message,Chrome 115.0.0.0,,,2023-07-24 20:04:39,2023-07-24 20:05:11,32.761s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:04:39,2023-07-24 20:04:44,4.591s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:04:44,2023-07-24 20:04:49,4.870s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:04:49,2023-07-24 20:04:51,2.103s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":EmailAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:04:51,2023-07-24 20:04:55,4.040s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":PasswordAsiyah], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:04:55,2023-07-24 20:04:58,3.240s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:04:58,2023-07-24 20:05:00,1.598s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Notification Icon""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:00,2023-07-24 20:05:06,5.756s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Notification Message""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:06,2023-07-24 20:05:08,2.389s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Notification/Detail Notification""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:08,2023-07-24 20:05:09,1.334s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:09,2023-07-24 20:05:11,2.166s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation,Chrome 115.0.0.0,,,2023-07-24 20:05:26,2023-07-24 20:05:31,5.151s,ERROR
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:26,2023-07-24 20:05:29,3.163s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:29,2023-07-24 20:05:30,0.841s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:30,2023-07-24 20:05:31,1.124s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":AsiyahEmailSeller], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 20:05:31,2023-07-24 20:05:31,0.010s,ERROR
