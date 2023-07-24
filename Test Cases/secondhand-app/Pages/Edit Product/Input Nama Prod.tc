@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tap Foto Produk</name>
+   <name>Input Nama Prod</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>89d79670-1de1-4220-8071-6ed7dd4f3737</testCaseGuid>
+   <testCaseGuid>c1efbdd2-662c-467c-8b40-f4b6278f7944</testCaseGuid>
 </TestCaseEntity>

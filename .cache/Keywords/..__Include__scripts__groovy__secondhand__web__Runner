@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "D1981C45025C632D329B87906C6350FC",
+  "keywordFileContentHash": "6673B7CCD23C0BD1E3F4B24AA9927B02",
   "keywordClasses": [
     {
       "name": "secondhand.web.Runner",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

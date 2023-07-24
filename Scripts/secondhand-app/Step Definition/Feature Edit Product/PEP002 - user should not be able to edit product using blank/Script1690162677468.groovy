@@ -35,17 +35,17 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/Detail Product/Tap Product
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Choose Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Nama Prod'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Nama Prod - Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Harga Prod'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Harga Prod - Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Select Kategori'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Select Kategori - Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Lokasi Prod'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Lokasi Prod - Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Deskripsi Prod'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Input Deskripsi Prod - Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Tap Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Tap Foto Produk - Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Tap Button Perbarui Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 

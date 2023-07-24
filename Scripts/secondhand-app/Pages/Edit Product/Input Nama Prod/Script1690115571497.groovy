@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.waitForElementPresent(findTestObject('null'), 
-    2)
+Mobile.clearText(findTestObject('secondhand-app/Page Edit Product/Nama'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.clearText(findTestObject('secondhand-app/Page Edit Product/Edit Nama'), 0)
+
+Mobile.setText(findTestObject('secondhand-app/Page Edit Product/Edit Nama'), 'Tahu Bulat', 0)
+
+Mobile.takeScreenshot('screenshot', FailureHandling.STOP_ON_FAILURE)
 
