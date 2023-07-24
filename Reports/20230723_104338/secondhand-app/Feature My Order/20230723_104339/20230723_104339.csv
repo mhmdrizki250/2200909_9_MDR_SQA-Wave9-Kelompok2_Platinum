@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Feature My Order,,,,2023-07-23 10:43:42,2023-07-23 10:43:44,1.200s,FAILED
-,,,,,,,
-Test Cases/secondhand-app/Step Definition/Feature My Order/MO001 - user be able to successfully open to My Order page,,,,2023-07-23 10:43:43,2023-07-23 10:43:44,0.831s,FAILED
-"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-23 10:43:43,2023-07-23 10:43:44,0.353s,FAILED
