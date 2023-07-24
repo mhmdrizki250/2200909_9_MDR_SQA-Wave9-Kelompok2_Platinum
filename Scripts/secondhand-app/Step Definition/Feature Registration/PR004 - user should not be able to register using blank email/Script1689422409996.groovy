@@ -27,11 +27,9 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Daftar'), [
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nama'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailRizkiAppBlank], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Email - Rizki Blank'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Password'), [('password') : GlobalVariable.passwordRizkiApp], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Password - Rizki Valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Nomor HP'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -40,4 +38,7 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Ko
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Input Alamat'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Tap Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Registration/Read Error Messages - Blank Email'), [('expected') : 'Email tidak boleh kosong'], 
+    FailureHandling.STOP_ON_FAILURE)
 

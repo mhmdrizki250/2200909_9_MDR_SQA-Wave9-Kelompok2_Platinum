@@ -19,14 +19,15 @@
 @login @sign_In
 Feature: Login
 
-  @positive
+  @Positive
   Scenario: LG0001 - user should be able to login with using valid credential
-    Given launch the web browser
-    When navigates to "https://secondhand.binaracademy.org/"
-    And clicks on the "Masuk" button
-    And User inputs email "nurasiyah727@gmail.com"
-    And User inputs password "pass.123"
-    And User clicks the "Masuk" button
-    Then User should be logged in successfully
-    And User closes the web browser
-  	
+	Given user launch browser and navigate to url "https://secondhand.binaracademy.org/"
+	When click masuk
+	When input email with "nurasiyah727@gmail.com"
+	And input password with "pass.123"
+	Then click button masuk2
+	And close web 
+	
+	
+	
+	

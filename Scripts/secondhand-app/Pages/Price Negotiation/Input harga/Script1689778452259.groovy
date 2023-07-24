@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.clearText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - 20000'), 1)
+Mobile.clearText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Input Harga'), 1)
 
-Mobile.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - 20000'), '20000', 0)
+Mobile.setText(findTestObject('secondhand-app/Price Negotiation/android.widget.EditText - Input Harga'), '20000', 0)
 

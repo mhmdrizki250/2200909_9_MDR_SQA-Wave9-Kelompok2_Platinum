@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Add Product" time="137.345" tests="2" failures="1" errors="0">
+   <testsuite name="Feature Add Product" tests="2" failures="1" errors="0" time="137.345" skipped="0" timestamp="2023-07-24 11:53:36" hostname="mhmdr - LAPTOP-A3L3V09Q" id="Test Suites/secondhand-app/Feature Add Product">
+      <properties>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334"/>
+         <property name="logFiles" value="C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\appium.log, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot, C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\1690174553156.png"/>
+         <property name="hostName" value="mhmdr - LAPTOP-A3L3V09Q"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-A725F"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R30DEY9E"/>
+         <property name="deviceName" value="samsung SM-A725F (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP001 - user should be able to add product" time="90.019" classname="Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP001 - user should be able to add product" status="PASSED">
+         <system-out><![CDATA[2023-07-24 11:53:36 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP001 - user should be able to add product: Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP001 - user should be able to add product
+
+2023-07-24 11:53:36 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 11:53:36 - [MESSAGE][INFO] - Starting app at: 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 11:53:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-24 11:53:38 - [MESSAGE][INFO] - Appium server started on port 57,051
+
+2023-07-24 11:53:49 - [MESSAGE][PASSED] - Started app at: 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 11:53:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 11:53:49 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:53:49 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun'
+
+2023-07-24 11:53:49 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun: Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun
+
+2023-07-24 11:53:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 11:53:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:53:50 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:53:50 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:53:52 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 11:53:52 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:53:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:53:52 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:53:52 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:53:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:53:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 11:53:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Account/Tap Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' successfully
+
+2023-07-24 11:53:56 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:53:56 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk'
+
+2023-07-24 11:53:56 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Account/Tap Masuk: Test Cases/secondhand-app/Pages/My Account/Tap Masuk
+
+2023-07-24 11:53:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' is present
+
+2023-07-24 11:53:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:53:57 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:53:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:53:57 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' is present
+
+2023-07-24 11:53:57 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Tapped on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:53:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:53:57 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:53:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:53:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:53:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' successfully
+
+2023-07-24 11:53:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Input Email - Rizki Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid' successfully
+
+2023-07-24 11:53:58 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:53:58 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid'
+
+2023-07-24 11:53:58 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid: Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid
+
+2023-07-24 11:53:58 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan email"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email' text is cleared
+
+2023-07-24 11:53:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:53:58 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:53:58 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:53:59 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email' text is cleared
+
+2023-07-24 11:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan email"), "mhmdrizki250@gmail.com", 0): Text 'mhmdrizki250@gmail.com' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:53:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:53:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:53:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:53:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:02 - [MESSAGE][PASSED] - Text 'mhmdrizki250@gmail.com' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:54:02 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid' successfully
+
+2023-07-24 11:54:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Input Password - Rizki Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid' successfully
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid'
+
+2023-07-24 11:54:03 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid: Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid
+
+2023-07-24 11:54:03 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan password"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password' text is cleared
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:03 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password' text is cleared
+
+2023-07-24 11:54:03 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan password"), "Kiki12345", 0): Text 'Kiki12345' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:03 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:05 - [MESSAGE][PASSED] - Text 'Kiki12345' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:54:05 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid' successfully
+
+2023-07-24 11:54:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Tap Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk' successfully
+
+2023-07-24 11:54:06 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:06 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk'
+
+2023-07-24 11:54:06 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Tap Masuk: Test Cases/secondhand-app/Pages/User Login/Tap Masuk
+
+2023-07-24 11:54:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Login/android.widget.Button - Masuk"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk' is present
+
+2023-07-24 11:54:06 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:54:06 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:06 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:07 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk' is present
+
+2023-07-24 11:54:07 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Login/android.widget.Button - Masuk"), 1): Tapped on element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:54:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:54:07 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:07 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:54:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk' successfully
+
+2023-07-24 11:54:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Add Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product' successfully
+
+2023-07-24 11:54:07 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:07 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product'
+
+2023-07-24 11:54:07 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product: Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product
+
+2023-07-24 11:54:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.ImageButton - Add Product"), 1): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product' is present
+
+2023-07-24 11:54:08 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:54:08 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:08 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:10 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product' is present
+
+2023-07-24 11:54:10 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.ImageButton - Add Product"), 1): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:54:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:54:10 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:10 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:54:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product' successfully
+
+2023-07-24 11:54:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Nama Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk' successfully
+
+2023-07-24 11:54:11 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:11 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk'
+
+2023-07-24 11:54:11 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk: Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk
+
+2023-07-24 11:54:11 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Nama Produk"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk' text is cleared
+
+2023-07-24 11:54:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'
+
+2023-07-24 11:54:12 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:12 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:12 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk' text is cleared
+
+2023-07-24 11:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Nama Produk"), "Batagor", 0): Text 'Batagor' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'
+
+2023-07-24 11:54:12 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'
+
+2023-07-24 11:54:12 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:12 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:14 - [MESSAGE][PASSED] - Text 'Batagor' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'
+
+2023-07-24 11:54:14 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk' successfully
+
+2023-07-24 11:54:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Harga Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk' successfully
+
+2023-07-24 11:54:15 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:15 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk'
+
+2023-07-24 11:54:15 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk: Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk
+
+2023-07-24 11:54:15 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00' text is cleared
+
+2023-07-24 11:54:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'
+
+2023-07-24 11:54:15 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:15 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:16 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00' text is cleared
+
+2023-07-24 11:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00"), "400000", 0): Text '400000' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'
+
+2023-07-24 11:54:16 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'
+
+2023-07-24 11:54:16 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:16 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:17 - [MESSAGE][PASSED] - Text '400000' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'
+
+2023-07-24 11:54:17 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk' successfully
+
+2023-07-24 11:54:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Select Kategori"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Select Kategori' successfully
+
+2023-07-24 11:54:18 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:18 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Select Kategori'
+
+2023-07-24 11:54:18 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Select Kategori: Test Cases/secondhand-app/Pages/Add Product/Select Kategori
+
+2023-07-24 11:54:18 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori"), 0): Tapped on element 'Object Repository/secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'
+
+2023-07-24 11:54:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'
+
+2023-07-24 11:54:18 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:18 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Add Product/android.widget.Spinner - Pilih Kategori'
+
+2023-07-24 11:54:19 - [TEST_STEP][PASSED] - tapAtPosition(500, 1060): Tapped at [500, 1,060]
+
+2023-07-24 11:54:19 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:19 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:20 - [MESSAGE][PASSED] - Tapped at [500, 1,060]
+
+2023-07-24 11:54:20 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Select Kategori' successfully
+
+2023-07-24 11:54:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Lokasi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Lokasi' successfully
+
+2023-07-24 11:54:20 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:20 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Lokasi'
+
+2023-07-24 11:54:20 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Lokasi: Test Cases/secondhand-app/Pages/Add Product/Input Lokasi
+
+2023-07-24 11:54:21 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk' text is cleared
+
+2023-07-24 11:54:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'
+
+2023-07-24 11:54:21 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:21 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:21 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk' text is cleared
+
+2023-07-24 11:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk"), "Tanjung Selor, KalTara", 0): Text 'Tanjung Selor, KalTara' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'
+
+2023-07-24 11:54:21 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'
+
+2023-07-24 11:54:22 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:22 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:24 - [MESSAGE][PASSED] - Text 'Tanjung Selor, KalTara' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'
+
+2023-07-24 11:54:24 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Lokasi' successfully
+
+2023-07-24 11:54:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Deskripsi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi' successfully
+
+2023-07-24 11:54:25 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:25 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi'
+
+2023-07-24 11:54:25 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi: Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi
+
+2023-07-24 11:54:25 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap' text is cleared
+
+2023-07-24 11:54:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap'
+
+2023-07-24 11:54:25 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:25 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:26 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap' text is cleared
+
+2023-07-24 11:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap"), "Barang ini baru, bisa bikin ganteng 99%", 0): Text 'Barang ini baru, bisa bikin ganteng 99%' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap'
+
+2023-07-24 11:54:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap'
+
+2023-07-24 11:54:26 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:26 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:27 - [MESSAGE][PASSED] - Text 'Barang ini baru, bisa bikin ganteng 99%' has been set to element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap'
+
+2023-07-24 11:54:27 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:54:28 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:54:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi' successfully
+
+2023-07-24 11:54:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Tap Foto Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk' successfully
+
+2023-07-24 11:54:28 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:28 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk'
+
+2023-07-24 11:54:28 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk: Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk
+
+2023-07-24 11:54:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-web/Add Product/upload image"), 0): Element 'Object Repository/secondhand-web/Add Product/upload image' is present
+
+2023-07-24 11:54:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-web/Add Product/upload image'
+
+2023-07-24 11:54:28 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:28 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:54:29 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-web/Add Product/upload image' is present
+
+2023-07-24 11:54:29 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(181, 2005, 3): Tapped and held at [181, 2,005] with duration 3
+
+2023-07-24 11:54:29 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:29 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:29 - [MESSAGE][INFO] - Checking duration
+
+2023-07-24 11:54:33 - [MESSAGE][PASSED] - Tapped and held at [181, 2,005] with duration 3
+
+2023-07-24 11:54:33 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(159, 2053, 3): Tapped and held at [159, 2,053] with duration 3
+
+2023-07-24 11:54:33 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:33 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:33 - [MESSAGE][INFO] - Checking duration
+
+2023-07-24 11:54:38 - [MESSAGE][PASSED] - Tapped and held at [159, 2,053] with duration 3
+
+2023-07-24 11:54:38 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(540, 2027, 3): Tapped and held at [540, 2,027] with duration 3
+
+2023-07-24 11:54:38 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:38 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:38 - [MESSAGE][INFO] - Checking duration
+
+2023-07-24 11:54:43 - [MESSAGE][PASSED] - Tapped and held at [540, 2,027] with duration 3
+
+2023-07-24 11:54:43 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(540, 2027, 3): Tapped and held at [540, 2,027] with duration 3
+
+2023-07-24 11:54:43 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:43 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:43 - [MESSAGE][INFO] - Checking duration
+
+2023-07-24 11:54:48 - [MESSAGE][PASSED] - Tapped and held at [540, 2,027] with duration 3
+
+2023-07-24 11:54:48 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(773, 2175, 3): Tapped and held at [773, 2,175] with duration 3
+
+2023-07-24 11:54:48 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:48 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:48 - [MESSAGE][INFO] - Checking duration
+
+2023-07-24 11:54:52 - [MESSAGE][PASSED] - Tapped and held at [773, 2,175] with duration 3
+
+2023-07-24 11:54:52 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(773, 2175, 3): Tapped and held at [773, 2,175] with duration 3
+
+2023-07-24 11:54:52 - [MESSAGE][INFO] - Checking x position
+
+2023-07-24 11:54:52 - [MESSAGE][INFO] - Checking y position
+
+2023-07-24 11:54:52 - [MESSAGE][INFO] - Checking duration
+
+2023-07-24 11:54:57 - [MESSAGE][PASSED] - Tapped and held at [773, 2,175] with duration 3
+
+2023-07-24 11:54:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Add Product/android.widget.Button - Terbitkan"), 5): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan' is present
+
+2023-07-24 11:54:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:54:57 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:57 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:58 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan' is present
+
+2023-07-24 11:54:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk' successfully
+
+2023-07-24 11:54:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Tap Button Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan' successfully
+
+2023-07-24 11:54:58 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:54:58 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan'
+
+2023-07-24 11:54:58 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan: Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan
+
+2023-07-24 11:54:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Add Product/android.widget.Button - Terbitkan"), 2): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan' is present
+
+2023-07-24 11:54:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:54:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:59 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan' is present
+
+2023-07-24 11:54:59 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Add Product/android.widget.Button - Terbitkan"), 0): Tapped on element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:54:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:54:59 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:54:59 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:54:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:55:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:55:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan' successfully
+
+2023-07-24 11:55:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Detail Product/Tap Button Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Detail Product/Tap Button Back' successfully
+
+2023-07-24 11:55:01 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:01 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Detail Product/Tap Button Back'
+
+2023-07-24 11:55:01 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Detail Product/Tap Button Back: Test Cases/secondhand-app/Pages/Detail Product/Tap Button Back
+
+2023-07-24 11:55:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Daftar Jual Saya/Button Back"), 5): Element 'Object Repository/secondhand-app/Page Daftar Jual Saya/Button Back' is present
+
+2023-07-24 11:55:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Daftar Jual Saya/Button Back'
+
+2023-07-24 11:55:01 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:01 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:02 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Daftar Jual Saya/Button Back' is present
+
+2023-07-24 11:55:02 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Daftar Jual Saya/Button Back"), 0): Tapped on element 'Object Repository/secondhand-app/Page Daftar Jual Saya/Button Back'
+
+2023-07-24 11:55:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Daftar Jual Saya/Button Back'
+
+2023-07-24 11:55:02 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:02 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:55:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Daftar Jual Saya/Button Back'
+
+2023-07-24 11:55:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Detail Product/Tap Button Back' successfully
+
+2023-07-24 11:55:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Logout/Button Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Logout/Button Logout' successfully
+
+2023-07-24 11:55:03 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:03 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Logout/Button Logout'
+
+2023-07-24 11:55:03 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Logout/Button Logout: Test Cases/secondhand-app/Pages/User Logout/Button Logout
+
+2023-07-24 11:55:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Logout/button logout"), 2): Element 'Object Repository/secondhand-app/Page Logout/button logout' is present
+
+2023-07-24 11:55:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Logout/button logout'
+
+2023-07-24 11:55:04 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:04 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:05 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Logout/button logout' is present
+
+2023-07-24 11:55:05 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Logout/button logout"), 0): Tapped on element 'Object Repository/secondhand-app/Page Logout/button logout'
+
+2023-07-24 11:55:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Logout/button logout'
+
+2023-07-24 11:55:05 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:05 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:55:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Logout/button logout'
+
+2023-07-24 11:55:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Logout/Button Logout' successfully
+
+2023-07-24 11:55:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-24 11:55:06 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input" time="47.144" classname="Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input" status="FAILED">
+         <failure type="FAILED" message="Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2023-07-24 11:55:06 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input: Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2023-07-24 11:55:06 - [TEST_STEP][PASSED] - startApplication("androidapp/app-release-second-hand-gcp.apk", false): Started app at: 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 11:55:06 - [MESSAGE][INFO] - Starting app at: 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 11:55:06 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-24 11:55:08 - [MESSAGE][INFO] - Appium server started on port 57,292
+
+2023-07-24 11:55:18 - [MESSAGE][PASSED] - Started app at: 'C:\Users\mhmdr\Desktop\SQA-Wave9-Kelompok2\androidapp\app-release-second-hand-gcp.apk'
+
+2023-07-24 11:55:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 11:55:18 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:18 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun'
+
+2023-07-24 11:55:18 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun: Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun
+
+2023-07-24 11:55:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 11:55:18 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:55:18 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:18 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:22 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' is present
+
+2023-07-24 11:55:22 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:55:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:55:22 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:22 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:55:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' successfully
+
+2023-07-24 11:55:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/My Account/Tap Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' successfully
+
+2023-07-24 11:55:26 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:26 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk'
+
+2023-07-24 11:55:26 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/My Account/Tap Masuk: Test Cases/secondhand-app/Pages/My Account/Tap Masuk
+
+2023-07-24 11:55:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' is present
+
+2023-07-24 11:55:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:55:26 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:26 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:27 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk' is present
+
+2023-07-24 11:55:27 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Account/android.widget.Button - Masuk"), 2): Tapped on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Account/android.widget.Button - Masuk'
+
+2023-07-24 11:55:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/My Account/Tap Masuk' successfully
+
+2023-07-24 11:55:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Input Email - Rizki Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid' successfully
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid'
+
+2023-07-24 11:55:27 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid: Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid
+
+2023-07-24 11:55:27 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan email"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email' text is cleared
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:27 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:29 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email' text is cleared
+
+2023-07-24 11:55:29 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan email"), "mhmdrizki250@gmail.com", 0): Text 'mhmdrizki250@gmail.com' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:55:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:55:29 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:29 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:55:31 - [MESSAGE][PASSED] - Text 'mhmdrizki250@gmail.com' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan email'
+
+2023-07-24 11:55:31 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Email - Rizki Valid' successfully
+
+2023-07-24 11:55:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Input Password - Rizki Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid' successfully
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid'
+
+2023-07-24 11:55:32 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid: Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid
+
+2023-07-24 11:55:32 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan password"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password' text is cleared
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:32 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password' text is cleared
+
+2023-07-24 11:55:32 - [TEST_STEP][PASSED] - setText(findTestObject("secondhand-app/Page Login/android.widget.EditText - Masukkan password"), "Kiki12345", 0): Text 'Kiki12345' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:32 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:55:35 - [MESSAGE][PASSED] - Text 'Kiki12345' has been set to element 'Object Repository/secondhand-app/Page Login/android.widget.EditText - Masukkan password'
+
+2023-07-24 11:55:35 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:36 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Input Password - Rizki Valid' successfully
+
+2023-07-24 11:55:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/User Login/Tap Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk' successfully
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk'
+
+2023-07-24 11:55:36 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/User Login/Tap Masuk: Test Cases/secondhand-app/Pages/User Login/Tap Masuk
+
+2023-07-24 11:55:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Login/android.widget.Button - Masuk"), 1): Element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk' is present
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:36 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk' is present
+
+2023-07-24 11:55:36 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Login/android.widget.Button - Masuk"), 1): Tapped on element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:36 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Login/android.widget.Button - Masuk'
+
+2023-07-24 11:55:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/User Login/Tap Masuk' successfully
+
+2023-07-24 11:55:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Add Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product' successfully
+
+2023-07-24 11:55:38 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:38 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product'
+
+2023-07-24 11:55:38 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product: Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product
+
+2023-07-24 11:55:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.ImageButton - Add Product"), 1): Element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product' is present
+
+2023-07-24 11:55:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:55:38 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:38 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:39 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product' is present
+
+2023-07-24 11:55:39 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.ImageButton - Add Product"), 1): Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:55:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:55:39 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:39 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/MenuBar App/android.widget.ImageButton - Add Product'
+
+2023-07-24 11:55:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Add Product' successfully
+
+2023-07-24 11:55:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Nama Produk - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk - Blank' successfully
+
+2023-07-24 11:55:40 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:40 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk - Blank'
+
+2023-07-24 11:55:40 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk - Blank: Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk - Blank
+
+2023-07-24 11:55:40 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Nama Produk"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk' text is cleared
+
+2023-07-24 11:55:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk'
+
+2023-07-24 11:55:40 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:40 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:41 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Nama Produk' text is cleared
+
+2023-07-24 11:55:41 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Nama Produk - Blank' successfully
+
+2023-07-24 11:55:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Harga Produk - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk - Blank' successfully
+
+2023-07-24 11:55:42 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:42 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk - Blank'
+
+2023-07-24 11:55:42 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk - Blank: Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk - Blank
+
+2023-07-24 11:55:42 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00' text is cleared
+
+2023-07-24 11:55:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00'
+
+2023-07-24 11:55:42 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:42 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:43 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Rp 0,00' text is cleared
+
+2023-07-24 11:55:43 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Harga Produk - Blank' successfully
+
+2023-07-24 11:55:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Select Kategori - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Select Kategori - Blank' successfully
+
+2023-07-24 11:55:43 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:43 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Select Kategori - Blank'
+
+2023-07-24 11:55:43 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Select Kategori - Blank: Test Cases/secondhand-app/Pages/Add Product/Select Kategori - Blank
+
+2023-07-24 11:55:43 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Select Kategori - Blank' successfully
+
+2023-07-24 11:55:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Lokasi - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Lokasi - Blank' successfully
+
+2023-07-24 11:55:44 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:44 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Lokasi - Blank'
+
+2023-07-24 11:55:44 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Lokasi - Blank: Test Cases/secondhand-app/Pages/Add Product/Input Lokasi - Blank
+
+2023-07-24 11:55:44 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk' text is cleared
+
+2023-07-24 11:55:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk'
+
+2023-07-24 11:55:44 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:44 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:45 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Lokasi Produk' text is cleared
+
+2023-07-24 11:55:45 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Lokasi - Blank' successfully
+
+2023-07-24 11:55:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Input Deskripsi - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi - Blank' successfully
+
+2023-07-24 11:55:45 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:45 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi - Blank'
+
+2023-07-24 11:55:45 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi - Blank: Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi - Blank
+
+2023-07-24 11:55:46 - [TEST_STEP][PASSED] - clearText(findTestObject("secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap"), 1): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap' text is cleared
+
+2023-07-24 11:55:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap'
+
+2023-07-24 11:55:46 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:46 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:46 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.EditText - Contoh Barang bagus mantap' text is cleared
+
+2023-07-24 11:55:46 - [TEST_STEP][PASSED] - takeScreenshot("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2023-07-24 11:55:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\screenshot]]
+
+2023-07-24 11:55:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Input Deskripsi - Blank' successfully
+
+2023-07-24 11:55:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Tap Foto Produk - Blank"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk - Blank' successfully
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk - Blank'
+
+2023-07-24 11:55:47 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk - Blank: Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk - Blank
+
+2023-07-24 11:55:47 - [TEST_STEP][PASSED] - return null: null
+
+2023-07-24 11:55:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Foto Produk - Blank' successfully
+
+2023-07-24 11:55:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("secondhand-app/Pages/Add Product/Tap Button Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan' successfully
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan'
+
+2023-07-24 11:55:47 - [TEST_CASE][PASSED] - Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan: Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan
+
+2023-07-24 11:55:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/Page Add Product/android.widget.Button - Terbitkan"), 2): Element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan' is present
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:47 - [MESSAGE][PASSED] - Element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan' is present
+
+2023-07-24 11:55:47 - [TEST_STEP][PASSED] - tap(findTestObject("secondhand-app/Page Add Product/android.widget.Button - Terbitkan"), 0): Tapped on element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:47 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-24 11:55:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/secondhand-app/Page Add Product/android.widget.Button - Terbitkan'
+
+2023-07-24 11:55:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/secondhand-app/Pages/Add Product/Tap Button Terbitkan' successfully
+
+2023-07-24 11:55:48 - [TEST_STEP][FAILED] - callTestCase(findTestCase("secondhand-app/Pages/MenuBar App/Tap Akun"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2023-07-24 11:55:48 - [MESSAGE][INFO] - Checking called Test Case
+
+2023-07-24 11:55:48 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun'
+
+2023-07-24 11:55:48 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun: Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+
+
+2023-07-24 11:55:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+
+2023-07-24 11:55:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:55:48 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:48 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:51 - [MESSAGE][WARNING] - Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+
+2023-07-24 11:55:51 - [TEST_STEP][FAILED] - tap(findTestObject("secondhand-app/MenuBar App/android.widget.TextView - Akun"), 2): Failed to tap on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+)
+
+2023-07-24 11:55:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun'
+
+2023-07-24 11:55:51 - [MESSAGE][INFO] - Checking object
+
+2023-07-24 11:55:51 - [MESSAGE][INFO] - Checking timeout
+
+2023-07-24 11:55:53 - [MESSAGE][FAILED] - Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+
+2023-07-24 11:55:53 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\mhmdr\\Desktop\\SQA-Wave9-Kelompok2\\Reports\\20230724_115334\\secondhand-app\\Feature Add Product\\20230724_115334\\1690174553156.png]]
+
+2023-07-24 11:55:53 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)]]></system-out>
+         <system-err><![CDATA[2023-07-24 11:55:06 - [TEST_CASE][FAILED] - Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input: Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-24 11:53:36 - [TEST_SUITE][FAILED] - Feature Add Product: Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-07-24 11:53:36 - [TEST_SUITE][FAILED] - Feature Add Product: Test Cases/secondhand-app/Step Definition/Feature Add Product/PAP002 - user should not be able to add product using blank input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/secondhand-app/Pages/MenuBar App/Tap Akun' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at PAP002 - user should not be able to add product using blank input.run(PAP002 - user should not be able to add product using blank input:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690174414680.run(TempTestSuite1690174414680.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/secondhand-app/MenuBar App/android.widget.TextView - Akun not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Tap Akun.run(Tap Akun:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

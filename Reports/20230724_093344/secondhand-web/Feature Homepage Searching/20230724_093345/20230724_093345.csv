@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Homepage Searching,Chrome 115.0.0.0,,,2023-07-24 09:33:47,2023-07-24 09:34:16,29.200s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA001 - user should be able to search product,Chrome 115.0.0.0,,,2023-07-24 09:33:47,2023-07-24 09:34:03,15.370s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:48,2023-07-24 09:33:50,2.711s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:50,2023-07-24 09:33:52,1.713s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:52,2023-07-24 09:33:53,0.994s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:53,2023-07-24 09:33:55,2.220s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:55,2023-07-24 09:33:57,2.058s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:57,2023-07-24 09:33:58,0.891s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Searching/Input Search - Enter""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:33:58,2023-07-24 09:34:02,3.664s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:02,2023-07-24 09:34:03,0.859s,PASSED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Homepage - Searching/PROSEA002 - user should not be able search product with blank input,Chrome 115.0.0.0,,,2023-07-24 09:34:03,2023-07-24 09:34:16,13.626s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:03,2023-07-24 09:34:04,1.657s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Navigate To Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:04,2023-07-24 09:34:05,0.740s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Click Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:05,2023-07-24 09:34:06,0.767s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Email""), [""email"":emailRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:06,2023-07-24 09:34:08,2.088s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Input Password""), [""password"":passwordRizki], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:08,2023-07-24 09:34:10,1.848s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/User Login/Button Masuk""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:10,2023-07-24 09:34:11,0.712s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Searching/Input Search - Enter - Blank""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:11,2023-07-24 09:34:14,3.665s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Pages/Homepage - Searching/Icon Search""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:14,2023-07-24 09:34:16,1.313s,PASSED
+"callTestCase(findTestCase(""secondhand-web/Common/Close Web""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-07-24 09:34:16,2023-07-24 09:34:16,0.660s,PASSED
