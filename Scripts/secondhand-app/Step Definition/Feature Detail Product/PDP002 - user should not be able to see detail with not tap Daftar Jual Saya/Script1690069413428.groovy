@@ -29,3 +29,7 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Password 
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Logout/Button Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+

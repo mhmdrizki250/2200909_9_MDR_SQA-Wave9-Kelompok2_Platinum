@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Detail Product,,,,2023-07-24 11:44:45,2023-07-24 11:45:45,59.567s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Detail Product/PDP001 - user should be able to see detail product,,,,2023-07-24 11:44:45,2023-07-24 11:45:19,33.620s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:44:46,2023-07-24 11:44:58,12.251s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:58,2023-07-24 11:45:04,6.283s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:04,2023-07-24 11:45:05,0.954s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:05,2023-07-24 11:45:09,3.835s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:09,2023-07-24 11:45:11,2.441s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:11,2023-07-24 11:45:13,1.957s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account - Login/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:13,2023-07-24 11:45:14,0.963s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:14,2023-07-24 11:45:16,1.299s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Button Back""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:16,2023-07-24 11:45:17,1.290s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Logout/Button Logout""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:17,2023-07-24 11:45:18,1.456s,PASSED
+closeApplication(),,,,2023-07-24 11:45:18,2023-07-24 11:45:19,0.624s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Detail Product/PDP002 - user should not be able to see detail with not tap Daftar Jual Saya,,,,2023-07-24 11:45:19,2023-07-24 11:45:45,25.753s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:45:19,2023-07-24 11:45:30,10.865s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:30,2023-07-24 11:45:35,5.104s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:35,2023-07-24 11:45:36,0.868s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:36,2023-07-24 11:45:39,3.217s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:39,2023-07-24 11:45:42,2.715s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:42,2023-07-24 11:45:44,1.759s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Logout/Button Logout""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:45:44,2023-07-24 11:45:44,0.592s,PASSED
+closeApplication(),,,,2023-07-24 11:45:44,2023-07-24 11:45:45,0.446s,PASSED

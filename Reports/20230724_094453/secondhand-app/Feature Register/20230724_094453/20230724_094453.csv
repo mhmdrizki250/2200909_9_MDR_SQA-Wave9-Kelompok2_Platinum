@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Register,,,,2023-07-24 09:44:55,2023-07-24 09:47:52,2m - 56.747s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Registration/PR001 - user should be able to register with valid credential,,,,2023-07-24 09:44:55,2023-07-24 09:45:44,48.485s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 09:44:55,2023-07-24 09:45:09,13.455s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:09,2023-07-24 09:45:14,4.853s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:14,2023-07-24 09:45:15,1.161s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:15,2023-07-24 09:45:17,1.756s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nama""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:17,2023-07-24 09:45:20,3.462s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Email - Rizki Valid Random""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:20,2023-07-24 09:45:23,3.264s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:23,2023-07-24 09:45:26,2.681s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nomor HP""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:26,2023-07-24 09:45:29,3.242s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Kota""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:29,2023-07-24 09:45:33,3.269s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Alamat""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:33,2023-07-24 09:45:36,3.223s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:36,2023-07-24 09:45:42,6.467s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Logout/Button Logout""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:42,2023-07-24 09:45:44,1.400s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Registration/PR002 - user should not be able to register using already used email,,,,2023-07-24 09:45:44,2023-07-24 09:46:24,40.567s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 09:45:44,2023-07-24 09:45:54,9.702s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:54,2023-07-24 09:45:58,4.956s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:58,2023-07-24 09:45:59,0.777s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:45:59,2023-07-24 09:46:01,1.677s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nama""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:01,2023-07-24 09:46:04,2.870s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:04,2023-07-24 09:46:07,3.149s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:07,2023-07-24 09:46:09,2.536s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nomor HP""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:09,2023-07-24 09:46:13,3.045s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Kota""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:13,2023-07-24 09:46:16,3.537s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Alamat""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:16,2023-07-24 09:46:20,3.608s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:20,2023-07-24 09:46:24,4.514s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Registration/PR003 - user should not be able to register using invalid email,,,,2023-07-24 09:46:24,2023-07-24 09:47:10,45.351s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 09:46:24,2023-07-24 09:46:34,9.863s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:34,2023-07-24 09:46:40,6.072s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:40,2023-07-24 09:46:41,1.128s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:41,2023-07-24 09:46:43,1.592s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nama""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:43,2023-07-24 09:46:46,2.960s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Email - Rizki Invalid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:46,2023-07-24 09:46:49,3.263s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:49,2023-07-24 09:46:52,3.076s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nomor HP""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:52,2023-07-24 09:46:56,3.447s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Kota""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:56,2023-07-24 09:46:59,3.454s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Alamat""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:46:59,2023-07-24 09:47:02,2.864s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:02,2023-07-24 09:47:08,5.530s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Read Error Messages - Invalid Email""), [""expected"":""Email tidak valid""], STOP_ON_FAILURE)",,,,2023-07-24 09:47:08,2023-07-24 09:47:10,1.922s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Registration/PR004 - user should not be able to register using blank email,,,,2023-07-24 09:47:10,2023-07-24 09:47:52,42.157s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 09:47:10,2023-07-24 09:47:20,9.866s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:20,2023-07-24 09:47:25,5.078s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:25,2023-07-24 09:47:25,0.698s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:25,2023-07-24 09:47:27,1.477s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nama""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:27,2023-07-24 09:47:30,3.392s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Email - Rizki Blank""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:30,2023-07-24 09:47:33,2.868s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:33,2023-07-24 09:47:36,3.143s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Nomor HP""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:36,2023-07-24 09:47:39,3.122s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Kota""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:39,2023-07-24 09:47:42,2.574s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Input Alamat""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:42,2023-07-24 09:47:45,3.103s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Tap Daftar""), [:], STOP_ON_FAILURE)",,,,2023-07-24 09:47:45,2023-07-24 09:47:49,4.343s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Registration/Read Error Messages - Blank Email""), [""expected"":""Email tidak boleh kosong""], STOP_ON_FAILURE)",,,,2023-07-24 09:47:49,2023-07-24 09:47:52,2.271s,PASSED

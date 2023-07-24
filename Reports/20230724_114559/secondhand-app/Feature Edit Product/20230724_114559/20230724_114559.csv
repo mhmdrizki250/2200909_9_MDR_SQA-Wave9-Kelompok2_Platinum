@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit Product,,,,2023-07-24 11:46:00,2023-07-24 11:47:32,1m - 31.769s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Edit Product/PEP001 - user should be able to edit product,,,,2023-07-24 11:46:01,2023-07-24 11:47:13,1m - 12.135s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:46:01,2023-07-24 11:46:13,12.130s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:13,2023-07-24 11:46:18,5.510s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:18,2023-07-24 11:46:19,0.785s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:19,2023-07-24 11:46:22,3.214s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:22,2023-07-24 11:46:25,2.826s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:25,2023-07-24 11:46:27,2.081s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account - Login/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:27,2023-07-24 11:46:28,0.945s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:28,2023-07-24 11:46:30,1.168s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Edit Product/Choose Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:30,2023-07-24 11:46:41,11.207s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Edit Product/Input Nama Prod""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:46:41,2023-07-24 11:47:13,31.993s,FAILED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Edit Product/PEP002 - user should not be able to edit product using blank,,,,2023-07-24 11:47:13,2023-07-24 11:47:32,19.444s,FAILED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:47:13,2023-07-24 11:47:23,9.838s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:47:23,2023-07-24 11:47:27,4.478s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:47:27,2023-07-24 11:47:32,4.950s,FAILED

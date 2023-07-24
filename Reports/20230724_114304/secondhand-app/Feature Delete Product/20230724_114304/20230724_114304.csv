@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Delete Product,,,,2023-07-24 11:43:06,2023-07-24 11:44:34,1m - 28.020s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Delete Product/PHP001 - user should be able to delete product,,,,2023-07-24 11:43:06,2023-07-24 11:43:51,44.775s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:43:06,2023-07-24 11:43:19,13.350s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:19,2023-07-24 11:43:25,5.411s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:25,2023-07-24 11:43:26,0.824s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:26,2023-07-24 11:43:29,3.295s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:29,2023-07-24 11:43:32,2.882s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:32,2023-07-24 11:43:33,0.717s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account - Login/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:33,2023-07-24 11:43:34,1.956s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:34,2023-07-24 11:43:36,1.444s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Delete Product/Tap Icon Trash 1""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:36,2023-07-24 11:43:45,9.529s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Delete Product/Tap Hapus""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:45,2023-07-24 11:43:47,1.303s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Button Back""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:47,2023-07-24 11:43:49,2.285s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Logout/Button Logout""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:43:49,2023-07-24 11:43:50,0.883s,PASSED
+closeApplication(),,,,2023-07-24 11:43:50,2023-07-24 11:43:51,0.632s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Delete Product/PHP002 - user should not be able to delete product with tap batalkan,,,,2023-07-24 11:43:51,2023-07-24 11:44:34,43.061s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 11:43:51,2023-07-24 11:44:02,11.002s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:02,2023-07-24 11:44:07,5.244s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:07,2023-07-24 11:44:08,1.262s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Email - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:08,2023-07-24 11:44:11,3.220s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Input Password - Rizki Valid""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:11,2023-07-24 11:44:14,2.113s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Login/Tap Masuk""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:14,2023-07-24 11:44:16,1.922s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/My Account - Login/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:16,2023-07-24 11:44:16,0.680s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Product""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:16,2023-07-24 11:44:18,1.408s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Delete Product/Tap Icon Trash 1""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:18,2023-07-24 11:44:29,11.756s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Delete Product/Tap Batalkan""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:29,2023-07-24 11:44:30,0.632s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/Detail Product/Tap Button Back""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:30,2023-07-24 11:44:31,1.327s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/User Logout/Button Logout""), [:], STOP_ON_FAILURE)",,,,2023-07-24 11:44:31,2023-07-24 11:44:33,1.902s,PASSED
+closeApplication(),,,,2023-07-24 11:44:33,2023-07-24 11:44:34,0.416s,PASSED

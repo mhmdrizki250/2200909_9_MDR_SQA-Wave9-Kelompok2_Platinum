@@ -49,3 +49,9 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Tap Foto Prod
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/Edit Product/Tap Button Perbarui Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/Detail Product/Tap Button Back'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Logout/Button Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
