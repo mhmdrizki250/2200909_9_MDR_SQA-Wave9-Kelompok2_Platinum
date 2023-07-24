@@ -23,10 +23,10 @@ WebUI.callTestCase(findTestCase('secondhand-web/Common/Navigate To Web'), [:], F
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Click Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.AsiyahEmailSelleremailOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Email'), [('email') : GlobalVariable.emailOktaSeller], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.AsiyahEmailSellerpwdOktaSeller], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Input Password'), [('password') : GlobalVariable.emailOktaSeller], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Login/Button Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -52,10 +52,10 @@ WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Upload Prod
 
 WebUI.callTestCase(findTestCase('secondhand-web/Pages/Create Product/Click button add or terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Name'), [('expected') : GlobalVariable.AsiyahEmailSellererrorMessageName], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Name'), [('expected') : GlobalVariable.errorMessageName], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Price'), [('expected') : GlobalVariable.AsiyahEmailSellererrorMessagePrice], 
+WebUI.callTestCase(findTestCase('secondhand-web/Pages/Edit Product/Error Messages Price'), [('expected') : GlobalVariable.errorMessagePrice], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
