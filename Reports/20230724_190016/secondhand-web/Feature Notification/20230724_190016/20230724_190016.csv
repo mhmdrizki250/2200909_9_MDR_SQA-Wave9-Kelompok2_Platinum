@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Notification,,,,2023-07-24 19:00:19,2023-07-24 19:00:36,16.878s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Notification/N001- user should be able to open the notification message,,,,2023-07-24 19:00:27,2023-07-24 19:00:29,1.515s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",,,,2023-07-24 19:00:27,2023-07-24 19:00:29,1.478s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Notification/N002 - seller will receive a notification when there is a product price negotiation,,,,2023-07-24 19:00:34,2023-07-24 19:00:36,1.567s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",,,,2023-07-24 19:00:34,2023-07-24 19:00:36,1.536s,FAILED

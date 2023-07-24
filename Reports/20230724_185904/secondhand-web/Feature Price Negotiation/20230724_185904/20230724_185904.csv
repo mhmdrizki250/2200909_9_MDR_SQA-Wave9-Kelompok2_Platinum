@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Price Negotiation,,,,2023-07-24 18:59:08,2023-07-24 18:59:21,12.816s,FAILED
+,,,,,,,
+Test Cases/secondhand-web/Step Definition/Feature Product Price Negotiation/PPN001 - user should be able successfully negotiate the price of the product,,,,2023-07-24 18:59:20,2023-07-24 18:59:21,1.681s,FAILED
+"callTestCase(findTestCase(""secondhand-web/Common/Launch Web""), [:], STOP_ON_FAILURE)",,,,2023-07-24 18:59:20,2023-07-24 18:59:21,1.655s,FAILED

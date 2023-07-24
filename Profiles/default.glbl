@@ -189,4 +189,19 @@
       <initValue>'mhmdrizki020@gmail.com'</initValue>
       <name>emailRizkiAppRandom</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mhmdrizki250gmailcom'</initValue>
+      <name>emailRizkiAppInvalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>emailRizkiAppBlank</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kiki12345'</initValue>
+      <name>passwordRizkiApp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
