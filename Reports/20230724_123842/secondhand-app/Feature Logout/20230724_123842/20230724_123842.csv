@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Logout,,,,2023-07-24 12:38:48,2023-07-24 12:39:15,27.736s,PASSED
+,,,,,,,
+Test Cases/secondhand-app/Step Definition/Feature Logout/LGT001 - user should be able to logout from app,,,,2023-07-24 12:38:48,2023-07-24 12:39:15,27.305s,PASSED
+"startApplication(""androidapp/app-release-second-hand-gcp.apk"", false)",,,,2023-07-24 12:38:49,2023-07-24 12:39:09,20.253s,PASSED
+"callTestCase(findTestCase(""secondhand-app/Pages/MenuBar App/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2023-07-24 12:39:09,2023-07-24 12:39:14,5.668s,PASSED
+"tap(findTestObject(""secondhand-app/Page Logout/button logout""), 2)",,,,2023-07-24 12:39:14,2023-07-24 12:39:15,0.846s,PASSED
