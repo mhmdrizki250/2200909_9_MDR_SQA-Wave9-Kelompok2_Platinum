@@ -55,33 +55,33 @@ public class Register {
 	//negative case
 	@When("user input name with Oktavia Dwi Putri P")
 	public void user_input_name_with_Oktavia_Dwi_Putri_P() {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : GlobalVariable.unameOktaSeller], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Username'), [('username') : GlobalVariable.unameOktaSeller],
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input email with %oktaviadpp_seller@gmail.com")
 	public void user_input_email_with_$oktaviadpp_seller_gmail_com() {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.invalidEmail], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.invalidEmail],
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input password with {int}")
 	public void user_input_password_with(Integer int1) {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.invalidPassword], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.invalidPassword],
+		FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Password'), [('password') : GlobalVariable.pwdOktaSeller],
-			FailureHandling.STOP_ON_FAILURE)
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input email with oktaviadpp_seller@gmail.com")
 	public void user_input_email_with_oktaviadpp_seller_gmail_com() {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.invalidEmail], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.invalidEmail],
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("user input email with oktavia_buyer_w{int}@gmail.com")
 	public void user_input_email_with_oktavia_buyer_w_gmail_com(Integer int1) {
-		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailTaken], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('secondhand-web/Pages/User Registration/Input Email'), [('email') : GlobalVariable.emailTaken],
+		FailureHandling.STOP_ON_FAILURE)
 	}
 }

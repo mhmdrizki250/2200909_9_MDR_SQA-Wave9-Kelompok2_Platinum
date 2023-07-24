@@ -1,4 +1,5 @@
 package stepDefinition_web
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -46,6 +47,7 @@ import cucumber.api.java.en.When
 
 class Login {
 
+	//positive
 	@Given("launch browser")
 	public void launch_browser() {
 		WebUI.callTestCase(findTestCase('secondhand-web/Common/Launch Web'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -81,3 +83,6 @@ class Login {
 		WebUI.callTestCase(findTestCase('secondhand-web/Common/Close Web'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
+
+
+

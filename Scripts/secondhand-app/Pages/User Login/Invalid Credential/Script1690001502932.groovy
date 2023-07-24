@@ -16,10 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.verifyElementPresent(findTestObject('secondhand-app/Page Login/android.widget.Toast - Email atau kata sandi salah'), 
     3)
 
 errorText = Mobile.getText(findTestObject('secondhand-app/Page Login/android.widget.Toast - Email atau kata sandi salah'), 
     0)
+
+KeywordUtil.logInfo('')
+
+Mobile.verifyMatch(errorText, expected, false)
 

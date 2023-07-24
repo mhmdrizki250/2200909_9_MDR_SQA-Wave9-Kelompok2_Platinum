@@ -23,10 +23,10 @@ WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Email'), [('email') : GlobalVariable.emailRizkiApp], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Email'), [('email') : GlobalVariable.EmailAsiyah], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Password'), [('password') : GlobalVariable.passwordRizkiApp], 
+WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Password'), [('password') : GlobalVariable.PasswordAsiyah], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)

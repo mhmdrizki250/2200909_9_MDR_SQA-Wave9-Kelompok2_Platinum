@@ -18,4 +18,18 @@
       <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Login/PL001 - user should be able to login with valid credential</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e6593b8e-3b5d-45cc-965e-82ac183f6417</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Login/PL002 - user should not be able to login using invalid email</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca436595-ca28-465f-9405-b97fed077a09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/secondhand-app/Step Definition/Feature Login/PL003 - user should be able to login with invalid password</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

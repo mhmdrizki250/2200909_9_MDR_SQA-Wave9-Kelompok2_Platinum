@@ -17,20 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
+Mobile.clearText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password1'), 1)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/MenuBar App/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('secondhand-app/Page Login/android.widget.EditText - Masukkan password1'), GlobalVariable.PasswordAsiyah, 
+    0)
 
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/My Account/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Email'), [('email') : GlobalVariable.InvalidEmailAsiyahApp], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Input Password'), [('password') : GlobalVariable.InvalidPasswordAsiyah], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Tap Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/User Login/Invalid Credential'), [('expected') : GlobalVariable.ErrorMessageLoginApp], 
-    FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

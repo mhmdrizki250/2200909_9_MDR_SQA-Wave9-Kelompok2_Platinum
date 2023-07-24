@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>MSL003 - user be able to successfully open to interested page</name>
+   <name>MSL003 - user be able to successfully open to Sold page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dbe2f405-62ef-412e-9d8e-02fe24e91b27</testCaseGuid>

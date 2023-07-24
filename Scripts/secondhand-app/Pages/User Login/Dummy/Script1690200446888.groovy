@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('androidapp/app-release-second-hand-gcp.apk', false)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Tap search box'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Product'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Button Saya Tertarik dan Ingin Nego'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Input harga'), [('input') : '20000'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('secondhand-app/Pages/Price Negotiation/Button Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
-
